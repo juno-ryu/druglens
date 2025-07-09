@@ -1,0 +1,54 @@
+{
+  "download": {
+    "dialog": {
+      "check": "我已阅读以上内容。",
+      "download": "下载",
+      "errorMessages": {
+        "internalServerError": "目前服务器错误导致下载不畅。 请用咨询页面咨询,Acon编辑会立即发送。",
+        "limitOver": "下载超过限制。 如需追加下载, 请咨询acon页面下方。",
+        "notPurchaseHistory": "没有购买明细。"
+      },
+      "formats": "文件格式",
+      "info": "商品",
+      "title": "下载",
+      "notice": {
+        "importantNotice": "注意事项",
+        "notice1": "1. 下载商品后<strong>不可退款或兑换</strong>。",
+        "notice2": "2. 请确认商品信息。",
+        "notice3": "3. 请注意！为了软件的顺畅使用，部分文件格式的layer<br/>&nbsp;&nbsp;&nbsp;&nbsp;状态默认设置为off。",
+        "notice4": "4. 使用商品若有疑问，请看<a href='/faq' target='_blank'><strong><u>FAQ</u></strong></a>。"
+      }
+    },
+    "openDialog": "下载",
+    "infoTooltip": "商品最多可下载 5 次，\n如果在下载后 1 小时内再次下载，\n则不会从次数中扣除。"
+  },
+  "label": {
+    "order": {
+      "date": "购买日期",
+      "number": "订单号",
+      "order": "确认订单",
+      "recentList": "最近订单",
+      "status": "订单状态",
+      "thereIsNoOrder": "订单记录不存在。"
+    },
+    "product": {
+      "info": "商品信息",
+      "price": "商品价格",
+      "showRecommendedProducts": "查看热门模型"
+    }
+  },
+  "review": {
+    "modify": "评价修改",
+    "write": "写评价"
+  },
+  "showBankAccountNumber": "글로벌 몰 계좌이체 X",
+  "showDetail": "查看订单",
+  "status": {
+    "c": ["자동취소", "품절취소", "订单已取消", "取消顾客要求"],
+    "f": "付款失败",
+    "o": "等待付款",
+    "p": "购买成功",
+    "r": ["환불 접수", "환불 보류", "退款成功"],
+    "s": "确认购买"
+  }
+}

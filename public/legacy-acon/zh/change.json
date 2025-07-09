@@ -1,0 +1,20 @@
+{
+  "password": {
+    "button": "修改密码",
+    "complete": "修改密码成功",
+    "expiredTime": "验证时间过期",
+    "placeholder1": "输入新密码",
+    "placeholder2": "确认新密码",
+    "precautions1": "密码需包含英文字母大小号，数字，特殊符号中的两种或两种以上",
+    "precautions2": "密码长度需在10个字符以上，16个字符以下",
+    "title": "重置密码",
+    "validation": {
+      "mathPassword": "密码一致",
+      "notMatchCombination": "密码需包含英文字母大小号，数字，特殊符号中的两种或两种以上",
+      "notMatchLength": "密码长度需在10个字符以上，16个字符以下",
+      "notMatchPassword": "输入信息不同",
+      "safePassword": "这是安全的密码。"
+    },
+    "verified": "确认"
+  }
+}

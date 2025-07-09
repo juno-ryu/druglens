@@ -1,0 +1,444 @@
+{
+  "referral": {
+    "toast": {
+      "detail": "通过推荐链接来的吗? 立即购买本商品获得1%积分。"
+    },
+    "modal": {
+      "reviewTitle": "您对商品满意吗？",
+      "content": "通过分享链接直接完成购买，分享者和购买者可获得购买金额的1%的积分奖励。",
+      "toggle": "分享后获得积分",
+      "description": "请查看奖励积分回报计划运营政策。"
+    },
+    "tooltip": {
+      "lessThan10000won": "分享后获得1%积分！",
+      "moreThan10000won": "分享商品链接，获取积分。"
+    },
+    "paymentSuccess": {
+      "noReferral": "下载后分享一下！<br/>一个月最多可以获得约$50积分",
+      "referral": "下载分享到的商品, 可以获得1%积分"
+    }
+  },
+  "ExtraDiscount": "SALE",
+  "aconOnly": "Acon Only",
+  "alreadyPurchased": "已购买的商品",
+  "currentProduct": "正在查看的商品",
+  "alreadyReviewDescription": "商品评价已经写好了。",
+  "banner": {
+    "individual": {
+      "button": "查看套装商品",
+      "text": "有包含本商品的套装商品<br />请一目了然地查看各种商品"
+    },
+    "set": {
+      "button": "查看单品",
+      "text": "本商品是包含多种商品的套装商品<br />可以购买单品"
+    }
+  },
+  "tagTooltip": "点击标签即可查看有关商品",
+  "cart": "加入购物车",
+  "cartOld": "加入购物车",
+  "close": "关闭",
+  "companyAndTeam": "公司/组队",
+  "companyAndTeamLicense": "公司/组队购买的使用权只限于使用在一个项目或者一个其他作品上（用于商业/非商业性目的均可），此使用权仅限于<strong>单次使用</strong>。",
+  "companyAndTeamUsingCondition": "购买时必须注明项目或作品的名称，并且必须在项目或作品上明确标注该名称。<br /> 若符合以下条件，请选择本选项进行购买。<br /><br /> - 团队内有二人以上使用本商品时 <br /> - 使用于不明示个人作者笔名，以公司/团队的名义创作项目时 （如 外包）",
+  "completedCart": "添加成功。",
+  "completedScrap": "已收藏",
+  "copiedLink": "已复制",
+  "copyLink": "复制链接",
+  "copyright": {
+    "buyer": "商品购买者",
+    "buyerDescription": "持有商品使用权，<br />可将所购商品用于商业性或非商业性的作品创作中",
+    "creator": "商品创作者",
+    "creatorDescription": "持有商品版权",
+    "description1": "商品版权归属于商品创作者。",
+    "description2": "本平台<strong>仅出售商品使用权，</strong>不出售版权。",
+    "description3": "购买商品后，购买方可将所购商品用于商业性或非商业性的{{asterisk}}作品创作中。",
+    "description4": "作品创作包括网络漫画，插图，游戏，动漫，视频等"
+  },
+  "copyrightDescription": ["该商品可以直接用于创作作品。", "商品品的注意事项以及版权内容已经模型师确认无误。", "购买前请务必仔细查看详细内容。"],
+  "copyrightNotice": "版权注意事项",
+  "copyrightNoticeDescription": "禁止向他人转让，转卖或传输该商品的一部分（包括修改后的一部分），违反时可依法追究法律责任。<br /><br /> 个人购买者只可使用在自己的作品中，禁止使用在外包等不明示自己的作者笔名的作品中。<br /><br /> 该商品仅限于个人创作中进行修改或混合其他素材使用，但混合的其他素材不得侵犯版权。",
+  "detail": "详细内容",
+  "dynamicComponent": "动态组件 (Dynamic Component)",
+  "endSales": "暂停销售",
+  "extraDiscount": "追加优惠 ~{{ date }} (KST)",
+  "fileConfig": "商品构成",
+  "fileContentsAndSize": "文件组成及容量",
+  "fileExtension": "文件格式",
+  "fileExtensionAndProgram": "商品格式和软件",
+  "fileInfoDescription": ["该商品已有更新内容。", "可在‘我的ACON’ > ‘查看订单’ 页面中重新下载。"],
+  "fileInfoDescription2": ["ACON3D销售的所有商品属于无形作品，购买及下载后不支持退换货。", "购买前请务必仔细查看文件信息后进行购买。"],
+  "fileinfo": "文件信息",
+  "productInfo": "商品详情",
+  "filetype": "文件格式",
+  "fullSet": "套装商品",
+  "funding": {
+    "comingUp": "{{ startDate }} 开始 (KST)",
+    "ended": "众筹结束",
+    "estimatedModelCompletion": "下载时间",
+    "fundNow": "立即购买支持",
+    "funded": "成功",
+    "success": "众筹成功",
+    "goal": "目标金额",
+    "modelPrice": "商品价格",
+    "participants": "支持者",
+    "period": "众筹期间",
+    "raised": "已筹",
+    "remainingDay": "剩余{{ date }}天",
+    "remainingTime": "剩余时间"
+  },
+  "goToAblerVersionFile": "立即查看同款的ABLER商品",
+  "goToCart": "去购物车",
+  "goToCheck": "确认",
+  "ok": "确认",
+  "goToSkpVersionFile": "查看该模型的 skp 版本。",
+  "individual": "个人",
+  "individualCount": "(共{{count}}个)",
+  "individualLicense": "个人用户对购买的商品拥有<strong>非独占性永久使用权</strong>（可作商业/非商业用途），可以用在本人多作品中。",
+  "individualProducts": "单品",
+  "includingSet": "本商品的套装商品",
+  "individualUsingCondition": "使用购买的商品创作的作品中，必须明示购买商品时登记的<strong>作者笔名</strong>。",
+  "license": {
+    "personal": "个人使用权",
+    "personalDescription1": "购买人需填写笔名，所购商品<br />只能在该<strong>笔名署名的作品</strong>中使用",
+    "personalDescription2": "对使用商品的作品数量不做限制",
+    "personalDescription3": "只有购买的本人可使用",
+    "personalNotice1": "<strong>【个人使用权】</strong>注意事项",
+    "personalNotice2": "购买人可将笔名标注在作品，刊载作品的文章或帖子以及作品介绍等处",
+    "share": "共同使用权",
+    "shareDescription1": "购买人需进行作品名称登记，<br />所购商品只能在<strong>已登记的作品<br />（仅限1项作品）</strong>中使用",
+    "shareDescription2": "仅可在完成登记的一项作品中使用",
+    "shareDescription3": "对使用人数不做限制",
+    "shareNotice1": "<strong>【共同使用权】, [企业使用权]</strong>注意事项",
+    "shareNotice2": "购买商品时，买方必须登记使用该商品的项目或作品名称",
+    "shareNotice3": "项目或作品内必须标明相应作品的名称",
+    "shareNotice4": "对于名称一致的系列作品，统一视作一项作品",
+    "shareNotice5": "不过，无限企业使用权并不登记作品名称。",
+    "shareNotice6": "以下情况，需购买【共同使用权】",
+    "shareNotice7": "使用所购商品的人数超过2人（包括2人）",
+    "shareNotice8": "将所购商品用于无法标明个人笔名的项目或作品中，如外包项目等",
+    "shareNotice9": "在以下情况下，推荐购买[企业使用权]",
+    "shareNotice10": "在法人实体/公司使用商品",
+    "shareNotice11": "在多个作品中使用一种商品",
+    "shareNotice12": "当产品用于某公司/法人实体的所有作品时，无论作品数量如何",
+    "shareNotice13": "请注意，企业使用权的可用性可能因产品而异。",
+    "title": "商品使用权"
+  },
+  "licenseEasyDescription": ["本平台对商品使用权的相关说明进行了简化，购买前请再次确认使用权类型。"],
+  "madeCreator": "该商品中的所有素材来源于模型师自主设计开发。<br />不含任何外站模型或结构。",
+  "more": "更多",
+  "noFileContentsAndSize": "详情如下",
+  "noReviewDescription": "购买后可以写评价",
+  "notAvailableForSale": "暂停销售",
+  "notOrder": "在准备销售，敬请期待",
+  "notice": "注意事项",
+  "otherIndividualProducts": "其他个别商品",
+  "price": "商品价格",
+  "product": {
+    "goToOtherExtension": "查看该模型的 {{ extension }} 版本。"
+  },
+  "productCopyright": "商品版权",
+  "productCopyrightDescription": "该商品版权归该模型师所有。<br /><br /> ACON3D销售商品的使用权（可作商业/非商业用途），不销售商品的版权。使用权区分为【个人】及【公司/组队】，购买时请选择相应用户后进行购买。",
+  "productLicenseDescription": "一共有三种使用仅：【个人使用权】/【共同使用权】和【企业使用权】请在购买时选择合适的使用仅。",
+  "qna": "商品咨询",
+  "qnaCony": "咨询 Conie-bot",
+  "qnaDescription": ["Conie-bot 可以更快为您查询到内容！"],
+  "realPrice": "CNY{{ realPrice }}",
+  "review": "商品评价",
+  "sortByCreated": "按照日期（最新）",
+  "sortByRating": "按照人气",
+  "photoreview": "图片评价",
+  "viewall": "全部",
+  "es": "个评价",
+  "vieworiginal": "查看原文",
+  "vieworiginaltext": "查看原文",
+  "ishelpful": "赞",
+  "rating": "评分",
+  "draftReview": "写评价",
+  "areYouSatisfied": "您对产品满意吗？",
+  "reviewContent": "评论内容",
+  "pointOnReview": "评价 {{normal}}P / 图片评价 {{photoreview}}P / 最佳评价 {{bestreview}}P",
+  "reviewContentPlaceholder": "请分享商品的评价和使用此商品的小技巧！（20字以上）",
+  "attachImage": "附加图像",
+  "noteOnReview": "请注意",
+  "noteOnReviewContents": "<li>您所上传的评论可用于ACON3D的服务运营/营销应用等。</li><li>关于商品咨询/退款相关内容需要咨询客服中心（CS组）时请使用[商品咨询]。</li><li>违反ACON3D评价政策的商品评价会无需事先通知即可回收或删除积分。<ul><li>包括违反《信息通信网法》和《著作权法》等相关法律的内容（ACON3D使用条款第15条）</li><li>违背商品评价宗旨的反复文字、与商品无关的内容/图片等。</li></ul ></li>",
+  "areYouSureToDelete": "删除评价时，你的积分会被扣除。您确定删除评价吗？",
+  "reviewBy": "{{author}} 的评论",
+  "reply": "回复",
+  "confirm": "确认",
+  "cancel": "取消",
+  "doneReview": "登录评价",
+  "modify": "编辑",
+  "delete": "删除",
+  "noreview": "写下你的第一条产品评论！",
+  "reviewDescription": ["购买有偿商品，填写20个以上评论，", "可获得像现金一样使用的积分$0.30"],
+  "scrap": "收藏",
+  "scrapOld": "收藏",
+  "set": "套装信息",
+  "share": "分享到",
+  "similarProducts": {
+    "artistPage": "作家页",
+    "other": "的其他作品",
+    "similarTitle": "类似模型"
+  },
+  "togetherProducts": {
+    "togetherTitle": "你可能还喜欢",
+    "togetherTitle2": "你可能还喜欢"
+  },
+  "thisIsAlber": "您正在查看的商品是ABLER专用模型。",
+  "thisIsExtension": "这件是<strong>{{ extension }}</strong>模型。",
+  "thisIsSkp": "这件是<strong>skp</strong>模型。",
+  "thisisblender": "这件是<strong>Blender</strong>模型。",
+  "timer": {
+    "promotion": "离活动结束",
+    "remainingTime": "{{diffDay}} 日"
+  },
+  "totalFileConfig": "共{{ length }}个文件",
+  "viewMoreFile": "文件详情",
+  "viewLessFile": "文件详情",
+  "updates": "更新内容",
+  "useForPrice": "{{ price }} / 立即购买",
+  "usedForFreeExternalSource": "本产品使用市售的免费或付费外部资源。",
+  "usedForFreeWarehouse": "该商品中有使用可作商用的免费素材。",
+  "usedForPayExternalSource": "该商品中有使用可作商用的付费素材。",
+  "usedForProduct": "该商品中使用的素材",
+  "productTags": "商品标签",
+  "using": {
+    "banCaseDescription1": "所购商品整体",
+    "banCaseDescription2": "所购商品的部分组件",
+    "banCaseDescription3": "所购商品的截图，抠图或导出的图片等",
+    "banCaseDescription4": "在商品截图，抠图或导出的图片基础上，仅进行调色，特效等简单编辑的图像",
+    "banCaseDescription5": "※ 买方对所购商品进行截图，抠图或导出图片后，必须在其基础上进行再创作，其作品方可被视作原创作品。若仅进行简单编辑，则禁止将商品转让，分销，出售给他人。",
+    "banCaseTitle": "不可转让，分销，出售给他人的情况",
+    "description1": "对于以下侵犯版权的行为，平台将追究其法律责任。",
+    "description10": "※ 无论在什么情况，都不能共享商品文件",
+    "description2": "使用商品时不遵守相应使用条件",
+    "description3": "将所购商品的全部或部分（包括进行过修改的部分）转让，分销，出售给他人",
+    "description4": "买方可对已购商品进行编辑，也可将其与其他商品共同使用",
+    "description5": "多个商品共同使用的情况，买方必须持有对所有商品的使用权或版权。",
+    "description6": "本商品属于无形财产，一经下载，不可退款。",
+    "description7": "买方付款成功后，即可下载所购商品。自付款日起三个月后，所购商品的下载，保存，管理等的相关责任均由买方本人承担。",
+    "description8": "将可认为作品的创作过程中时可以转让或销售",
+    "description9": "（如，主作者对背景助手转发商品截图、外包、委托等）",
+    "noticeTitle": "注意事项",
+    "eula1": "根据创作物的形态，商品的使用范围会有所不同，详细事项请参考",
+    "eula2": "终端用户许可协议(EULA)",
+    "eula3": "合同。"
+  },
+  "usingCondition": "使用条件",
+  "writeReview": "写评价",
+  "addCart": "加入购物车",
+  "buynow": "立即购买",
+  "floating": {
+    "share": "分享"
+  },
+  "completedCartOld": "添加成功。",
+  "goToCartOld": "添加成功。",
+  "closeCartModal": "查看更多模型",
+  "button": {
+    "cart": {
+      "completed": "加入购物车成功！"
+    }
+  },
+  "promotionBadge": {
+    "remainingTime": "限时折扣"
+  },
+  "enterprise": {
+    "inquiry": "您是作为一家公司购买吗？",
+    "available": {
+      "description": "请购买可多次使用的【企业使用权】",
+      "license": {
+        "unlimited": "无限 使用权",
+        "count": "{{count}}次 使用权"
+      },
+      "cartScrapUnavailable": "*企业使用仅不用购物车和收藏夹，只能立即购买"
+    },
+    "unavailable": {
+      "description": "此产品没有【企业使用权】\n请购买【共同使用权】"
+    },
+    "buyButtonText": "购买企业使用权",
+    "noticeTable": {
+      "header": {
+        "fiveTimesLicense": "5次 使用权",
+        "unlimitedLicense": "无限 使用权"
+      },
+      "row": {
+        "fiveTimesLicense": "公司名称或者作品名称注册后，<br /><strong>仅限注册5个作品</strong>使用",
+        "unlimitedLicense": "注册公司名称后，<strong>可无限次</strong>使用"
+      }
+    },
+    "licenseName": "企业使用权"
+  },
+  "productDetail": {
+    "overview": {
+      "couponNotApplicable": "不可适用优惠券的商品",
+      "buyNowdescription": "* 本商品只能在商品详情画面立即购买。",
+      "productFileInfo": {
+        "fileInformation": "商品详情",
+        "fileInfoTooltip": "到[商品详情] 查看更多详细信息",
+        "genre": "风格",
+        "tags": "标签",
+        "fileFormats": "商品格式",
+        "compatibleSoftware": "可用软件",
+        "generalFile": "通用文件",
+        "dataFile": "数据文件",
+        "allOS": "所有操作系统"
+      },
+      "productOrderModal": {
+        "selectLicense": "请选择使用权",
+        "personal": "个人使用权",
+        "unlimited": "无限",
+        "sharing": "共同使用权",
+        "oneProject": "1作品",
+        "enterprise": "企业使用权",
+        "fiveProjects": "5作品",
+        "next": "下一步",
+        "difference": "什么是共同使用权和企业使用权？"
+      },
+      "productShareModal": {
+        "share": "分享",
+        "copyLink": "复制链接"
+      },
+      "scrapSnackbar": "收藏成功",
+      "productCartModal": {
+        "addedToCart": "成功加入购物车",
+        "continueShopping": "继续购物",
+        "viewCart": "去购物车结算"
+      }
+    },
+    "review": {
+      "notFound": "没有属于本星级的评价",
+      "bannerMessage": "评价 {{normal}}P · 图片评价 {{photoreview}}P · 最佳评价 {{bestreview}}P",
+      "title": "商品评价",
+      "writeReview": "写评价",
+      "photoReviews": {
+        "title": "图片",
+        "viewMoreCount": "+{{count}}"
+      },
+      "information": {
+        "ratings": "{{count}}条",
+        "firstProductReview": "写下你的第一条产品评论！"
+      },
+      "list": {
+        "title": "全部",
+        "sort": {
+          "mostRecent": "最新排序",
+          "highestRated": "人气排序"
+        },
+        "rateFilter": {
+          "label": "星级评分",
+          "reviewCount": "({{count}})"
+        },
+        "viewOriginal": "查看原文",
+        "viewTranslation": "查看翻译",
+        "helpful": "赞",
+        "photoViewMore": "更多",
+        "delete": "删除",
+        "update": "编辑",
+        "readLess": "缩小",
+        "readMore": "展开"
+      },
+      "photoDetail": {
+        "photoReview": "图片评价",
+        "viewAll": "全部",
+        "userReview": "{{userId}}的评价"
+      }
+    },
+    "relatedProducts": "其他顾客一起看的商品",
+    "otherProducts": "本作家的推荐商品",
+    "tabs": {
+      "detail": "详细内容",
+      "information": "商品详情",
+      "package": "套装信息",
+      "review": "商品评价",
+      "notice": "注意事项",
+      "inquiry": "商品咨询"
+    },
+    "detail": {
+      "copyright": "本商品已通过了著作权和注意事项的检查，请安心购买。<br />请在购买前确认详细内容。",
+      "viewMore": "商品详情",
+      "viewLess": "商品详情"
+    }
+  },
+  "ProductInformationNotice": {
+    "title": "商品信息公开",
+    "openbutton": "查看商品信息内容",
+    "common": {
+      "manufacturer": {
+        "title": "创作者或提供者",
+        "description": ""
+      },
+      "date": {
+        "title": "使用条款和使用时间",
+        "description": "购买后立即生效，每个使用权的使用均须遵守 <a href='/policy/eula'>EULA</a>"
+      },
+      "configuration": {
+        "title": "商品提供方式( CD，下载， 实时流媒体等)",
+        "description": "下载"
+      },
+      "specifications": {
+        "title": "最低硬件配置，必备软件",
+        "description": "<p>需要能够读取操作系统和每个格式的软件</p><br><p>最低硬件要求</p><ul><li>OS : Windows 10 64-bit</li><li>CPU : Quad-core Intel 或 AMD 2.5 GHz 以上</li><li>内存 : 8GB RAM</li><li>图卡(GPU) : DirectX 11 兼容, 4GB VRAM 以上</li></ul>"
+      },
+      "warranty": {
+        "title": "取消或终止协议的影响",
+        "description": "所有许可和订购在协议取消或终止时失效。"
+      },
+      "director": {
+        "title": "消费者咨询相关电话号码",
+        "description": "+82 70-4126-1202"
+      }
+    },
+    "clipstudio": {
+      "manufacturer": {
+        "title": "创作者或提供者",
+        "description": ""
+      },
+      "date": {
+        "title": "使用条款和使用时间",
+        "description": ""
+      },
+      "configuration": {
+        "title": "商品提供方式( CD，下载， 实时流媒体等)",
+        "description": ""
+      },
+      "specifications": {
+        "title": "最低硬件配置，必备软件",
+        "description": ""
+      },
+      "warranty": {
+        "title": "取消或终止协议的影响",
+        "description": ""
+      },
+      "director": {
+        "title": "消费者咨询相关电话号码",
+        "description": ""
+      }
+    },
+    "sketchup": {
+      "manufacturer": {
+        "title": "创作者或提供者",
+        "description": ""
+      },
+      "date": {
+        "title": "使用条款和使用时间",
+        "description": ""
+      },
+      "configuration": {
+        "title": "商品提供方式( CD，下载， 实时流媒体等)",
+        "description": ""
+      },
+      "specifications": {
+        "title": "最低硬件配置，必备软件",
+        "description": ""
+      },
+      "warranty": {
+        "title": "取消或终止协议的影响",
+        "description": ""
+      },
+      "director": {
+        "title": "消费者咨询相关电话号码",
+        "description": ""
+      }
+    }
+  }
+}

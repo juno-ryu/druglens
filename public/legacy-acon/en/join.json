@@ -1,0 +1,194 @@
+{
+  "agreeForm": {
+    "agreeAll": "I am aware of all terms from ACON3D as shown, and I agree to all conditions.",
+    "agreeMarketing": "Discount information and promotion notifications agreement",
+    "agreePrivacyPolicy": "Personal Information Privacy Policy",
+    "agreeTermsOfUse": "User Agreement",
+    "info": "Please agree to the terms and conditions, along with the personal information privacy policy.",
+    "info_required_item": "Please agree to the terms and conditions, along with the personal information privacy policy.",
+    "mendatory": "Required",
+    "optional": "Optional",
+    "title": "Terms and Conditions",
+    "viewAll": "View all"
+  },
+  "cancel": "Cancel",
+  "field": {
+    "agree": {
+      "agreeAll": "I am aware of all terms shown below, and I agree to all conditions.",
+      "agreeMarketing": "Discount Promotion Push Notification Service Agreement",
+      "agreePrivacyPolicy": "Personal Information Privacy Policy",
+      "agreeTermsOfUse": "User Agreement"
+    },
+    "cellphone": {
+      "placeholder": "Please enter without using ‘-’ ",
+      "title": "Mobile Phone"
+    },
+    "email": {
+      "code": {
+        "placeholder": "Please enter the 6-digit code. ",
+        "validation": "Please enter the 6-digit code. "
+      },
+      "resendEmail": "Send new verification code",
+      "sendEmail": "Didn’t receive verification code?",
+      "title": "Email",
+      "valid": {
+        "already": "This email address is already registered. Please enter a different email."
+      },
+      "incorrect": "Please enter your email accurately.",
+      "verify": "Verify",
+      "modal": {
+        "send": "Verification code has been sent to your email."
+      },
+      "button": {
+        "confirm": "Confirm"
+      },
+      "success": "This email is available."
+    },
+    "job": {
+      "placeholder": "Select an industry related to your career",
+      "title": "Related Industry"
+    },
+    "name": {
+      "placeholder": "Please enter the user’s name",
+      "title": "User Name"
+    },
+    "password": {
+      "description": "Password should be within 10-16 characters and include at least two of the following : characters, numbers & symbols.",
+      "placeholder": "Please enter your password",
+      "title": "Password",
+      "valid": {
+        "different": "Your passwords are different.",
+        "lessThan16": "Please enter a maximum of 16 characters.",
+        "moreThan10": "Please enter at least 10 characters.",
+        "pattern": "Please include at least two of the following : characters, numbers & symbols."
+      }
+    },
+    "passwordConfirm": {
+      "placeholder": "Please enter your password again"
+    },
+    "recommender": {
+      "placeholder": "Enter your friend’s referral code",
+      "title": "Referral code (Optional)"
+    },
+    "required": "This is a necessary field.",
+    "country": {
+      "title": "Country",
+      "placeholder": "Please select your country."
+    }
+  },
+  "filed": {
+    "agree": {
+      "optional": "Optional",
+      "required": "Required"
+    }
+  },
+  "join": "Join",
+  "submit": {
+    "button": "Join now"
+  },
+  "title": "Welcome to ACON3D!",
+  "userInfoForm": {
+    "auth": {
+      "incorrect": "Incorrect verification code.",
+      "isReceiveEmail": "Didn't receive an email?",
+      "label": "Please enter the 6-digit code",
+      "sendNewCode": "Send a new code",
+      "expired": "Verification code has expired"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Please select your country."
+    },
+    "info_required_item": "This is a necessary field.",
+    "interest": {
+      "label": "Related Industry",
+      "placeholder_1": "Select an industry related to your career",
+      "placeholder_2": "Select an industry you are interested in",
+      "unselect": "No selection",
+      "value": {
+        "01001001": "Comics/Webcomics",
+        "01001002": "2D Games",
+        "01001003": "3D Games",
+        "01001004": "Broadcasting",
+        "01001005": "Architectural Design",
+        "01001006": "etc",
+        "01001007": "Cartoon Animation",
+        "01001008": "Webcomics, Vertical Comics",
+        "01001009": "Manga, Graphic Novel",
+        "01001010": "Illustration",
+        "01001011": "Youtube, V-Tube"
+      }
+    },
+    "invitation": {
+      "isNotValid": "The referral code you entered is invalid. Please try again.",
+      "label": "Referral Code (Optional)",
+      "placeholder": "Enter your friend’s Referral Code"
+    },
+    "message": {
+      "retryVerifyAuth": "Verify your email address again.",
+      "sendCode": "Verification code has been<br />sent to your email.",
+      "verifyAuth": "Verify your email address."
+    },
+    "name": {
+      "invalid": "Please enter a user's name up to 20.",
+      "label": "Name",
+      "placeholder": "Please enter the user’s name."
+    },
+    "password": {
+      "info": "Password needs to be 10-16 characters. At least two of the following must be included, characters, numbers & symbols.",
+      "invalid_character": "Please use allowed special characters. (!@#$%^&*()_+-=`~)",
+      "invalid_format": "Not available!",
+      "label": "Password",
+      "not_match": "Your passwords are different.",
+      "not_safe": "Low security. It is easy to predict password.",
+      "placeholder_1": "",
+      "placeholder_2": "Please enter your password again.",
+      "success": "This is a safe password.",
+      "too_long": "Please enter up to 16.",
+      "too_short": "Please enter at least 10"
+    },
+    "penName": {
+      "info": "If you wish to change your pen name, you may do so at My Page → User Home after logging in.",
+      "label": "Pen name",
+      "placeholder": "Enter the pen name shown in your works (where assets are used)."
+    },
+    "phone": {
+      "label": "Mobile phone",
+      "placeholder": "Please enter without using '-'"
+    },
+    "title": "Input user information",
+    "username": {
+      "auth": "Your email address has been verified.",
+      "duplicated": "This email address is already registered. Please enter a different email address.",
+      "expired": "Your verification code has expired.",
+      "invalid": "Please enter your email accurately.",
+      "invalid2": "Invalid email address. Please enter a valid email address.",
+      "label": "ID (E-mail)",
+      "placeholder": "example@example.com",
+      "success": "This email is available."
+    }
+  },
+  "complete": {
+    "welcome": "Welcome to ACON3D!",
+    "searchingModel": "Go search models!",
+    "coupon": "This is your welcome gift, 5$ coupon.",
+    "new": {
+      "welcome": "Welcome to ACON3D<br/><b>$15 gift coupons</b> just for you!",
+      "coupons": "<li><b>$5.00 OFF Discount Coupon</b></li><li><b>$10.00 OFF Discount Coupon</b></li>",
+      "goShopping": "Start Shopping"
+    }
+  },
+  "social": {
+    "title": "Sign up with Google"
+  },
+  "oauth": {
+    "agree": {
+      "title": "Please agree with ACON3D service terms."
+    },
+    "next": "Agree and proceed",
+    "userinfo": {
+      "title": "It’s your final step to log in!"
+    },
+    "joinnow": "Join Now"
+  }
+}

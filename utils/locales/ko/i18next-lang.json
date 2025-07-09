@@ -1,0 +1,17 @@
+{
+  "title": "{{lang}} i18next-lang",
+  "move-home": "홈",
+  "move-server": "서버",
+  "move-client": "클라이언트",
+  "page-server": {
+    "title": "{{lang}}: i18next-lang:  server-page",
+    "description": "클라이언트: await getTranslation"
+  },
+  "page-client": {
+    "title": "{{lang}}: i18next-lang:  client-page",
+    "description": "client: useTranslation",
+    "counter": "카운터 {{count}}",
+    "decrease": "감소",
+    "increase": "증가"
+  }
+}

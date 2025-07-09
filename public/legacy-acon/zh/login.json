@@ -1,0 +1,65 @@
+{
+  "alreadyMember": "已注册的账号",
+  "button": "登录",
+  "description": "还没有ACON3D账号？",
+  "errorMessage1": "请再次确认以下您的用户名和密码是否准确。",
+  "errorMessage2": "系统中找不到用户信息。",
+  "errorMessage3": "您输入的信息持续发生错误。为保护个人信息请过15分钟后再登录。",
+  "errorMessage4": "您输入的信息持续发生错误。为保护个人信息请过15分钟后再登录。",
+  "errorMessage5": "请激活休眠账号",
+  "errorMessage6": "登录失败7次。 如果失败10次以上，将限制访问。",
+  "errorMessage7": "非常抱歉！该账户已暂停服务，更多信息请您发邮件到我们客服部门cs@acon3d.com询问。",
+  "findId": "忘记账号",
+  "findPw": "忘记密码",
+  "id": {
+    "placeholder": "账号（邮箱）",
+    "validation": "请输入您的用户名"
+  },
+  "idSave": " 记住我",
+  "join": "免费注册",
+  "pw": {
+    "placeholder": "密码",
+    "validation": "请输入您的密码"
+  },
+  "title": "登录",
+  "oauth": {
+    "applications": {
+      "naver": "Naver",
+      "google": "Google"
+    },
+    "with": {
+      "google": "用Google帐户登录"
+    },
+    "lastlogin": "您最近用{{ application }}登录了！"
+  },
+  "label": {
+    "email": "账号（邮箱）",
+    "password": "密码"
+  },
+  "field": {
+    "placeholder": {
+      "password": "输入密码"
+    }
+  },
+  "find": {
+    "id": "忘记账号",
+    "password": "忘记密码"
+  },
+  "signup": "注册",
+  "with": {
+    "oauth": "用Google帐户登录"
+  },
+  "save": {
+    "id": " 记住我"
+  },
+  "buttonText": "登录",
+  "seo": {
+    "title": "Join/Login",
+    "description": "Join us now and enjoy up to 50% off your first purchase!"
+  },
+  "partnerhubLogin": {
+    "text1": "您是ACON卖家伙伴吗？",
+    "text2": "卖家伙伴中心登录"
+  },
+  "email": "邮箱"
+}

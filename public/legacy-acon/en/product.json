@@ -1,0 +1,451 @@
+{
+  "referral": {
+    "toast": {
+      "detail": "You came via the recommendation link.Get extra 1% points by shopping right on the screen. "
+    },
+    "modal": {
+      "reviewTitle": "Did you like the product?",
+      "content": "For every direct purchase through the shared link, 1% of the purchase price is rewarded to the sharer & buyer",
+      "toggle": "Share & Get Points",
+      "description": "Please check our Sharing Point operation policy"
+    },
+    "tooltip": {
+      "lessThan10000won": "Share & Get 1% point!",
+      "moreThan10000won": "Share product link & receive points"
+    },
+    "paymentSuccess": {
+      "noReferral": "Download and share the news! <br/>Get max $50 points per month",
+      "referral": "Download the shared product!<br/>Get your 1% point reward"
+    }
+  },
+  "ExtraDiscount": "SALE",
+  "aconOnly": "Acon Only",
+  "alreadyPurchased": "Already purchased",
+  "currentProduct": "Viewing now",
+  "alreadyReviewDescription": "You have already written a review.",
+  "banner": {
+    "individual": {
+      "button": "See the full set",
+      "text": "There’s a set including this product.<br />Check others in the set."
+    },
+    "set": {
+      "button": "See individual products",
+      "text": "This is a set product.<br />You can also buy the products individually."
+    }
+  },
+  "tagTooltip": "Click tag to search products",
+  "cart": "Cart",
+  "cartOld": "Cart",
+  "close": "Close",
+  "closeCartModal": "Explore more models",
+  "companyAndTeam": "Team/Company",
+  "companyAndTeamLicense": "A single license for just one team/company project or series title (including both commercial and non-commercial purposes).",
+  "companyAndTeamUsingCondition": "The title of your project/work (where the purchased product will be used) must be registered with your order. When using the purchased product, the registered title must be identically shown on your project/work. <br /> We recommend that you choose this division if: <br /><br /> - There are two or more team members who will be directly using the product<br /> - It is a team/company project/work for which no personal pen name is specified (ex. Outsourcing, commissions)",
+  "completedCart": "Add to Cart",
+  "completedScrap": "Clip completed!",
+  "copiedLink": "A URL link to this page has been copied.",
+  "copyLink": "Copy Link",
+  "copyright": {
+    "buyer": "Product buyer",
+    "buyerDescription": "Given license for using products commercially/non-commercially",
+    "creator": "Product artist (brand)",
+    "creatorDescription": "Owner of product copyrights",
+    "description1": "The brand(artist) holds all copyrights for this product.",
+    "description2": "ACON sells <strong>license to use this product,</strong> not the copyright.",
+    "description3": "Buyers may use the purchased products in creations(works){{asterisk}} for commercial/non-commercial purpose",
+    "description4": "Creation(works) : webtoons, illustrations, games, animation, videos, etc."
+  },
+  "copyrightDescription": [
+    "We have checked with the creator regarding the product's copyright policies, ",
+    "thus purchasers may use the product with no concerns. ",
+    "Please make sure to carefully read the details before making a purchase."
+  ],
+  "copyrightNotice": "Copyright Notice",
+  "copyrightNoticeDescription": "It is not permissible for the user to transfer, distribute or sell this product including any component or modified component of this product. <br /><br /> Such acts of copyright infringement in any way will result in legal penalties for the infringer. <br /><br /> Individual purchasers can use the product for his/her own projects and are not permitted to use the product for projects in which his/her pen name is not specified (ex. Outsourcing, commisions)",
+  "detail": "Details",
+  "dynamicComponent": "Dynamic Component",
+  "endSales": "Not For Sale",
+  "extraDiscount": "Extra discount ~{{ date }} (KST)",
+  "fileConfig": "Components",
+  "fileContentsAndSize": "File contents and size",
+  "fileExtension": "Formats",
+  "fileExtensionAndProgram": "File formats and software",
+  "fileInfoDescription": ["The product has been updated.", "Check the renewed asset by re-downloading the file from the order history on My Page."],
+  "fileInfoDescription2": [
+    "Products sold on ACON3D are intangible works and thus cannot be refunded after purchase or download.",
+    "Please make sure to check the file information for this product before making a purchase."
+  ],
+  "fileinfo": "File Information",
+  "productInfo": "File Information",
+  "filetype": "Formats",
+  "fullSet": "Full set",
+  "funding": {
+    "comingUp": "Coming up on {{ startDate }} (KST)",
+    "ended": "Funding Ended",
+    "estimatedModelCompletion": "Download Date",
+    "fundNow": "Fund Now",
+    "success": "SUCCESS",
+    "funded": "funded",
+    "goal": "Goal",
+    "modelPrice": "Model Price",
+    "participants": "Participants",
+    "period": "Funding period",
+    "raised": "Fund raised",
+    "remainingDay": "{{ date }} days left",
+    "remainingTime": "Remaining Time"
+  },
+  "goToAblerVersionFile": "Go to the ABLER version of this file",
+  "goToCart": "View cart",
+  "goToCheck": " Go to check",
+  "ok": "OK",
+  "goToSkpVersionFile": "Go to the skp version of this file",
+  "individual": "Individual",
+  "individualCount": "(Total {{count}})",
+  "individualLicense": "A non-exclusive, perpetual license to use the product. The purchaser may use the product for an unlimited number of projects (including both commercial and non-commercial purposes).",
+  "individualProducts": "Individual products",
+  "includingSet": "Set including this product",
+  "individualUsingCondition": "The purchaser’s registered pen name (submitted with your purchase) must be stated for all secondary works created using the purchased product.",
+  "license": {
+    "personal": "Personal license",
+    "personalDescription1": "Submit pen name - license only <br />available for <strong>creations that show <br />the submitted pen name</strong> ",
+    "personalDescription2": "No limit in number of creations used",
+    "personalDescription3": "Only the person who purchased it can use it.",
+    "personalNotice1": "<strong>[Personal License]</strong> Notice",
+    "personalNotice2": "Pen names can be shown inside works, creation information, or wherever the creation is posted.",
+    "share": "Sharing license",
+    "shareDescription1": "Submit creation name - license <br />only available for <strong>creations that <br />show the creation name</strong>",
+    "shareDescription2": "Only available for 1 creation series",
+    "shareDescription3": "No limit in number of creators(artists)",
+    "shareNotice1": "<strong>[Sharing license], [Enterprise License]</strong> Notice",
+    "shareNotice2": "Creation name (where the product will be used) must be submitted at the time of purchase.",
+    "shareNotice3": "The creation name submitted must be shown clearly in the project/creation.",
+    "shareNotice4": "Series of works that have the same creation name is noticed as 1 creation",
+    "shareNotice5": "Project titles are not required for unlimited enterprise licenses.",
+    "shareNotice6": "For the cases below, please purchase a [sharing license]",
+    "shareNotice7": "When the purchased product is to be used by 2+ people",
+    "shareNotice8": "When the purchased product is to be used in projects/creations that cannot show personal pen names (ex. commissions)",
+    "shareNotice9": "We recommend the [Enterprise License]",
+    "shareNotice10": "For corporation/companies that wish to:",
+    "shareNotice11": "Use the product for multiple projects (5-times License)",
+    "shareNotice12": "Use the product for an unlimited number of projects",
+    "shareNotice13": "Please note that the availability of the enterprise license may vary depending on the product.",
+    "title": "Product license instructions"
+  },
+  "licenseEasyDescription": ["License instructions are now easier! Please check it before purchasing."],
+  "madeCreator": "Every source in this product has been made by the creator. <br />Products or textures (free · paid) from outside sources have not been used for this product.",
+  "more": "More",
+  "noFileContentsAndSize": "Check below ‘Details’",
+  "noReviewDescription": "Buy this product<br />to write a review!",
+  "notAvailableForSale": "Not available for sale",
+  "notOrder": "Opening soon!",
+  "notice": "Notice",
+  "otherIndividualProducts": "Other individual products",
+  "price": "Model Price",
+  "product": {
+    "goToOtherExtension": "Go to the {{ extension }} version of this file"
+  },
+  "productCopyright": "Product Copyrights",
+  "productCopyrightDescription": "The creator retains all of the copyrights associated with this product. <br /><br /> ACON3D sells licenses (not copyrights) to use a product for commercial/non-commercial use, and this is for all products uploaded on ACON3D. <br /><br /> The license can be purchased as an [Individual] license or a [Team/Company] license. <br /><br /> Please choose the appropriate type of division when purchasing a product. <br /><br />",
+  "productLicenseDescription": "There are three types of usage licenses - [Personal], [Sharing] and [Enterprise]. Please select the appropriate license when purchasing.",
+  "qna": "FAQ",
+  "qnaCony": "Ask Conie-bot",
+  "qnaDescription": ["Please ask Conie-bot if you have any urgent inquiries!"],
+  "realPrice": "${{ realPrice }}",
+  "review": "Reviews",
+  "sortByCreated": "Newest to oldest",
+  "sortByRating": "Sort by rate",
+  "photoreview": "Photo Review",
+  "viewall": "View all",
+  "es": "reviews",
+  "vieworiginal": "View Original",
+  "vieworiginaltext": "View Original Text",
+  "ishelpful": "Useful",
+  "rating": "Rate",
+  "draftReview": "Leave review",
+  "areYouSatisfied": "Are you satisfied with the product?",
+  "reviewContent": "Review Content",
+  "pointOnReview": "Text review {{normal}}P / Photo review {{photoreview}}P / Best review {{bestreview}}P",
+  "reviewContentPlaceholder": "Please share your opinion on the product and tips to use the product well! (more than 20 letters)",
+  "attachImage": "Attach Image",
+  "noteOnReview": "Please be aware of :",
+  "noteOnReviewContents": "<li>Your review you can be used for ACON3D's service operation/marketing purposes.</li><li>Please use [User home - Q&A] board for product inquiry/refund.</li><li>Reviews that violate ACON3D's review policy may be deleted and point will be retrieved without prior notice.<ul><li>Reviews containing contents that violate related laws such as the Information and Communication Network Act and the Copyright Act (ACON3D Terms and Conditions Article 15)</li><li>Registration of repeated text that goes against the purpose of product review, registration of content/image unrelated to the product, etc.</li></ul></li>",
+  "areYouSureToDelete": "Your review awarded point will be deducted if you delete your review. Do you want to delete your review?",
+  "reviewBy": "{{author}}'s review",
+  "reply": "Reply",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "doneReview": "Post review",
+  "modify": "Edit",
+  "delete": "Delete",
+  "noreview": "Write your first product review!",
+  "reviewDescription": ["Write a review of more than 20 characters for paid products", "and get 0.30 points to use right away!"],
+  "scrap": "Wishlist",
+  "scrapOld": "Clip",
+  "set": "Set",
+  "share": "Share",
+  "similarProducts": {
+    "artistPage": "Artist page",
+    "other": "'s other products",
+    "similarTitle": "Similar Models"
+  },
+  "togetherProducts": {
+    "togetherTitle": "You might also like",
+    "togetherTitle2": "You might also like"
+  },
+  "thisIsAlber": "This product works on ABLER only.",
+  "thisIsExtension": "This is a <strong>{{ extension }}</strong> product.",
+  "thisIsSkp": "This is a <strong>skp</strong> product.",
+  "thisisblender": "This is a <strong>Blender</strong> Product.",
+  "timer": {
+    "promotion": "Promotion ends in",
+    "remainingTime": "{{diffDay}} DAY"
+  },
+  "totalFileConfig": "Total {{ length }} file(s)",
+  "viewMoreFile": "View more",
+  "viewLessFile": "View less",
+  "updates": "Updates",
+  "useForPrice": "Use for {{ price }}",
+  "usedForFreeExternalSource": "This product uses commercially available free or paid external sources.",
+  "usedForFreeWarehouse": "This product includes free elements from outside sources that are available for commercial use.",
+  "usedForPayExternalSource": "This product includes paid elements from outside sources that are available for commercial use.",
+  "usedForProduct": "Design sources used for this product",
+  "productTags": "Product tags",
+  "using": {
+    "banCaseDescription1": "The product file itself",
+    "banCaseDescription2": "A part of the product itself",
+    "banCaseDescription3": "Captured images/clips of the product itself",
+    "banCaseDescription4": "Captured images/clips of the product itself, with simple editing / filter application",
+    "banCaseDescription5": "※ Only works with the purchaser's creative actions are recognized as 'creations,' and works with only simple editing actions applied cannot be transferred/distrubuted/sold.",
+    "banCaseTitle": "Cases where transfer, distribution, sale is prohibited",
+    "description1": "Actions below are seen as copyright infringement, and legal actions may be taken for them.",
+    "description10": "※ Even in this case, it is not allowed to share the product file.",
+    "description2": "Actions that do not follow the license instructions",
+    "description3": "The transfer, distribution, sale of the whole/partial product",
+    "description4": "This product can be used with other products, and can be edited for creative usage.",
+    "description5": "When used with other products, licenses or copyright for all of them are mandatory.",
+    "description6": "For intangible products sold, refunds are not available once they are downloaded.",
+    "description7": "This product can be downloaded and used right after payment. Buyers are responsible for managing and keeping the purchased file after 3 months of payment.",
+    "description8": "Image sharing/sale is allowed if it is recognized as a process of creating a work.",
+    "description9": "(Ex. Sharing of images extracted by the representative artist to the background assistant artist, outsourcing/commissioned work, etc)",
+    "noticeTitle": "Product usage notice",
+    "eula1": "The scope of use of the product varies depending on the type of creation, so please refer to the ",
+    "eula2": "End User License Agreement(EULA)",
+    "eula3": " for more information."
+  },
+  "usingCondition": "Using condition",
+  "writeReview": "Leave a Review",
+  "addCart": "Add to Cart",
+  "buynow": "BUY NOW",
+  "floating": {
+    "share": "Share"
+  },
+  "completedCartOld": "Add to Cart",
+  "goToCartOld": "Add to Cart",
+  "button": {
+    "cart": {
+      "completed": "Added to cart"
+    }
+  },
+  "promotionBadge": {
+    "remainingTime": "Ends in"
+  },
+  "enterprise": {
+    "inquiry": "Are you buying as a company?",
+    "available": {
+      "description": "Try the Enterprise Usage License\nfor multiple or lifetime use",
+      "license": {
+        "unlimited": "Unlimited License",
+        "count": "{{count}}-times License"
+      },
+      "cartScrapUnavailable": "*Not available for shopping cart or wishlist"
+    },
+    "unavailable": {
+      "description": "There is no enterprise license set for this product\nPlease buy the sharing license for company use"
+    },
+    "buyButtonText": "Buy Enterprise License",
+    "noticeTable": {
+      "header": {
+        "fiveTimesLicense": "5-times License",
+        "unlimitedLicense": "Unlimited License"
+      },
+      "row": {
+        "fiveTimesLicense": "You can use the asset for<br /><strong>5 registered projects</strong> after registering the name of your company and the project titles",
+        "unlimitedLicense": "You can use the asset for an<br /><strong>unlimited number</strong> of projects<br />after registering the name of your company"
+      }
+    },
+    "licenseName": "Enterprise License"
+  },
+  "productDetail": {
+    "overview": {
+      "couponNotApplicable": "Coupons are not applicable to this product.",
+      "buyNowdescription": "* This product is available for immediate purchase only.",
+      "productFileInfo": {
+        "fileInformation": "File Information",
+        "fileInfoTooltip": "Click ‘File Information’ below<br />for more details",
+        "genre": "Genre",
+        "tags": "Tags",
+        "fileFormats": "File Formats",
+        "compatibleSoftware": "Compatible Software",
+        "generalFile": "General File",
+        "dataFile": "Data File",
+        "allOS": "All OS"
+      },
+      "productOrderModal": {
+        "selectLicense": "Select License",
+        "personal": "Personal",
+        "unlimited": "Unlimited",
+        "sharing": "Sharing",
+        "oneProject": "1 project",
+        "enterprise": "Enterprise",
+        "fiveProjects": "5 projects",
+        "next": "Next",
+        "difference": "What is Sharing · Enterprise License?"
+      },
+      "productShareModal": {
+        "share": "Share",
+        "copyLink": "Copy Link"
+      },
+      "scrapSnackbar": "Added to Wishlist",
+      "productCartModal": {
+        "addedToCart": "Added to cart",
+        "continueShopping": "Continue Shopping",
+        "viewCart": "View Cart"
+      }
+    },
+    "review": {
+      "notFound": "There are no reviews for the selected rating.",
+      "bannerMessage": "Text review ${{normal}}P · Photo review ${{photoreview}}P · Best review ${{bestreview}}P",
+      "title": "Reviews",
+      "writeReview": "Write a review",
+      "photoReviews": {
+        "title": "Photo Reviews",
+        "viewMoreCount": "+{{count}}"
+      },
+      "information": {
+        "ratings": "{{count}} Ratings",
+        "firstProductReview": "Write your first product review!"
+      },
+      "list": {
+        "title": "User Reviews",
+        "sort": {
+          "mostRecent": "MOST RECENT",
+          "highestRated": "HIGHEST RATED"
+        },
+        "rateFilter": {
+          "label": "Rate",
+          "reviewCount": "({{count}})"
+        },
+        "viewOriginal": "See Original",
+        "viewTranslation": "See Translation",
+        "helpful": "USEFUL",
+        "photoViewMore": "MORE",
+        "delete": "Delete",
+        "update": "Edit",
+        "readLess": "Read less",
+        "readMore": "Read more"
+      },
+      "photoDetail": {
+        "photoReview": "Photo Review",
+        "viewAll": "VIEW ALL",
+        "userReview": "{{userId}}’s review"
+      }
+    },
+    "relatedProducts": "Others also viewed this product",
+    "otherProducts": "Trending from the brand",
+    "tabs": {
+      "detail": "Product Details",
+      "information": "File Information",
+      "package": "Set",
+      "review": "Reviews",
+      "notice": "Notice",
+      "inquiry": "FAQ"
+    },
+    "detail": {
+      "copyright": "This product has been reviewed and verified for copyright regulations.<br />Please make sure to read the details carefully before making a purchase.",
+      "viewMore": "View more",
+      "viewLess": "View less"
+    }
+  },
+  "ProductInformationNotice": {
+    "title": "Product Information Notice",
+    "openbutton": "View Product Information Notice",
+    "common": {
+      "manufacturer": {
+        "title": "Creator or Supplier",
+        "description": ""
+      },
+      "date": {
+        "title": "Terms of Use and Usage Time",
+        "description": "Effective immediately upon purchase. Usage according to each license follows the <a href='/policy/eula'>EULA</a>."
+      },
+      "configuration": {
+        "title": "Method of Providing the Product (CD, Download, Streaming, etc.)",
+        "description": "Download"
+      },
+      "specifications": {
+        "title": "Minimum System Requirements, Required Software",
+        "description": "<p>An operating system and software capable of reading each extension are required.</p><br /><p>Minimum Specifications</p><ul><li>OS : Windows 10 64-bit</li><li>CPU : Quad-core Intel or AMD 2.5 GHz or superior</li><li>Memory : 8GB RAM</li><li>Graphic Card(GPU) : DirectX 11 Compatible, 4GB of VRAM Above</li></ul>"
+      },
+      "warranty": {
+        "title": "Effects of Withdrawal or Termination of Contract",
+        "description": "All licenses and subscriptions expire upon withdrawal or termination of the contract."
+      },
+      "director": {
+        "title": "Consumer Consultation Contact Number",
+        "description": "+82 70-4126-1202"
+      }
+    },
+    "clipstudio": {
+      "manufacturer": {
+        "title": "Creator or Supplier",
+        "description": "ACON"
+      },
+      "date": {
+        "title": "Terms of Use and Usage Time",
+        "description": "Effective immediately upon enroll license. Details are follow to CELSYS' regulations"
+      },
+      "configuration": {
+        "title": "Method of Providing the Product (CD, Download, Streaming, etc.)",
+        "description": "License"
+      },
+      "specifications": {
+        "title": "Minimum System Requirements, Required Software",
+        "description": "<p>An operating system is required.</p><br><p>Minimum Specifications</p><ul><li>OS : Windows 10 64-bit / macOS 12 (Monterey)</li><li>CPU : Intel Core i3 or AMD Ryzen 3, 2 GHz or faster</li><li>Memory : 2GB RAM</li><li>Graphic Card(GPU) : Integrated graphics card with OpenGL 2.1 and DirectX 12 support, 1 GB of VRAM Above</li></ul>"
+      },
+      "warranty": {
+        "title": "Effects of Withdrawal or Termination of Contract",
+        "description": "Expire upon withdrawal or termination of the contract."
+      },
+      "director": {
+        "title": "Consumer Consultation Contact Number",
+        "description": "+82 70-4126-1202"
+      }
+    },
+    "sketchup": {
+      "manufacturer": {
+        "title": "Creator or Supplier",
+        "description": ""
+      },
+      "date": {
+        "title": "Terms of Use and Usage Time",
+        "description": ""
+      },
+      "configuration": {
+        "title": "Method of Providing the Product (CD, Download, Streaming, etc.)",
+        "description": ""
+      },
+      "specifications": {
+        "title": "Minimum System Requirements, Required Software",
+        "description": ""
+      },
+      "warranty": {
+        "title": "Effects of Withdrawal or Termination of Contract",
+        "description": ""
+      },
+      "director": {
+        "title": "Consumer Consultation Contact Number",
+        "description": ""
+      }
+    }
+  }
+}

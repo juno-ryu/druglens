@@ -1,0 +1,22 @@
+{
+  "certification": {
+    "title": "This page requires you to be 18 or older. <br />Please log-in and verify your age.",
+    "noMemberTitle": "This page requires you to be 18 or older.<br />Please verify your age.",
+    "confirmButton": "Confirm",
+    "cancelButton": "Cancel",
+    "form": {
+      "title": "This page requires you to be 18 or older. Please verify your age.",
+      "dateOfBirth": "Please enter your date of birth."
+    },
+    "validation": {
+      "isAleadyAdult": "이미 성인인증이 완료되었습니다.",
+      "adultReject": "You must be 18 years of age or older to view this page.",
+      "adultCancel": "성인인증을 취소하였습니다."
+    }
+  },
+  "recommendedProducts": "Recommended For Adults Only",
+  "banner": {
+    "main": "BEST ADULT ASSETS \nFOR 18 OR OLDER",
+    "sub": "Body・Poses・Toys for all genres!"
+  }
+}

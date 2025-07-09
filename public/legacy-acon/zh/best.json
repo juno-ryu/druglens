@@ -1,0 +1,24 @@
+{
+  "filter": {
+    "category": {
+      "all": "全部",
+      "free": "免费"
+    },
+    "paidProduct": "查看收费商品"
+  },
+  "listMainTitle": "ACON 热门模型",
+  "listSubTitle": "ACON 热门模型",
+  "subTitle": "ACON 热门推荐模型",
+  "tab": {
+    "title": {
+      "all": "ACON热销Top100",
+      "day": "今日Top10",
+      "month": "本月Top30",
+      "week": "本周Top30"
+    }
+  },
+  "seo": {
+    "title": "Best Sellers",
+    "description": "Browse the top selling 2D/3D assets. Check out what’s trending now!"
+  }
+}

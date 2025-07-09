@@ -1,0 +1,20 @@
+{
+  "bottombanner": {
+    "desc1": "请点击 ‘咨询’ 填写您的疑问事项。提交咨询后，客服将在工作日为标准3天之内答复您",
+    "desc2": "请留下您的疑问，我们将在3个工作日内回复您",
+    "href": "https://docs.google.com/forms/d/e/1FAIpQLSfxTGT3lX4hetCibsDJ0VNuyWih4XVdyChq-G1XW4M83K8Z4A/viewform",
+    "oneOnOne": "1:1咨询",
+    "title": "FAQ中未找到相关内容？"
+  },
+  "description": "想要了解那些内容呢？",
+  "faqCreatorBanner": {
+    "copyEmail": "复制邮箱",
+    "createBanner": "申请入驻",
+    "desc": "请发送您的疑问事项到contact@acon3d.com。收到咨询后, 会在1-2天工作日内回复。",
+    "desc2": "填写作者信息，申请入驻！收到申请后, 会在1-2天工作日内回复审核结果。",
+    "link": "https://hub.acon3d.com/signup/en",
+    "title": "有其它想知道的内容吗？",
+    "title2": "希望以销售作家入驻ACON3D!"
+  },
+  "more": "更多"
+}

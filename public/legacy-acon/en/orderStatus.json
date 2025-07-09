@@ -1,0 +1,23 @@
+{
+  "automaticCanceled": "Cancelled automatically",
+  "cancledByAdmin": "Cancelled order",
+  "cancledByCustomer": "Cancellation of Customer Request",
+  "completed": "Confirmation of Purchase",
+  "depositStandby": "Awaiting Payment",
+  "fundingFailed": "Funding Failed",
+  "fundingSuccessful": "Funding Successful",
+  "paymentCompleted": "Purchase Complete",
+  "paymentFailed": "Payment Failure",
+  "paymentTried": "Payment Attempt",
+  "readyForDownload": "Ready for download",
+  "refundAsked": "Refund Registered",
+  "refundCompleted": "Refund Completed",
+  "newStatus": {
+    "waiting": "Awaiting Payment",
+    "confirm": "Payment Confirmed",
+    "settled": "Purchase Complete",
+    "fail": "Payment Failed",
+    "refunded": "Refund Completed",
+    "canceled": "Order Canceled"
+  }
+}

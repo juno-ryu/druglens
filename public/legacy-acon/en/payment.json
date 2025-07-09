@@ -1,0 +1,334 @@
+{
+  "payment": {
+    "appliedProduct": "Product to be used",
+    "appliedProductName": "Product to be used",
+    "benefit": {
+      "event": "for each event done",
+      "products": "for each purchase",
+      "review": " for each review"
+    },
+    "noBenefit": {
+      "book": "Published e-books are not subject to point awards."
+    },
+    "button": "Buy",
+    "coupon": {
+      "condition": {
+        "category": "category",
+        "maxPrice": "Up to {{maxPrice}} discount",
+        "minPrice": {
+          "order": "Applicable for orders over {{ minPrice }}",
+          "product": "Applicable for models over {{ minPrice }}"
+        },
+        "products": "item"
+      },
+      "empty": "0",
+      "noUse": "Not use",
+      "notUse": "Not use",
+      "notUseOverlap": "overlap usage unavailable",
+      "selectbox": {
+        "placeholder": "Select the product to use this coupon"
+      },
+      "use": "Use",
+      "useOverlap": "overlap usage available"
+    },
+    "discount": {
+      "available": {
+        "deposit": "Available ACON CASH : ",
+        "point": "Available points : "
+      },
+      "title": "Coupon(s) / Points",
+      "coLicenseTitle": "Points",
+      "useAll": "Use all",
+      "useDeposit": "Use ACON CASH",
+      "usePoint": "Use Points"
+    },
+    "floating": {
+      "count": "{{count}} products in total",
+      "totalPrice": "Total Amount for Payment"
+    },
+    "foreignExchangeDescription": " ",
+    "license": {
+      "editLicense": {
+        "inquiries": "[Inquiries]",
+        "changeLicense1": "To change your usage license, please use our ",
+        "changeLicense2": " service.",
+        "changedLicense": "Usage license information updated",
+        "licenseEdit": "Edit",
+        "licenseCancel": "Cancel",
+        "licenseApply": "Apply"
+      },
+      "enterprise": {
+        "type": "Enterprise License Type",
+        "oneTime": "1-time License",
+        "fiveTimes": "5-times License",
+        "unlimited": "Unlimited License",
+        "enterprise_0": "Enterprise License (Unlimited)",
+        "enterprise_5": "Enterprise License (5-times)",
+        "description": {
+          "fiveTimes": {
+            "description1": "You are allowed to use the asset for 5 registered creations.",
+            "description2": "Your creation name must match the creation name that you registered during purchase.",
+            "description3": "All contributors of the registered creation can use the asset."
+          },
+          "unlimited": {
+            "description1": "You can use the asset for an unlimited number of creations.",
+            "description2": "All contributors in the registered creation can use the asset."
+          }
+        }
+      },
+      "addPenName": "Add",
+      "addProject": "Add",
+      "alreadyUseProduct": "This product is already used in another creation.",
+      "appliedProductCount": "total {{ count }} applied products",
+      "chooseCoupon": "Use Coupon(s)",
+      "coupon": {
+        "checkboxText": "Use coupon with highest discount"
+      },
+      "guide": "license instructions",
+      "licenseDescription": "The purchaser of this model is granted a non-exclusive, <br /> perpetual license to use the model, which does not include ownership of the copyright. <br /> This license is divided into [Individual] and [Team/companies]; <br /> please select the appropriate division when purchasing the model. <br /><br />  <strong>[Individual]</strong><br /> This perpetual license for both commercial and non-commercial purposes rquires the purchaser to state his/her Acon3D Pen name on any project in which this model is used. <br /> <strong>[Team/Companies]</strong><br /> The title of your project/work (where the purchased product will be used) must be registered with your order. When using the purchased product, the registered title must be identically shown on your project/work.<br /> We recommend that you choose this division if:<br /> <br /> There are two or more team members who will be directly using the product<br /> It is a team/company project/work for which no personal pen name is specified (ex. Outsourcing, commissions)",
+      "personal": "Personal",
+      "removePenName": "Delete",
+      "removeProject": "Delete",
+      "team": "Sharing",
+      "title": "Usage License",
+      "type": "License Type",
+      "useCoupon": "<b>{{ useCount }}</b> / {{ totalCount }}",
+      "placeholder": {
+        "penName": "Creator name",
+        "teamName": "Please register Team · Business Name",
+        "companyName": "Please register Team · Business Name"
+      },
+      "description": {
+        "pleaseRegister": "You are allowed to use the model for multiple creations. If you wish to use different creator names for each creation, please register all your creator names.",
+        "ownPenName": "Models are only for your own use. Sharing with others is strongly restricted.",
+        "undecided": "If your pen/project name hasn’t been decided, please write 'undecided'.",
+        "oneProject": "You are allowed to use the model for 1 registered creation.",
+        "contributorsUseModel": "All contributors in the registered creation can use the models.",
+        "officiallyStated": "Your creator name must be officially stated in your creation.",
+        "matchProjectName": "Your creation name must match the creation name that you registered during purchase."
+      },
+      "penname": {
+        "description": "If your pen name hasn’t been decided, please write 'undecided'."
+      },
+      "company": {
+        "description": "If your creation name hasn’t been decided, please write 'undecided'."
+      },
+      "textFieldGuide": {
+        "penname": {
+          "description1": "If your creator name hasn’t been decided,",
+          "description2": "please provide your social media username",
+          "description3": "or write ‘undecided’."
+        },
+        "company": {
+          "description1": "If your Team · Business Name hasn’t been decided,",
+          "description2": "please provide your social media username",
+          "description3": "or write ‘undecided’."
+        },
+        "class": {
+          "penname": {
+            "description1": "Only the person who purchased",
+            "description2": "the [CLASS PRODUCT] can view the class content,",
+            "description3": "and the creator name does not affect."
+          },
+          "company": {
+            "description1": "Only the person who purchased",
+            "description2": "the [CLASS PRODUCT] can view the class content,",
+            "description3": "and the Team · Business Name does not affect."
+          }
+        }
+      },
+      "modal": {
+        "personal": "Personal license",
+        "personalDescription1": "Submit pen name - license only <br />available for <strong>creations that show <br />the submitted pen name</strong> ",
+        "personalDescription2": "No limit in number of creations used",
+        "personalDescription3": "Only the person who purchased it can use it.",
+        "share": "Sharing license",
+        "shareDescription1": "Submit creation name - license <br />only available for <strong>creations that <br />show the creation name</strong>",
+        "shareDescription2": "Only available for 1 creation series",
+        "shareDescription3": "No limit in number of creators(artists)",
+        "personalNotice1": "<strong>[Personal License]</strong> Notice",
+        "personalNotice2": "Pen names can be shown inside works, creation information, or wherever the creation is posted.",
+        "shareNotice1": "<strong>[Sharing license]</strong> Notice",
+        "shareNotice2": "Creation name (where the product will be used) must be submitted at the time of purchase.",
+        "shareNotice3": "The creation name submitted must be shown clearly in the project/creation.",
+        "shareNotice4": "Series of works that have the same creation name is noticed as 1 creation",
+        "shareNotice5": "For the cases below, please purchase a [sharing license]",
+        "shareNotice6": "When the purchased product is to be used by 2+ people",
+        "shareNotice7": "When the purchased product is to be used in projects/creations that cannot show personal pen names (ex. commissions)",
+        "classNotice1": "<strong>[CLASS PRODUCT]</strong> Notice",
+        "classNotice2": "Only the person who purchased the [CLASS PRODUCT] can view the class content, and the Team / Company name does not affect."
+      }
+    },
+    "method": {
+      "alipay": "Alipay",
+      "creditCard": "Credit Card",
+      "card": "Credit Card",
+      "paypal": "PayPal",
+      "unionpay": "UNIONPAY",
+      "virtualAccount": "Virtual Account",
+      "visa": "Credit Card",
+      "wechatpay": "Wechat Pay",
+      "full_discount": "Full discount",
+      "acon_cash": "Acon Cash",
+      "none": "Full discount"
+    },
+    "notice": {
+      "termConditions1": "- After 7 days of payment, or after downloading, the purchase will be automatically confirmed. Refunds are not available after confirmation.",
+      "termConditions2": "- 본 상품의 결제 완료 시점으로부터 3개월 이후에는 구매자에게 다운로드, 보관 및 관리 책임이 있습니다.",
+      "termConditions3": "- Works created using each model purchased must show the payer’s pen name written on this order form.",
+      "termConditions4": "- Illegal circulation and usage by anyone other than payers of all 3D models sold on ACON3D is strictly prohibited.<br/>ACON3D and model producers will follow the principle intolerance in all circumstances.",
+      "eula1": "I have confirmed and agree to the ",
+      "eula2": "End User License Agreement(EULA).",
+      "title": "Notices",
+      "title1": "I have read the terms and conditions, End User License Agreement.",
+      "title2": "I have checked payment and product information such as the file extention for this purchase, and agree to proceed with payment.",
+      "view": "view",
+      "required": "[Required]"
+    },
+    "orderDate": "Date",
+    "orderDetail": "Order Details",
+    "orderInformation": "Order Information",
+    "orderNo": "Order No",
+    "orderProduct": {
+      "name": "Item",
+      "overlap": "You’ve already purchased this",
+      "price": "Price",
+      "title": "Order Details"
+    },
+    "orderStatus": "Order Status",
+    "orderSuccessNew": {
+      "creditCard": {
+        "title": "Thank you for your purchase!",
+        "subTitle": "Order will be automatically confirmed after 7 days or upon downloading.<br/>Cannot be refunded after confirmation.",
+        "downloadButton": "Download Now",
+        "downloadButtonTooltip": "Leave photo review and get 0.3$!",
+        "moreButton": "Continue Shopping",
+        "refundNotice": "If you press your browser's back button on this screen, you may receive a error<br />so please be careful when go out this screen"
+      },
+      "orderSummary": {
+        "title": "Order Details",
+        "subTitle": "Payment Info",
+        "paymentMethod": "결제 수단",
+        "paymentAmount": "Order Total",
+        "depositedAmount": "입금 예정 금액",
+        "save": "Reward Points",
+        "buySave": "",
+        "orderNo": "Order Number",
+        "orderDate": "Order Date",
+        "orderProduct": "Item(s) Ordered",
+        "orderName": "Order Name",
+        "review": "Leave photo review and get 0.3$!"
+      },
+      "virtualAccount": {
+        "title": "Your order has been settled successfully!",
+        "subTitle": "You will be able to download models after the payment confirmation.<br/>Payment will be <b>confirmed automatically within 10 minutes after the transfer.</b><br/>Your transferring amount must be exactly same with the amount below.",
+        "info": {
+          "title": "Bank Transfer Instructions",
+          "vbankAccount": "Bank & Account number : ",
+          "vbankHolder": "Account name : ",
+          "amount": "Amount : ",
+          "vbankIssuedAt": "Expiry time : ",
+          "subTitle": "* 최종 결제 금액과 입금 금액이 일치하지 않을 경우 처리가 누락될 수 있습니다.",
+          "description": "Please contact here(management@acon3d.com) for receipt request.",
+          "successDescription": "입금 완료 되었다면?",
+          "goDownLoad": "Go to download page",
+          "end": "까지"
+        },
+        "copy": "copy"
+      },
+      "togetherProductsTitle": "You may also like",
+      "searchMore": "Search more",
+      "card": "신용카드",
+      "vbank": "가상계좌",
+      "full_discount": "전액할인",
+      "acon_cash": "에이콘 캐시",
+      "none": "전액할인",
+      "unit": "₩",
+      "year": "년",
+      "month": "월",
+      "day": "일",
+      "noOrderTitle": "주문 정보가 없습니다. 다시 확인 바랍니다.",
+      "noOrderSubTitle": "지속적으로 문제가 발생될 경우 관리자에게 문의 하시기 바랍니다.",
+      "paypal": "Paypal"
+    },
+    "payInfo": "Payment Information",
+    "payInformation": {
+      "title": "Payment Information"
+    },
+    "payMethod": {
+      "title": "Payment Method"
+    },
+    "paymentMethod": "Payment Method",
+    "penName": "Creator name",
+    "penNamePlaceholder": "Pen name",
+    "pgFailReason": "Failure Cause",
+    "points": {
+      "badge": "Points",
+      "price": "Up to"
+    },
+    "price": {
+      "coupon": "Coupon(s)",
+      "deposit": "ACON CASH",
+      "discount": "Discount",
+      "point": "Points",
+      "product": "Item(s) Total",
+      "selfDiscount": "ACON Discount",
+      "total": {
+        "title": "Order Total"
+      },
+      "unit": "$"
+    },
+    "projectName": "Creation Name",
+    "projectNameTitle": "Creation Name",
+    "projectNamePlaceholder": "Please register Creation Name",
+    "status": {
+      "c": ["자동취소", "품절취소", "Cancelled order", "Cancellation of customer request"],
+      "f": "Payment failure",
+      "o": "Awaiting payment",
+      "p": "Purchase Complete",
+      "r": ["환불 접수", "환불 보류", "Refund completed"],
+      "s": "Confirmation of purchase"
+    },
+    "teamCompany": "Team · Business Name",
+    "teamCompanyPlaceholder": "Please register Team · Business Name",
+    "title": "Order Form",
+    "totalSettlePrice": "Total Amount for Payment",
+    "userInfo": {
+      "cellPhone": "휴대폰 번호",
+      "direct": "Write",
+      "email": "Email",
+      "orderName": "Payer name",
+      "title": "Payer Information"
+    },
+    "validation": {
+      "amountChanged": "The payment amount has changed.\nPlease refresh your browser to update it.",
+      "amountChangedGlobal": "The payment amount has changed due to exchange rates.\nPlease ask our customer services about this.",
+      "cellPhone": "휴대폰 번호를 입력해주세요.",
+      "email": "Please enter your email.",
+      "errorProdcessingPayment": "There has been an error while processing your payment.\nPlease refresh to check your order status.\nIf there is something wrong, please contact customer services.",
+      "noProductOrder": "There are no products to order.\nPlease check your cart and order again.",
+      "nonUsableCoupon": "There is a non-usable coupon in your order.\nPlease check the coupons on your order again.",
+      "notAppliedProject": "There is a product without a project name.",
+      "notAvailableProduct": "There is a product that is not available for sale.\nPlease check your cart and order again.",
+      "notFormatEmail": "This email address is not processable.",
+      "notice": "Please check and agree to the notice.",
+      "orderName": "Please enter your name.",
+      "penName": "Please enter Team · Company Name.",
+      "project": "Please enter the project title.",
+      "personalPenName": "Please enter Pen Name.",
+      "duplicateProject": "Please check if there is a duplicate project name."
+    },
+    "undecided": "undecided"
+  },
+  "popup": {
+    "blocked": "You need to unblock the pop-up to see the payment window.",
+    "userCancelPayment": "You have canceled your payment."
+  },
+  "tossPaymentWidgetModal": {
+    "title": {
+      "card": "Please select\nyour credit card company",
+      "paypal": "Pay by PayPal"
+    },
+    "nextButton": "Next"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "download": {
+    "dialog": {
+      "check": "上記の内容を全て確認しました。",
+      "download": "ダウンロード",
+      "errorMessages": {
+        "internalServerError": "現在、サーバーエラーによりダウンロードが円滑ではありません。お問い合わせページにお問い合わせいただければ、ACONエディターが直ぐに発送いたします。",
+        "limitOver": "ダウンロード可能な制限を超過しました。追加ダウンロードが必要な場合は、ACONページの下段のお問い合わせにお問い合わせください。",
+        "notPurchaseHistory": "購入履歴がありません。"
+      },
+      "formats": "ファイルファイルの形式",
+      "info": "商品情報",
+      "title": "ダウンロード",
+      "notice": {
+        "importantNotice": "注意事項",
+        "notice1": "1.ダウンロードした購入件は<strong>キャンセル及び払い戻しが<br/>&nbsp;&nbsp;&nbsp;&nbsp;</strong>できません。",
+        "notice2": "2.商品情報をご確認ください。",
+        "notice3": "3.一部ファイルのファイルの形式は円滑なプログラム駆動のため、商品内レイヤーが<br/>&nbsp;&nbsp;&nbsp;&nbsp;<br/>&nbsp;&nbsp;&nbsp;&nbsp;OFF状態の場合がありますので、ご利用の際はご参照ください。",
+        "notice4": "4.商品の利用・活用に関するご不明な点がございましたら、<br/>&nbsp;&nbsp;&nbsp;&nbsp;<a href='/faq' target='_blank'><strong><u>FAQ</u></strong></a>でご確認ください。"
+      }
+    },
+    "openDialog": "ダウンロード",
+    "infoTooltip": "素材は最大５回までダウンロード\nでき、ダウンロード後１時間以内の再\nダウンロードはその回数にカウント\nされまれません。"
+  },
+  "label": {
+    "order": {
+      "date": "購入日",
+      "number": "購入番号",
+      "order": "購入する",
+      "recentList": "最近の購入履歴",
+      "status": "購入状態",
+      "thereIsNoOrder": "購入履歴がありません。"
+    },
+    "product": {
+      "info": "商品情報",
+      "price": "商品金額",
+      "showRecommendedProducts": "おすすめの商品はこちら>"
+    }
+  },
+  "review": {
+    "modify": "レビュー修正",
+    "write": "レビュー作成"
+  },
+  "showBankAccountNumber": "글로벌 몰 계좌이체 X",
+  "showDetail": "購入履歴を確認",
+  "status": {
+    "c": ["自動キャンセル", "品切れキャンセル", "購入キャンセル", "顧客リクエストのキャンセル"],
+    "f": "決済失敗",
+    "o": "振込待ち",
+    "p": "購入完了",
+    "r": ["返金申請", "返金保留", "返金完了"],
+    "s": "購入確定"
+  }
+}

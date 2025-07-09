@@ -1,0 +1,65 @@
+{
+  "alreadyMember": "이미 가입한 회원입니다.",
+  "button": "로그인",
+  "description": "아직 에이콘3D 회원이 아니신가요 ?",
+  "errorMessage1": "아이디 또는 비밀번호를 다시한번 확인해 주시기 바랍니다.",
+  "errorMessage2": "회원정보를 찾을 수 없습니다.",
+  "errorMessage3": "존재하지 않거나 잘못된 정보로 잦은 로그인 시도하였습니다. 정보보호를 위해 15분간 접속이 차단됩니다.",
+  "errorMessage4": "존재하지 않거나 잘못된 정보로 잦은 로그인 시도하였습니다. 정보보호를 위해 15분간 접속이 차단됩니다.",
+  "errorMessage5": "휴면회원 해제가 필요합니다.",
+  "errorMessage6": "로그인을 7회 실패하셨습니다. 10회 이상 실패 시 접속이 제한됩니다.",
+  "errorMessage7": "사용이 정지된 계정입니다. 자세한 사항은 cs@acon3d.com 으로 문의바랍니다.",
+  "findId": "아이디",
+  "findPw": "비밀번호 찾기",
+  "id": {
+    "placeholder": "아이디",
+    "validation": "아이디를 입력해주세요."
+  },
+  "idSave": "아이디 저장",
+  "join": "가입하러 가기",
+  "pw": {
+    "placeholder": "비밀번호",
+    "validation": "비밀번호를 입력해주세요."
+  },
+  "title": "지금 로그인하세요",
+  "oauth": {
+    "applications": {
+      "naver": "네이버",
+      "google": "Google"
+    },
+    "with": {
+      "google": "Google 계정으로 로그인"
+    },
+    "lastlogin": "최근에 {{ application }}로 로그인 했어요."
+  },
+  "label": {
+    "email": "아이디 (이메일)",
+    "password": "비밀번호"
+  },
+  "field": {
+    "placeholder": {
+      "password": "비밀번호 입력"
+    }
+  },
+  "find": {
+    "id": "아이디 찾기",
+    "password": "비밀번호 찾기"
+  },
+  "signup": "회원가입",
+  "with": {
+    "oauth": "SNS 계정으로 로그인"
+  },
+  "save": {
+    "id": "아이디 저장"
+  },
+  "buttonText": "로그인",
+  "seo": {
+    "title": "가입/로그인",
+    "description": "신규 가입하고 웰컴 쿠폰팩을 받으세요. 최대 50% 즉시 할인."
+  },
+  "partnerhubLogin": {
+    "text1": "에이콘 파트너님이신가요?",
+    "text2": "파트너 허브 로그인"
+  },
+  "email": "이메일"
+}

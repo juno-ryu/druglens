@@ -1,0 +1,63 @@
+{
+  "filters": {
+    "formatsOld": "확장자",
+    "formats": "확장자",
+    "softwareOld": "프로그램",
+    "software": "프로그램",
+    "price": "가격",
+    "priceApplies": "가격 범위 설정",
+    "industry": {
+      "industry": "사용분야",
+      "webtoon": "웹툰",
+      "game": "게임"
+    },
+    "clearFilters": "필터 초기화",
+    "clear": "초기화",
+    "extensionsLoadErrorText": "확장자 정보를 불러오는데 실패했습니다.",
+    "softwareLoadErrorText": "응용 프로그램 정보를 불러오는데 실패했습니다.",
+    "refreshInstruction": "새로고침을 눌러주세요."
+  },
+
+  "sortOrders": {
+    "ACCURACY": "정확도순",
+    "HIGHER_PRICE": "높은 가격순",
+    "LOWER_PRICE": "낮은 가격순",
+    "NEWEST": "최신순",
+    "POPULARITY": "인기순",
+    "RECOMMENDED": "추천순"
+  },
+  "count": "개",
+  "countGlobal": "검색결과",
+  "findCreator": "작가홈",
+  "noItem": "‘{{keyword}}’에 대한 검색 결과가 없습니다.",
+  "noItemInstruction": "카테고리로 상품을 찾아보세요.",
+  "resultText": "검색 결과 총 {{ count }}개",
+  "filteredResultText": "검색 결과 총 {{ totalCount }} 중 {{ filteredCount }}개",
+  "priceRanges": {
+    "lower": "{{ price }}원 미만",
+    "higher": "{{ price }}원 이상",
+    "between": "{{ price1 }}원 - {{ price2 }}원",
+    "manual": "직접입력"
+  },
+  "apply": "적용",
+  "adultResultText": "<b>성인상품</b> {{ count }}개",
+  "adultToggleHideText": "숨기기",
+  "adultToggleShowText": "포함",
+  "adultToggleText": "성인 상품",
+
+  "keywords": {
+    "keywordList": "태그 전체보기",
+    "placeholder": "태그를 검색해 보세요",
+    "notFound": "'{{ keyword }}' 태그는 없어요, 다른 태그를 검색해 보세요.",
+    "notFoundMobile": "'{{ keyword }}' 태그는 없어요,<br />다른 태그를 검색해 보세요.",
+    "selectUpTo": "태그는 최대 5개까지 선택할 수 있어요"
+  },
+  "searchResults": "<span>{{keyword}}</span> 검색 결과입니다",
+  "tagResult": "<span>{{tag}}</span> 태그 검색 결과입니다",
+  "adultTooltip": "성인 상품을 볼 수 있어요",
+  "industriesTooltip": "어떤 작품을<br />만들고 있나요?",
+  "etc": "기타",
+  "brand": {
+    "title": "{{ count }}개의 브랜드가 있어요"
+  }
+}

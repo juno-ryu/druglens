@@ -1,0 +1,20 @@
+{
+  "abler": {
+    "promotion": {
+      "subTitle": "Most popular models"
+    }
+  },
+  "goToGameTab": "GO TO GAMES PAGE",
+  "goToToonTab": "GO TO COMICS PAGE",
+  "count": "results",
+  "countGlobal": "About",
+  "realisticHome": "Home - Realistic",
+  "resultText": "{{ count }} results",
+  "searchResults": "<div><span>{{thirdCategory}}</span> Products</div> on {{firstCategory}} {{secondCategory}}",
+  "onlyFirstCategoryResults": "<div><span>All</span> Products</div> on {{firstCategory}}",
+  "filteredResultText": "{{ filteredCount }} out of {{ totalCount }} results",
+  "total": "Total",
+  "all": "All",
+  "totalAndFilterCount": "{{ totalCount }} of {{ filteredCount }} results",
+  "guideTooltip": "See all products in category"
+}

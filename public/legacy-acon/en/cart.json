@@ -1,0 +1,41 @@
+{
+  "alreadyOrder": "You’ve already purchased this",
+  "discount": "Discount",
+  "emptyCartText1": "Your Cart is empty.",
+  "emptyCartText2": "Let’s check out more models!",
+  "foreignExchangeDescription": " ",
+  "goToPopularProduct": "See Trending Models",
+  "keepShopping": "Continue shopping",
+  "notForSale": "Not For Sale",
+  "order": "Order",
+  "paymentSum": "Subtotal",
+  "points": "Points",
+  "price": "Price",
+  "product": "Item",
+  "removeSelected": "Remove selected item",
+  "selectAll": "Select All",
+  "title": "Cart",
+  "total": "Total",
+  "totalAmount": "Item(s) Total",
+  "upTo": "Up to",
+  "join": {
+    "coupon": "Join today and get $5/$10 coupon!"
+  },
+  "upselling": {
+    "point": "bonus points",
+    "coupon": "coupon",
+    "timeremaining": "Time Remaining",
+    "buymore": "Buy {{ goal }} more for <strong>{{ benefit }}</strong> bonus points!",
+    "buynow": "Buy now for <strong>{{ benefit }}</strong> bonus points!",
+    "buymoreCoupon": "Buy {{ goal }} more for <strong>{{ benefit }}</strong> coupon",
+    "buynowCoupon": "Buy now for <strong>{{ benefit }}</strong> coupon",
+    "buymoreThin": "Buy {{ goal }} more for <strong>{{ benefit }}</strong> bonus",
+    "buynowThin": "Buy now for <strong>{{ benefit }}</strong> bonus",
+    "buymoreThinCoupon": "Buy {{ goal }} more for <strong>{{ benefit }}</strong> coupon",
+    "buynowThinCoupon": "Buy now for <strong>{{ benefit }}</strong> coupon",
+    "ended": "The event has ended.",
+    "note": "Calculated based on actual payment amount<br />(excluding coupons and points)",
+    "depand": "Buy more, get bonus points!"
+  },
+  "enterpriseLicense": ["* For enterprise licenses, please purchase through the inidividual product pages."]
+}

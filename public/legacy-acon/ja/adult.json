@@ -1,0 +1,22 @@
+{
+  "certification": {
+    "title": "このメニューは年齢制限があるため、年齢確認が必要です。続けますか?",
+    "noMemberTitle": "満18歳以上の方のみ、ご利用いただけます。",
+    "confirmButton": "確認",
+    "cancelButton": "キャンセル",
+    "form": {
+      "title": "年齢認証が必要です。",
+      "dateOfBirth": "生年月日を教えてください。"
+    },
+    "validation": {
+      "isAleadyAdult": "既に年齢認証が完了しております。",
+      "adultReject": "満18歳以上の方のみ、ご利用いただけます。",
+      "adultCancel": "年齢認証が取り消されました。"
+    }
+  },
+  "recommendedProducts": "おすすめのアダルト素材",
+  "banner": {
+    "main": "迷わず選べる\nACONのアダルト素材",
+    "sub": "ACON厳選の高品質アダルト素材"
+  }
+}

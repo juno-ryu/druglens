@@ -1,0 +1,17 @@
+{
+  "title": "{{lang}} i18next-lang",
+  "move-home": "首页",
+  "move-server": "服务器",
+  "move-client": "客户端",
+  "page-server": {
+    "title": "{{lang}}: i18next-lang:  server-page",
+    "description": "服务器: await getTranslation"
+  },
+  "page-client": {
+    "title": "{{lang}}: i18next-lang:  client-page",
+    "description": "客户端: useTranslation",
+    "counter": "计数器 {{count}}",
+    "decrease": "减少",
+    "increase": "增加"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "filter": {
+    "category": {
+      "all": "全て",
+      "free": "無料"
+    },
+    "paidProduct": "有料商品のみ"
+  },
+  "listMainTitle": "ACONベスト商品",
+  "listSubTitle": "歴代ベスト商品",
+  "subTitle": "ACONオススメ商品",
+  "tab": {
+    "title": {
+      "all": "総合ランキング",
+      "day": "本日のランキング",
+      "month": "今月のランキング",
+      "week": "今週のランキング"
+    }
+  },
+  "seo": {
+    "title": "人気ランキング",
+    "description": "ベスト2D・3Dアセットをチェック"
+  }
+}

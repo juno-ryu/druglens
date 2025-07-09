@@ -1,0 +1,61 @@
+{
+  "apply": "適用",
+  "count": "個",
+  "countGlobal": "検索結果",
+  "filters": {
+    "clearFilters": "フィルター初期化",
+    "clear": "初期化",
+    "formatsOld": "ファイルの形式",
+    "formats": "ファイルの形式",
+    "price": "価格",
+    "priceApplies": "価格範囲設定",
+    "industry": {
+      "industry": "分野",
+      "webtoon": "漫画・イラスト・etc",
+      "game": "ゲーム"
+    },
+    "softwareOld": "道具",
+    "software": "ソフトウェア",
+    "extensionsLoadErrorText": "ファイルの形式情報を読み込むのに失敗しました。",
+    "softwareLoadErrorText": "応用プログラムの情報を読み込むのに失敗しました。",
+    "refreshInstruction": "リロードを押してください。"
+  },
+  "findCreator": "作家ページ",
+  "noItem": "「{{keyword}}」の検索結果がありません。",
+  "noItemInstruction": "商品カテゴリーで探してください。",
+  "priceRanges": {
+    "between": "{{ price1 }}円~{{ price2 }}円",
+    "higher": "{{ price }}円以上",
+    "lower": "{{ price }}円未満",
+    "manual": "直接入力"
+  },
+  "resultText": "検索結果は合計{{ count }}個",
+  "filteredResultText": "検索結果は合計{{ filteredCount }}中{{ totalCount }}個",
+  "sortOrders": {
+    "ACCURACY": "正確な順",
+    "HIGHER_PRICE": "価格：高い順",
+    "LOWER_PRICE": "価格：安い順",
+    "NEWEST": "新着順",
+    "POPULARITY": "ランキング順",
+    "RECOMMENDED": "おすすめ順"
+  },
+  "adultResultText": "<b>アダルト商品</b> {{ count }}個",
+  "adultToggleHideText": "隠す",
+  "adultToggleShowText": "表示",
+  "adultToggleText": "アダルト商品",
+  "keywords": {
+    "keywordList": "全てのタグを見る",
+    "placeholder": "タグを検索",
+    "notFound": "「{{ keyword }}」の検索結果がありません。別のタグを試しみてください。",
+    "notFoundMobile": "「{{ keyword }}」の検索結果がありません。<br />別のタグを試しみてください。",
+    "selectUpTo": "タグは最大5つまで選択できます。"
+  },
+  "searchResults": "<span>{{ keyword }}</span>検索結果です。",
+  "tagResult": "<span>{{tag}}</span> タグ検索結果です",
+  "adultTooltip": "アダルト商品を表示・非表示",
+  "industriesTooltip": "どのような作品を<br />創作していますか？",
+  "etc": "その他",
+  "brand": {
+    "title": "{{ count }}件のブランドがあります"
+  }
+}

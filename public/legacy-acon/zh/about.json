@@ -1,0 +1,197 @@
+{
+  "section1": {
+    "main": "ACON, the Global Marketplace <br />for Digital Art Assets",
+    "sub": "Enhance the quality <br />and shorten work time!",
+    "description": "ACON is a marketplace for digital art assets that originated in Korea. <br />More than 65,000 creators from over 150 countries visit ACON for their digial art projects every year. <br />Creators can not only enhance the quality of their work but also significantly reduce their work time by using ACON’s digital assets. <br />Currently, ACON offers over 15,000 digital assets created by highly reputable partner creators from around the world.",
+    "indicator": {
+      "assets": "Assets",
+      "partner": "Partner Creators",
+      "countries": "Countries",
+      "users": "Users"
+    }
+  },
+  "whyAcon": {
+    "main": "Why should you buy from ACON?",
+    "global": {
+      "main": "Global Platform",
+      "description": "ACON is a trusted online marketplace used by creators worldwide. <br/>(PayPal payment available)"
+    },
+    "safe": {
+      "main": "Safe Creation",
+      "description": "Assets can be safely used under the usage license policy."
+    },
+    "daily": {
+      "main": "Daily Updates",
+      "description": "New assets that you can immediately use for your work are updated on a daily basis."
+    },
+    "best": {
+      "main": "Best Products on Sale",
+      "description": "Enjoy daily discounts and benefits! <br/>Buy our high-quality products at their lowest prices."
+    }
+  },
+  "assets": {
+    "main": "We provide a variety of assets <br/>for your creative work",
+    "sub": "We update a variety of digital assets daily, ranging from 3D/2D assets <br/>to sounds and softwares sourced from reputable creators and studios worldwide. ",
+    "softwares": "Compatible Software",
+    "categories": "Main Asset Categories",
+    "dailyUpdate": "updated on a daily basis",
+    "category": {
+      "background": "3D Background<br/>Models",
+      "body": "3D Anatomy/<br/>Body",
+      "brush": "Brushes",
+      "image": "2D Images",
+      "sound": "Sounds",
+      "program": "Programs (poses)"
+    }
+  },
+  "recommend": {
+    "main": "Professional creators are <br/>also using ACON’s assets",
+    "content": [
+      {
+        "artist": "Enjelicious",
+        "work": "Hello Baby",
+        "content": "Creating webcomics are notorious for being time-consuming, <br/>mentally and physically taxing. However, with the help of the assets from ACON, it has improved my workflow, making it faster and easier to visualize the comic."
+      },
+      {
+        "artist": "Miyuli",
+        "work": "Morgana and OZ",
+        "content": "ACON has an amazing range of 3D models and it provides an efficient way for me to create backgrounds and inorganic objects for my series a lot faster so that I can keep producing new episodes in a good rhythm."
+      },
+      {
+        "artist": "Speremint",
+        "work": "Brimstone and Roses",
+        "content": "I use ACON to streamline my workflow. With ACON's 3D models, I can add backgrounds easily and in proper perspective (using SketchUp) so I can focus more on the character action."
+      }
+    ]
+  },
+  "section3": {
+    "main": "Assets on ACON are perfect for digital art",
+    "background": {
+      "name": "3D Backgrounds",
+      "title": "Work faster and enhance <br/>the quality at the same time!",
+      "description": "You can create high-quality backgrounds <br/>for your scenes using 3D assets.",
+      "used": "Product used: Dongdongie <Mysterious Forest Village Full Set>"
+    },
+    "anatomy": {
+      "name": "3D Anatomy models",
+      "title": "Quick and easy way to draw <br/>characters",
+      "description": "You can draw the complex poses and movements <br/>of the human body naturally using 3D assets.",
+      "used": "Product used: BubooSenchan <3D Athletic Male Body> <br/>Creator: Min jihwan (X @jjjj_h_9)"
+    },
+    "asset2d": {
+      "name": "2D Assets",
+      "title": "Small details lead to better quality",
+      "description": "2D assets will help you to easily set the mood <br/>for your work and add details of various styles.",
+      "used": "Product used: Growtoon <br/><[Grow Action Effect Pack I] Action Webtoon Source>"
+    }
+  },
+  "guide": {
+    "coupon": {
+      "main": "Up to 50% off <br/>on your first order",
+      "sub": "Get coupon"
+    },
+    "partner": {
+      "main": "Become our seller <br/>and make profit",
+      "sub": "Seller guide"
+    },
+    "ablur": {
+      "main": "Are you looking for <br/>a 3D editing tool?",
+      "sub": "Download ABLUR"
+    }
+  },
+  "aboutAconForJapan": {
+    "Section1MainText1": "あなたの無限な可能性を",
+    "Section1MainText2": "想像以上の形に",
+    "Section1SubText1": "30,000個+の優れた品質の素材を活用し、",
+    "Section1SubText2": "創作の価値向上を実現できます。",
+    "Section1Button": "会員登録はこちら",
+    "Section2MainText": "ACON(エイコン)は",
+    "Section2SubText1": "創作に活用する素材を取引するグローバル最大規模のプラットフォームです。",
+    "Section2SubText2": "サービスの開始から3年の間に急成長し、韓国WEBTOON業界の90%の方が利用している",
+    "Section2SubText3": "圧倒的な韓国NO.1ストアです。",
+    "Section2SubText4": "サービスの価値が自然に広まって、海外のクリエイター様がすでに使われており、",
+    "Section2SubText5": "現在は150カ国・150,000人以上のクリエイター様がACON(エイコン)を利用しています。",
+    "Section2SubText6": "日本でも数千名以上が使っている、安心・安全なサービスです。",
+    "WhyAconTitle": "なぜ、ACON(エイコン)は世界の注目を集めたのか ",
+    "whyAconArray": {
+      "best": {
+        "title": "1. 圧倒的クオリティの素材",
+        "description": "信頼できる製作者、製作会社 2,100 以上と提携し、素材を提供します。<br/>専門チームの検収を経た素材のみ、サイトに公開します。<br/>緊密な連携、フィードバックにより継続的に素材のクオリティ向上を図ります。"
+      },
+      "daily": {
+        "title": "2. 30,000個以上、9+のプログラムで使える豊富な素材",
+        "description": "3D人体素材や背景からイメージ、ブラシ、エフェクトなどの2D素材まで、<br/>創作に必要な多様な素材を取り揃えています。<br/>難易度の高い人物ポーズの繊細な描写、背景やエキストラ素材を活用した豊富な演出など<br/>希望に合わせて活用できる素材で、創作のクオリティを向上できます。"
+      },
+      "safe": {
+        "title": "3. 著作権の心配なく商用・非商用利用すべて可能",
+        "description": "ACON(エイコン)は著作権侵害など違法の素材は扱っておりません。<br/>製作上法的に問題のない、保証された素材を販売しているため、すべての素材は著作権侵害の<br/>リスクのない安全な素材です。 保証された素材を利用する権利を購入する形ですので、<br/>安心してご使用いただけます。"
+      },
+      "thumbsup": {
+        "title": "4. お得に購入できる楽しさで購買満足度UP",
+        "description": "新商品割引やタイムセール、定期的なイベントなど様々なキャンペーンを開催します。<br/>購入してすぐ使わなくてもOK。期間制限なく素材のファイルをダウンロードできるため、<br/>セール期間にお気に入りの素材を見つけたら、どこよりも安く手に入るチャンスなので<br/>お見逃しなく!<br/>※ マーケティング情報案内の受信を同意するとお得なキャンペーンの案内はもちろん、<br/>追加のクーポンやポイントをもらえるチャンスも！"
+      }
+    },
+    "AdvantageSubTitle1": "ACON(エイコン)のない創作活動は想像できないと評価される理由",
+    "AdvantageMainTitle": "ここにあります。",
+    "AdvantageSubTitle2": "- 具体的な活用例 -",
+    "advantages": {
+      "anatomy": {
+        "nameTag": "1. 3D人体素材",
+        "description": "繊細なポーズ、複雑な動きの人物表現ももちろん可能。<br/> 関節の角度や身体の割合を自在に調節し、難易度の高い<br/>動きも表現できます。 手や足といった部分的な素材から<br/>トルソーまで。人物表現に特化した様々な素材をご用意<br/>しております。",
+        "madeBy": "素材 : BubooSenchan様｢3Dマッチョメンズ 身体｣<br/>制作 : Minjihwan様(X @jjj_h_9)"
+      },
+      "background": {
+        "nameTag": "2. 3D背景",
+        "description": "時短とクオリティーの向上を同時に。各シーンに応じて必要な構図の背景を3D背景素材から素早く生成。 作業の効率とクオリティを高めましょう。 ACON(エイコン)の3D背景素材は、演出に応じて自分だけの画風でカスタムできます。",
+        "madeBy": "素材 : Dongdong様｢不思議な森の村_ 全セット｣"
+      },
+      "asset2d": {
+        "nameTag": "3. 2D素材",
+        "description": "クオリティの違いにつながるディテールの違い-<br/>お好みのコンセプトの2D素材を配置するだけで作品を豊富に演出できます。<br/>ACON(エイコン)の2D素材、ブラシなどを活用して様々なスタイルの演出を手軽に試しながら作品の完成度を高めることができます。<br/>時短・簡単! しかし、創作のクオリティはUP",
+        "madeBy": "素材 : Growtoon様｢エフェクトセット｣"
+      }
+    },
+    "AboutAssetsSectionTitle": "9+のプログラムで使える30,000個以上の素材",
+    "AboutAssetsSectionDescription1": "信頼できる制作者・制作会社から3D/2D素材からサウンド、 プログラムまで",
+    "AboutAssetsSectionDescription2": "多様なデジタル素材を毎日アップデート",
+    "AboutAssetsSectionNameRow": "主なカテゴリ",
+    "AboutAssetsSectionDailyUpdate": "*毎日アップデート",
+    "HowToUseTitle": "ご利用の流れ",
+    "HowToUseSubTitle": "3つのステップで簡単に",
+    "howToUse": {
+      "1": { "subTitle": "選ぶ", "description": "カテゴリータブ、タグ、検索などて、<br />ご希望の素材をピック。<br />制作環境に合った使用権を選択します。" },
+      "2": {
+        "subTitle": "買う",
+        "description": "ポイントやクーポンの適用もお忘れなく!商品を購入してください。<br/>※ACON(エイコン)は基準通貨が米ドルであり、円に換算して表示される点、ご了承お願いします。"
+      },
+      "3": {
+        "subTitle": "使う",
+        "description": "ファイルをダウンロードし、圧縮を解除してください。ファイルの形式に合うプログラムでファイルを開き、素材の特性に合わせて自由自在に活用してください。"
+      }
+    },
+    "guides": {
+      "coupon": { "title": "最大50%割引<br/>2,200円相当", "discription": "クーポンをゲット" },
+      "partner": { "title": "150カ国の創作者に素材を<br/>販売して収益を創出", "discription": "入店のお問い合わせ" },
+      "ablur": { "title": "3Dモデルを<br/>編集したいですか?", "discription": "エイブラーダウンロード" }
+    },
+    "QuestionsTitle": "よくあるご質問",
+    "accordionData": {
+      "0": {
+        "title": "1.使用権について教えてください",
+        "content": "使用権は素材を使用する権利であり、[個人使用権]・[共同使用権]・[企業使用権]がありあります。<br />該当する使用権で購入してください。<br /><br />創作者単独で使用される場合、[個人使用権]の購入をお勧めします。 <br />ペンネームは作品内､創作物が掲載された文章・掲示板内・創作物情報内など､ご自由に明示可能です。 <br /><br />以下の場合、[共同使用権]の購入をお勧めします。 <br />• 購入商品を直接使用する人数が2人以上の場合<br />• 個人のペンネームが明示されないプロジェクト・創作物に使用(例:外注)<br /><br />以下の場合、[企業使用権]の購入をお勧めします。 <br />法人・会社で商品を使用する場合<br />• 多数の作品に使用する場合(5回)<br />• 創作物数にこだわらず、当該アセットを会社・法人の全ての創作物に使用する場合(永久) <br />ただし、商品によっては企業使用権のご利用ができない場合があります。"
+      },
+      "1": {
+        "title": "2.個人事業主の場合、どの使用権を選んだら良いですか？",
+        "content": "ACONでは、[個人]作品かどうかの判別は、作品と一緒に明記されているペンネームで判断しております。<br/><br/>作品内にペンネーム明記が可能な場合→[個人使用権]です。<br/>購入した商品を使用する人数が1人で、使う方のペンネームが作品内(作品が掲載された記事や作品の情報を含む)に明記できる場合は､[個人使用権]をご利用ください。<br/><br/>作品内にペンネームを明記できない場合<br/> → [共同使用権]または[企業使用権]をご利用ください。<br/><br/>作品にペンネームの記載が難しい場合は、個人作品として認められません。<br/>[共同使用権]もしくは[企業使用権]をご利用ください。"
+      },
+      "2": {
+        "title": "3.購入した商品を修正、変形して使用してもいいですか？",
+        "content": "ACONのすべての商品は商用/非商用的創作物(作品)での使用が自由であり、修正/変形も自由です。<br/>商品を修正したり､他の商品と一緒に使用することができます。<br/>ただし、一緒に使用するすべての商品の使用権または著作権を保有しなければなりません。<br/>また、商品の全部または一部(修正した一部を含む)を譲渡､配布､販売する行為は禁止されます。"
+      },
+      "3": {
+        "title": "4.購入したモデルをどのように活用すればよいか分かりません。",
+        "content": "下記の情報と一緒に<a href='/inquiry/write' target='_blank'>[💌1:1お問い合わせ]ま</a>でお問い合わせください。<br/><br/>商品名/注文番号<br/>商品活用が難しい部分の詳細な説明 /画像"
+      }
+    }
+  }
+}

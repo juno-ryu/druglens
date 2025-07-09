@@ -1,0 +1,332 @@
+{
+  "cash": {
+    "mytotalcash": "全体cash",
+    "chargedcash": " 充值cash",
+    "giftedcash": "收到的cash",
+    "aconCash": "ACON CASH",
+    "bizBadge": "Biz",
+    "charge": {
+      "term": {
+        "title": "ACON cash 使用条款",
+        "description1": "ACON Cash是一种名为“Cash”的新型代金券，会员可用来购买公司商品。",
+        "description2": "根据本条款，自Cash充值日起 7天内，会员可取消该充值 。自付款日起7天内充值的Acon Cash和免费积分如未使用，则申请退款。详情可咨询Acon一对一客服。",
+        "description3": "根据支付公司政策，撤销银行卡认证或将存款存入会员账户，最多需要5个工作日。",
+        "description4": "除上述情况外，如用户充值Cash且订购充值后余额（会员充值完成时的结算金额）60%（充值100元以下时为80%）以上的商品后，用户则可申请退还余额。退款时，需扣除手续费，手续费为10元和余额10%中较大的金额。如余额为10元以下，则无法申请退款。如Acon为责任方，则不收取退款手续费。关于退款，详情可咨询Acon一对一客服。",
+        "description5": "退款金额将在5个工作日内转入退款账户。",
+        "description6": "如申请全额退款和余额退款，免费发放的积分将被收回。如剩余积分少于收回积分，将从Cash中扣除相应金额后退款。",
+        "description7": "未成年人充值Cash前需征得父母等法定代理人的同意。",
+        "description8": "Cash使用有效期为自充值付款之日起5年。如自行注销会员或删除账号，Cash将立即失效，无法恢复。",
+        "description9": "Cash退款有效期为一年，在充值一年后，即使满足以上条款也无法退款。",
+        "description10": "",
+        "description11": "",
+        "description12": ""
+      },
+      "chargeAccount": "充值cash",
+      "complete": {
+        "auth": "인증이 완료되었습니다.",
+        "regi": "등록이 완료되었습니다."
+      },
+      "fail": {
+        "auth": "인증에 실패하였습니다.",
+        "regi": "등록에 실패하였습니다."
+      },
+      "payment": {
+        "account": "合计",
+        "afterAccount": "付款后 cash 余额",
+        "button": "提交订单",
+        "confirm": "[必选] 我已确认了所有关联商品购买的付款信息，并同意进行实付款。",
+        "point": "预计获得积分"
+      },
+      "paymentInformation": "付款信息",
+      "paymentMethod": "付款方式",
+      "status": {
+        "depositWaiting": "待付款",
+        "depositExpiration": "到账期限届满",
+        "refunded": "退款成功",
+        "used": "启用完毕",
+        "deductionCompleted": "扣减完毕",
+        "purchaseCompleted": "确认购买",
+        "registrationCompleted": "登记完毕"
+      }
+    },
+    "list": {
+      "accumulate": "充值",
+      "deduction": "使用",
+      "filter": {
+        "all": "整个",
+        "description": {
+          "all": "全体",
+          "charged": "充值",
+          "used": "使用"
+        },
+        "month": "{{ month }} 个月"
+      },
+      "notFound": {
+        "search": "找不到符合条件的cash使用记录"
+      },
+      "notfound": {
+        "recently": "找不到最近cash使用记录"
+      },
+      "ready": "准备中",
+      "reciept": "收据",
+      "search": {
+        "button": "查看"
+      },
+      "table": {
+        "cashInfo": "cash记录",
+        "category": "分类",
+        "date": "日期",
+        "details": "内容",
+        "paymentStatus": "付款现状",
+        "remainingCash": "余额",
+        "status": "订单状态"
+      },
+      "totalCount": "cash历史 共{{ totalCount }}次"
+    },
+    "myCash": "我的cash",
+    "payback": "赠送{{ percent }}%积分",
+    "preBlackFridyPaybackBonus": " + {{ percent }}% Bonus!",
+    "payment": {
+      "fail": "付款失败",
+      "success": "付款成功"
+    },
+    "tab": {
+      "cashHistory": "历史记录",
+      "chargeCash": "充值cash"
+    },
+    "underMaintenance": "该服务正在检查中。",
+    "paybackBadgeText": "Bonus points until {{month}} {{date}}"
+  },
+  "coupon": {
+    "add": "积分",
+    "condition": {
+      "applyCategory": "可用分类 :",
+      "applyGoods": "・可用商品 :",
+      "maxBenefitPrice": "・最大 {{price}} 折扣/支付",
+      "minOrderPrice": "・购买金额高于 {{price}}",
+      "useDuplicate": "・所有折扣可重复使用",
+      "useNotDuplicate": "・不可重复使用"
+    },
+    "deposit": "支付",
+    "historyDesc": "的优惠劵详情",
+    "page": {
+      "title": "优惠劵"
+    },
+    "sale": "商品折扣",
+    "status": {
+      "expiredEnd": "已过期",
+      "expiredStart": "已过期",
+      "notUse": "不可使用",
+      "useCart": "使用中",
+      "useOrder": "使用中",
+      "yes": "可供使用"
+    },
+    "title": {
+      "benefit": "优惠",
+      "condition": "使用条件",
+      "issued": "发行日期",
+      "limit": "使用限制条件",
+      "name": "优惠劵名",
+      "until": "有效期间"
+    }
+  },
+  "dateRangeFilter": {
+    "15d": "15天",
+    "1m": "1个月",
+    "1y": "1年",
+    "3m": "3个月",
+    "7d": "7天",
+    "all": "整个",
+    "find": "查看",
+    "period": "查看期间",
+    "today": "今日"
+  },
+  "deposit": {
+    "historyDesc": " 使用ACON CASH共",
+    "historyDescOriginal": " 使用储备金共",
+    "page": {
+      "title": "ACON CASH"
+    },
+    "title": {
+      "date": "日期",
+      "deposit": "ACON CASH",
+      "depositOriginal": "储备金",
+      "detail": "内容",
+      "nowDeposit": "持有储备金",
+      "nowDepositOriginal": "持有储备金",
+      "type": "分类"
+    }
+  },
+  "home": {
+    "banner": {
+      "cash": {
+        "button": "充值 cash",
+        "title": "输入付款信息麻烦吗?"
+      },
+      "coupon": {
+        "button": "添加优惠券",
+        "title": "您有优惠券代码？"
+      },
+      "news": {
+        "button": "订阅活动信息",
+        "title": "想第一时间收到活动信息吗？"
+      },
+      "upload": {
+        "button": "申请入驻",
+        "title": "您是3D模型师吗？"
+      }
+    },
+    "data": {
+      "cart": "购物车",
+      "coupon": "优惠劵",
+      "deposit": "ACON CASH",
+      "depositOriginal": "储备金",
+      "inquiries": "商品咨询",
+      "point": "积分",
+      "scrap": "收藏夹"
+    },
+    "grade": "普通会员",
+    "modify": "修改",
+    "unit": {
+      "cart": "个",
+      "coupon": "张",
+      "inquiries": "个",
+      "point": "P",
+      "scrap": "个"
+    },
+    "userInfo": "我的信息",
+    "modal": {
+      "tempPassword": "若要修改会员个人信息，<br />请看注册时收到的包含临时密码指南的邮件。"
+    },
+    "model": {
+      "confirmButton": "确认"
+    }
+  },
+  "inquiries": {
+    "notFound": "没有咨询",
+    "table": {
+      "category": "分类",
+      "date": "日期",
+      "status": "咨询状态",
+      "title": "题目"
+    },
+    "title": "商品咨询"
+  },
+  "mypage": {
+    "tooltip": {
+      "new": "新开张了!"
+    }
+  },
+  "order-list": {
+    "downloadCountExceeded": "超过下载次数。 如果您需要更多的下载次数，请联系客户支持\"咨询\"",
+    "oneOnOneToDownload": "要下载，请1:1咨询",
+    "downloadInfo": "<div style='font-size:13px; line-height:18px'>为了保护著作权防止非法使用，商品下载限制为5次。但，如果在下载后 1 小时内再次下载，则不会从次数中扣除。<br />如果需要初始化下载次数，请1：1咨询。</div>",
+    "banner": "订单列表",
+    "datefilter": {
+      "all": "整个",
+      "month": "{{ month }} 个月"
+    },
+    "download": "下载",
+    "downloadWithCount": "下载 ({{count}}/{{limit}})",
+    "downloadableproducts": "可下载商品",
+    "dropdownStatus": {
+      "ALL": "全部",
+      "COMPLETED": "确认购买",
+      "DEPOSIT_STANDBY": "等待付款",
+      "ETC": "其他",
+      "PAYMENT_COMPLETED": "购买成功",
+      "REFUND_COMPLETED": "退款成功"
+    },
+    "norecentorder": "订单记录不存在。",
+    "nosearchfound": "没有符合条件的订单列表。",
+    "order": "订单",
+    "orderStatus": {
+      "CANCELED_BY_ADMIN": "订单已取消",
+      "CANCELED_BY_CUSTOMER": "取消顾客要求",
+      "COMPLETED": "确认购买",
+      "DEPOSIT_STANDBY": "等待付款",
+      "PAYMENT_COMPLETED": "购买成功",
+      "PAYMENT_FAILED": "付款失败",
+      "PAYMENT_TRIED": "尝试付款",
+      "REFUND_ASKED": "退款处理中",
+      "REFUND_COMPLETED": "退款成功"
+    },
+    "orderno": "订单号",
+    "purchase": "确认订单",
+    "reviewEdit": "评价修改",
+    "reviewWrite": "写评价",
+    "reviewGuide": "下载后可以写评论",
+    "searchbar": "用商品名、作家名、创作物名、创作者名、团队 ・ 公司名搜索一下",
+    "searchbutton": "查看",
+    "showrecommendedproducts": "查看热门模型",
+    "siteError": "网页出错",
+    "tooltip": "每件购买商品可下载5次，通过1:1咨询可初始化下载次数。",
+    "vieworder": "查看订单"
+  },
+  "point": {
+    "deducted": "使用",
+    "earned": "积分",
+    "historyDesc": " 使用积分共",
+    "page": {
+      "title": "积分"
+    },
+    "title": {
+      "date": "日期",
+      "detail": "内容",
+      "nowPoint": "持有积分",
+      "point": "积分",
+      "type": "分类",
+      "valid": "有效期间"
+    },
+    "totalDesc": "次",
+    "unit": "P"
+  },
+  "price": {
+    "unit": "¥"
+  },
+  "scrap": {
+    "addCartConfirmMessage": "您要将选择的{{count}}个商品装加入购物车吗？",
+    "addCartConfirmMessageExcludeBooks": "如果包含出版电子书，则不包括该商品。",
+    "filter": {
+      "addCart": "购物车",
+      "cancel": "取消",
+      "category": "分类",
+      "counter": "{{count}}个商品",
+      "delete": "删除",
+      "edit": "编辑",
+      "extension": "扩展名",
+      "reset": "重置",
+      "selectAll": "全选",
+      "unselectAll": "取消已选",
+      "editSelected": "已选",
+      "editCount": "{{ count }}个"
+    },
+    "goBest": "查看热门模型",
+    "noFilterItem": "没有对应的商品。",
+    "noFilterItem2": "请重新选择。",
+    "noItem": "收藏夹没有商品。\n现在去添加商品到收藏夹？",
+    "notFound": {
+      "button": "查看热门模型",
+      "text": "收藏夹没有商品。现在去添加商品到收藏夹？"
+    },
+    "removeScrapItemsConfirmMessage": "确认要从收藏夹里删除已选择的{{count}}个商品吗？",
+    "title": "收藏夹",
+    "totalCount": "一共{{count}}",
+    "total": "一共",
+    "filteredCount": "{{ filteredCount }} out of {{ totalCount }} results",
+    "onlyDiscounted": "只看折扣商品",
+    "notFoundDiscountProduct": {
+      "text": "您的收藏夹里没有折扣的商品。\n查看其它折扣商品怎么样？",
+      "button": "查看折扣商品"
+    }
+  },
+  "summary": {
+    "coupon": "优惠劵",
+    "deposit": "ACON CASH",
+    "depositOriginal": "預り金",
+    "point": "积分",
+    "unit": "张",
+    "userGroup": "普通会员",
+    "userName": "{{userName}}的"
+  }
+}

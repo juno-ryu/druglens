@@ -1,0 +1,21 @@
+{
+  "openrun": {
+    "openInfomation": "매주 월요일, 목요일 OPEN",
+    "remainingTime": "%h:%m:%s",
+    "remainingDayWithTime": "%d일 %h:%m:%s",
+    "saleTitle": "{{ percent }}% 할인",
+    "detailTimer": "오픈런 {{ percent }}% 남은 시간 : ",
+    "labelOnSale": "진행중",
+    "labelSoldOut": "마감",
+    "labelOpeningSoon": "오픈 전",
+    "labelOpenrun": "오픈런 할인 {{ percent }}%",
+    "labelReview": "오픈런 상품 리뷰 작성하면 최대 3배 추가 적립!",
+    "tooltipChangePrice": "바뀐 가격을 확인해주세요.",
+    "toastChangePrice": "시간이 경과되어 가격이 변경되었어요",
+    "toastTimeOver": "앗! 오픈런 할인기간이 종료되었어요 🥲  다음 오픈런을 기대해주세요!",
+    "afterSoldOut": {
+      "desc1": "오픈런 종료 후 ",
+      "desc2": "으로 가격이 올라가요"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sendReview": "https://docs.google.com/forms/d/e/1FAIpQLSeTy2VbbNoa3xVszySHoBaMoFIiMgkAGYiPBUQny0qeMvRHHA/viewform",
+  "viewGuide": "https://acon3d.notion.site/ABLER-User-Guide-316838433d0141ffa4dd11dccc80982c",
+  "banner": {
+    "title": "WEBTOON背景を、より簡単に、より美しく",
+    "subtitle1": "skpファイルをサポートするWEBTOON背景ツールを",
+    "subtitle2": "14日間無料でお試し",
+    "subtitle3": "ください。 ",
+    "downloadButton": "ABLUR ダウンロード",
+    "findButton": "ABLURとは？",
+    "enterpriseInquiryButton": "企業様向けお問い合わせ"
+  },
+  "form": {
+    "yearlySubscribe": "年払い",
+    "yearlySubscribePricePerMonth": "2,700円 / 月",
+    "yearlySubscribeDiscountRate": "10%オフ",
+    "yearlySubscribePricePerYear": "32,400円",
+    "perYearIncludingTax": " / 年 (税込)",
+    "perMonthIncludingTax": " / 月 (税込)",
+    "monthlySubscribe": "月払い",
+    "monthlySubscribePricePerMonth": "3,000円",
+    "monthlySubscribePricePerYear": "36,000円 / 年",
+    "standardPlan": "スタンダードプラン",
+    "paymentMethodInformation": "ABLURのサブスクリプションは、現在カード自動決済のみサポートしています。"
+  },
+  "notice": {
+    "title": "注意事項および注文確認",
+    "information1": "注文内容と",
+    "information2": "利用約款",
+    "information3": "を確認し、注文を進めることに同意します",
+    "required": "（必須）",
+    "freeTrialInformation": "無料評価版期間が残っている場合、期間終了後に自動的に決済が行われ、無料評価版を始めない状態でサブスクリプションする場合、無料評価版が自動的に始まります"
+  },
+  "detail": {
+    "hideDetail": "詳細情報を開く",
+    "showDetail": "詳細情報を閉じる"
+  },
+  "footer": {
+    "findMoreDetail": "より詳しい説明はABLURホームページで確認してください",
+    "ablurHomePageButton": "ABLURホームページへ",
+    "startAblur": "ABLURを始める",
+    "skpFileInformation": "skpファイルをサポートしているWEBTOON背景ツールを体験してください。",
+    "downloadAblur": "ABLUR ダウンロード",
+    "ablurGuideTitle": "ABLUR利用ガイド",
+    "ablurGuideSubtitle1": "ABLURを使うのが初めてですか？",
+    "ablurGuideSubtitle2": "ABLURの操作方法を確認してください。",
+    "FAQTitle": "FAQ",
+    "FAQSubtitle1": "知りたいことがありますか？",
+    "FAQSubtitle2": "よくある質問を確認してください。",
+    "oneOnOneTitle": "1:1お問い合わせ",
+    "oneOnOneSubtitle1": "問い合わせたいですか？",
+    "oneOnOneSubtitle2": "3営業日以内にお返事いたします。"
+  },
+  "MacOSInformation": "* Mac用ABLURは今後サポート予定",
+  "agreementNeeded": "規約に同意してください。",
+  "loginNeeded1": "ログインが必要です。",
+  "loginNeeded2": "ログインページに移動しますか？",
+  "goBackButton": "戻る",
+  "loginButton": "ログイン",
+  "alreadyUseModalText1": "すでにABLURをサブスクリプション中です。",
+  "alreadyUseModalText2": "ABLUR の利用に関して質問がある場合は、",
+  "alreadyUseModalText3": "1:1お問い合わせに書き込んでください。",
+  "inquiryButton": "お問い合わせ",
+  "userOnly": "ACON会員のみ購入できます",
+  "subscribeButton": "サブスクリプションする",
+  "successPage": {
+    "title": "サブスクリプションの登録に成功しました。",
+    "trialStartInformation": "無料評価版期間14日が自動開始されました。",
+    "billingStartInformation": "残りの無料評価版期間{{ trialLeft }}日が終了後、決済が始まります。",
+    "billingInformation": "ABLURは{{ paymentPeriod }}に決済されます。",
+    "executeButton": "ABLURを実行する",
+    "guideButton": "ガイドを確認する",
+    "refundInformation1": "返金/サブスクリプション解除は、",
+    "refundInformation2": "1:1お問い合わせ",
+    "refundInformation3": "をご利用ください",
+    "goBackButtonWarning1": "この画面でブラウザの戻るボタンを押した場合、",
+    "goBackButtonWarning2": "エラーが発生することがありますのでご注意ください",
+    "billingDay": "定期決済日",
+    "dateOfEveryMonth": "毎月{{ date }}日",
+    "dateOfEveryYear": "毎年{{ month }}月{{ date }}日"
+  },
+  "ablurLogin": {
+    "title": "ABLURを開いています",
+    "notWorkingInformation1": "ABLURが自動実行されない場合は、",
+    "notWorkingInformation2": "ここをクリックしてください。"
+  },
+  "ablurJapanLaunchingEventTitle": "[オープン記念イベント]",
+  "ablurJapanLaunchingEventSubtitle": "12月31日までにABLURをダウンロードすれば、購入前3週間無料体験可能",
+  "ablurJapanNewYearEventTitle": "[新年イベント]",
+  "ablurJapanNewYearEvenSubtTitle": "ABLURをダウンロードすれば、購入前無料体験可能"
+}

@@ -1,0 +1,23 @@
+{
+  "automaticCanceled": "자동취소",
+  "cancledByAdmin": "주문 취소",
+  "cancledByCustomer": "고객 요청 취소",
+  "completed": "구매 확정",
+  "depositStandby": "입금 대기중",
+  "fundingFailed": "펀딩실패",
+  "fundingSuccessful": "펀딩성공",
+  "paymentCompleted": "구매 완료",
+  "paymentFailed": "결제 실패",
+  "paymentTried": "결제시도",
+  "readyForDownload": "상품전달",
+  "refundAsked": "환불접수",
+  "refundCompleted": "환불 완료",
+  "newStatus": {
+    "waiting": "입금 대기중",
+    "confirm": "결제 확인",
+    "settled": "구매 완료",
+    "fail": "결제 실패",
+    "refunded": "환불 완료",
+    "canceled": "주문 취소"
+  }
+}

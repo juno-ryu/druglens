@@ -1,0 +1,23 @@
+{
+  "automaticCanceled": "自動キャンセル",
+  "cancledByAdmin": "購入キャンセル",
+  "cancledByCustomer": "顧客リクエストによるキャンセル",
+  "completed": "購入確定",
+  "depositStandby": "振込待ち",
+  "fundingFailed": "FUNDING失敗",
+  "fundingSuccessful": "FUNDING成功",
+  "paymentCompleted": "購入完了",
+  "paymentFailed": "決済失敗",
+  "paymentTried": "決済試み",
+  "readyForDownload": "商品のお届け",
+  "refundAsked": "返金申請",
+  "refundCompleted": "返金完了",
+  "newStatus": {
+    "waiting": "振込待ち",
+    "confirm": "決済確認",
+    "settled": "購入完了",
+    "fail": "決済失敗",
+    "refunded": "返金完了",
+    "canceled": "購入キャンセル"
+  }
+}

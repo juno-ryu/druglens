@@ -1,0 +1,45 @@
+{
+  "close": "关闭",
+  "confirm": "確認",
+  "coupon": {
+    "button": "添加优惠券",
+    "description": "请输入优惠券代码。",
+    "errorMessage": "优惠券号有错误。请重新输入。",
+    "guide": {
+      "oneline": {
+        "text1": "优惠券发行后可以在",
+        "text2": "我的ACON>优惠券",
+        "text3": " 查看。"
+      },
+      "threeline": {
+        "text1": "若有关于优惠券的任何疑问请点击",
+        "text2": "咨询",
+        "text3": "。"
+      },
+      "twoline": {
+        "text": "请确认优惠券有效期间。"
+      }
+    },
+    "input": {
+      "placeholder": "请输入优惠券代码。",
+      "title": "输入优惠券代码"
+    },
+    "title": "添加优惠券"
+  },
+  "dontShow": "不再提示",
+  "input": {
+    "policy": {
+      "text1": "개인정보 수집 및 이용",
+      "text2": "에 동의합니다.",
+      "text3": "광고성 정보 수신",
+      "text4": "에 동의합니다."
+    },
+    "title": "이메일 주소"
+  },
+  "news": {
+    "description": "매주 오픈되는 프로모션 소식과 기간 한정 이벤트 소식을 받아보세요!<br/>이미 받아보고 계신가요? 👉 ",
+    "shortcut": "바로가기>>",
+    "title": "에이콘3D 뉴스레터 구독하기"
+  },
+  "todayHide": "오늘 하루 보이지 않음"
+}

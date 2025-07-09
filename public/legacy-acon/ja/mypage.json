@@ -1,0 +1,329 @@
+{
+  "cash": {
+    "mytotalcash": "保有キャッシュ",
+    "chargedcash": "キャッシュ―チャージ",
+    "giftedcash": "贈られたキャッシュ―",
+    "aconCash": "ACONキャッシュ",
+    "bizBadge": "BIZ",
+    "charge": {
+      "term": {
+        "title": "ACONキャッシュ利用規約",
+        "description1": "[ACONキャッシュ]とは、会社の財貨を購入するために会員が使用できる金額型新タイプ商品券のことです。これは[キャッシュ]などの名前で呼ばれています。",
+        "description2": "会員は本利用契約に基づき、キャッシュ有料決済をされた日から7日以内に弊社に対し、サービスのご利用に関する申込みを撤回することができます。決済日から7日以内にプレゼントされたキャッシュ及び無料で積立されたポイントを使用していない場合、決済のキャンセルは可能です。決済のキャンセルはACON1:1お問い合わせにて承ります。",
+        "description3": "決済会社の政策により、カード承認のキャンセルまたは代金が会員の口座に振り込まれるまで、最大5営業日ほど所要される場合があります。",
+        "description4": "上記の場合を除き、チャージしたキャッシュの残高(チャージ完了時に決済された金額)の100分の60(約1490円($10)以下の場合は、100分の80)以上に該当する財貨等の提供を受けた場合、残額の返還を要求することができます。約149円または残高の10%のうち、金額の高い方を還付手数料として除き、返金いたします。残高が約149円以下の場合は、返金できません。但し、ACONの帰責による場合は、還付手数料を控除しません。返金はACON1:1お問い合わせにて申し込みできます。",
+        "description5": "返金金額は、5営業日以内に指定頂いた返金口座に振り込みます。",
+        "description6": "全額決済の取り消し及び残額の返還を要請する場合、無償で支給されたポイントは回収されます。回収されるポイントがない場合は、保有しているキャッシュから該当する金額を除いて返金されます。",
+        "description7": "未成年者は、キャッシュをチャージする前に、ご両親または法定代理人の同意が必要となります。",
+        "description8": "キャッシュは、決済日から5年になる時点で消滅されます。但し、直接会員退会をされた場合やアカウントを削除された場合は、すぐ消滅され復旧することはできません。",
+        "description9": "キャッシュの保証期限は1年で、チャージ後1年が過ぎた時点では、上記の条件を満たしても返金できません。",
+        "description10": "",
+        "description11": "",
+        "description12": ""
+      },
+      "chargeAccount": "チャージ金額",
+      "complete": {
+        "auth": "認証を完了しました。",
+        "regi": "登録を完了しました。"
+      },
+      "fail": {
+        "auth": "認証に失敗しました。",
+        "regi": "登録に失敗しました。"
+      },
+      "payment": {
+        "account": "決済額",
+        "afterAccount": "決済後のキャッシュ―残高",
+        "button": "決済する",
+        "confirm": "ご購入内容と下記の利用規約を確認し、購入に同意します。(必須)",
+        "point": "獲得予定ポイント"
+      },
+      "paymentInformation": "決済情報",
+      "paymentMethod": "決済方法",
+      "status": {
+        "depositWaiting": "振込待ち",
+        "depositExpiration": "振込期限切れ",
+        "refunded": "返金済み",
+        "used": "使用済み",
+        "deductionCompleted": "差引完了",
+        "purchaseCompleted": "購入確定",
+        "registrationCompleted": "登録完了"
+      }
+    },
+    "list": {
+      "accumulate": "積立",
+      "deduction": "利用",
+      "filter": {
+        "all": "全て",
+        "description": {
+          "all": "全て",
+          "charged": "積立",
+          "used": "利用"
+        },
+        "month": "{{ month }}ヶ月"
+      },
+      "notFound": {
+        "search": "検索結果がありません。"
+      },
+      "notfound": {
+        "recently": "キャッシュの使用履歴がありません。"
+      },
+      "ready": "準備中です。",
+      "reciept": "レシート",
+      "search": {
+        "button": "照会"
+      },
+      "table": {
+        "cashInfo": "キャッシュ履歴",
+        "category": "カテゴリー",
+        "date": "日付",
+        "details": "内容",
+        "paymentStatus": "決済状態及び履歴",
+        "remainingCash": "残余キャッシュ",
+        "status": "状態"
+      },
+      "totalCount": "{{ startDate }}~{{ endDate }}までのキャッシュ使用履歴合計{{ totalCount }}件"
+    },
+    "myCash": "保有キャッシュ",
+    "payback": "{{ percent }}% Payback Points",
+    "preBlackFridyPaybackBonus": " + {{ percent }}% Bonus!",
+    "payment": {
+      "fail": "決済に失敗しました。",
+      "success": "決済が完了しました。"
+    },
+    "tab": {
+      "cashHistory": "使用履歴",
+      "chargeCash": "キャッシュチャージ"
+    },
+    "underMaintenance": "サービス点検中です。",
+    "paybackBadgeText": "ボーナスポイント支給(~{{month}}/{{date}})"
+  },
+  "coupon": {
+    "add": "積立",
+    "condition": {
+      "applyCategory": "使用可能カテゴリー:",
+      "applyGoods": "・使用可能商品:",
+      "maxBenefitPrice": "・最大{{price}}割引・積立",
+      "minOrderPrice": "・最小購入金額{{price}}",
+      "useDuplicate": "・重複使用可能",
+      "useNotDuplicate": "・重複使用不可"
+    },
+    "deposit": "支給",
+    "historyDesc": "までのクーポン履歴",
+    "page": {
+      "title": "クーポン"
+    },
+    "sale": "商品割引",
+    "status": {
+      "expiredEnd": "使用満了",
+      "expiredStart": "使用前",
+      "notUse": "使用不可",
+      "useCart": "適用中",
+      "useOrder": "購入使用",
+      "yes": "使用可能"
+    },
+    "title": {
+      "benefit": "特典",
+      "condition": "使用条件",
+      "issued": "発行日",
+      "limit": "制限条件",
+      "name": "クーポン名",
+      "until": "有効期限"
+    }
+  },
+  "dateRangeFilter": {
+    "15d": "15日",
+    "1m": "1ヶ月",
+    "1y": "1年",
+    "3m": "3ヶ月",
+    "7d": "7日",
+    "all": "全期間",
+    "find": "照会",
+    "period": "照会期間",
+    "today": "今日"
+  },
+  "deposit": {
+    "historyDesc": "までのキャッシュの使用履歴合計",
+    "historyDescOriginal": " までの預り金の使用履歴合計",
+    "page": {
+      "title": "キャッシュ"
+    },
+    "title": {
+      "date": "日付",
+      "deposit": "キャッシュ履歴",
+      "depositOriginal": "預り金履歴",
+      "detail": "内容",
+      "nowDeposit": "残余キャッシュ",
+      "nowDepositOriginal": "残余預り金",
+      "type": "カテゴリー"
+    }
+  },
+  "home": {
+    "banner": {
+      "cash": {
+        "button": "キャッシューチャージ",
+        "title": "簡単に購入するには?"
+      },
+      "coupon": {
+        "button": "クーポン登録",
+        "title": "クーポンコードをお持ちですか?"
+      },
+      "news": {
+        "button": "準備中",
+        "title": "より良い機能を準備中です。"
+      },
+      "upload": {
+        "button": "出店する",
+        "title": "クリエイターですか?"
+      }
+    },
+    "data": {
+      "cart": "カート",
+      "coupon": "クーポン",
+      "deposit": "ACONキャッシュ",
+      "depositOriginal": "預り金",
+      "inquiries": "お問い合わせ",
+      "point": "ポイント",
+      "scrap": "お気に入り"
+    },
+    "grade": "一般会員",
+    "modify": "会員情報変更",
+    "unit": {
+      "cart": "個",
+      "coupon": "枚",
+      "inquiries": "件",
+      "point": "P",
+      "scrap": "個"
+    },
+    "userInfo": "会員情報",
+    "modal": {
+      "tempPassword": "会員情報の変更をご希望の場合、<br />登録時に送信された臨時パスワード案内メールを<br />ご確認ください。"
+    },
+    "model": {
+      "confirmButton": "確認"
+    }
+  },
+  "inquiries": {
+    "notFound": "お問い合わせ商品の履歴がございません。",
+    "table": {
+      "category": "カテゴリー",
+      "date": "日付",
+      "status": "お問い合わせ状態",
+      "title": "タイトル"
+    },
+    "title": "お問い合わせ履歴"
+  },
+  "mypage": {
+    "tooltip": {
+      "new": "新オープンしました!"
+    }
+  },
+  "order-list": {
+    "downloadCountExceeded": "ダウンロード数を超えました。 ダウンロード回数がさらに必要な場合は、カスタマサポートまでお問い合わせください (「お問い合わせ」)",
+    "oneOnOneToDownload": "ダウンロードするには、\n「1:1お問い合わせ」よりご連絡ください",
+    "downloadInfo": "<div style='font-size:13px; line-height:18px'>コンテンツファイルの著作権保護のため、購入後５回までダウンロードできます。ただし、１時間以内に再ダウンロードする場合、<br />制限回数は減りません。ダウンロード回数を増やす必要がある場合は、「1:1お問い合わせ」にてリクエストしてください。</div>",
+    "banner": "購入照会",
+    "datefilter": {
+      "all": "全て",
+      "month": "{{ month }}ヶ月"
+    },
+    "download": "ダウンロード",
+    "downloadWithCount": "ダウンロード ({{count}}/{{limit}})",
+    "downloadableproducts": "ダウンロードが可能な商品",
+    "dropdownStatus": {
+      "ALL": "全て",
+      "COMPLETED": "購入確定",
+      "DEPOSIT_STANDBY": "振込待ち",
+      "ETC": "その他",
+      "PAYMENT_COMPLETED": "購入完了",
+      "REFUND_COMPLETED": "返金完了"
+    },
+    "norecentorder": "購入履歴がありません。",
+    "nosearchfound": "検索結果がありません。",
+    "order": "購入",
+    "orderStatus": {
+      "CANCELED_BY_ADMIN": "購入キャンセル",
+      "CANCELED_BY_CUSTOMER": "顧客リクエストキャンセル",
+      "COMPLETED": "購入確定",
+      "DEPOSIT_STANDBY": "振込待ち",
+      "PAYMENT_COMPLETED": "購入完了",
+      "PAYMENT_FAILED": "決済失敗",
+      "PAYMENT_TRIED": "決済試し",
+      "REFUND_ASKED": "返金申請",
+      "REFUND_COMPLETED": "返金完了"
+    },
+    "orderno": "購入番号",
+    "purchase": "購入する",
+    "reviewEdit": "レビュー修正",
+    "reviewWrite": "レビュー作成",
+    "reviewGuide": "ダウンロード後にレビューをお願いします",
+    "searchbar": "商品名、作家名、創作物名、ペンネーム、チーム ・ 会社名で検索可能",
+    "searchbutton": "照会",
+    "showrecommendedproducts": "おすすめの商品はこちら>",
+    "siteError": "サイトエラー",
+    "tooltip": "購入商品ごとに5回ダウンロードができ、1:1お問い合わせを通してダウンロード可能回数を初期化できます。",
+    "vieworder": "商品詳細"
+  },
+  "point": {
+    "deducted": "利用",
+    "earned": "積立",
+    "historyDesc": "までのポイント使用履歴合計 ",
+    "page": {
+      "title": "ポイント"
+    },
+    "title": {
+      "date": "日付",
+      "detail": "内容",
+      "nowPoint": "保有ポイント",
+      "point": "ポイント",
+      "type": "タイプ",
+      "valid": "有効期間"
+    },
+    "totalDesc": "件",
+    "unit": "P"
+  },
+  "scrap": {
+    "addCartConfirmMessage": "選択した{{count}}個の素材をカートに入れますか？",
+    "addCartConfirmMessageExcludeBooks": "出版・電子書籍が含まれる場合は除外されます。",
+    "filter": {
+      "addCart": "カート",
+      "cancel": "キャンセル",
+      "category": "カテゴリー",
+      "counter": "{{count}}個の商品",
+      "delete": "削除",
+      "edit": "修正",
+      "extension": "ファイルの形式",
+      "reset": "フィルター初期化",
+      "selectAll": "全て選択",
+      "unselectAll": "全て解除",
+      "editSelected": "選択",
+      "editCount": "{{ count }}個"
+    },
+    "goBest": "おすすめの商品はこちら>",
+    "noFilterItem": "該当する商品がありません。",
+    "noFilterItem2": "フィルターを初期化してください。",
+    "noItem": "お気に入り商品がありません。\nぜひお買い物をお楽しみください。",
+    "notFound": {
+      "button": "おすすめの商品はこちら>",
+      "text": "お気に入り商品がありません。ぜひお買い物をお楽しみください。"
+    },
+    "removeScrapItemsConfirmMessage": "選択された{{count}}個の商品を削除しますか?",
+    "title": "お気に入り",
+    "totalCount": "合計{{count}}個",
+    "total": "合計",
+    "filteredCount": "合計{{ filteredCount }}個中{{ totalCount }}個",
+    "onlyDiscounted": "割引商品のみを表示",
+    "notFoundDiscountProduct": {
+      "text": "割引中のお気に入り商品はありません\n他の割引商品はいかがですか？",
+      "button": "割引商品を表示"
+    }
+  },
+  "summary": {
+    "coupon": "クーポン",
+    "deposit": "ACONキャッシュ",
+    "depositOriginal": "預り金",
+    "point": "ポイント",
+    "unit": "枚",
+    "userGroup": "一般会員",
+    "userName": "{{userName}}様の"
+  }
+}

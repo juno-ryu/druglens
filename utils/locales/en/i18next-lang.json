@@ -1,0 +1,17 @@
+{
+  "title": "{{lang}} i18next-lang",
+  "move-home": "home",
+  "move-server": "server",
+  "move-client": "client",
+  "page-server": {
+    "title": "{{lang}}: i18next-lang:  server-page",
+    "description": "server: await getTranslation"
+  },
+  "page-client": {
+    "title": "{{lang}}: i18next-lang:  client-page",
+    "description": "client: useTranslation",
+    "counter": "counter {{count}}",
+    "decrease": "decrease",
+    "increase": "increase"
+  }
+}

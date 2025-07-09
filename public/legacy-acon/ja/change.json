@@ -1,0 +1,20 @@
+{
+  "password": {
+    "button": "パスワード変更",
+    "complete": "パスワードが正常に変更されました。",
+    "expiredTime": "パスワード変更の有効時間が過ぎました。",
+    "placeholder1": "新しいパスワードを入力してください。",
+    "placeholder2": "新しいパスワードを確認してください。",
+    "precautions1": "半角英語・数字もしくは記号の中で2つ以上を設定してください。",
+    "precautions2": "パスワードは10~16桁で設定してください。",
+    "title": "新しいパスワードを入力してください。",
+    "validation": {
+      "mathPassword": "パスワードが一致します。",
+      "notMatchCombination": "半角英語・数字もしくは記号の中で2つ以上を設定してください。",
+      "notMatchLength": "パスワードは10~16桁で設定してください。",
+      "notMatchPassword": "パスワードが一致しません。",
+      "safePassword": "安心できるパスワードです。"
+    },
+    "verified": "確認"
+  }
+}

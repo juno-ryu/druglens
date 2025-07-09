@@ -1,0 +1,44 @@
+{
+  "alreadyOrder": "既に購入した商品です。",
+  "discount": "割引金額",
+  "emptyCartText1": "カートに商品が入っておりません。",
+  "emptyCartText2": "お買い物を続ける",
+  "foreignExchangeDescription": "カード会社の為替レートによっては、表示されている金額と請求金額が異なる場合があります。",
+  "goToPopularProduct": "人気商品を見る",
+  "join": {
+    "coupon": "新規登録後、購入したら約745円($5)・約1430円($10)分のクーポンを獲得!"
+  },
+  "keepShopping": "お買い物を続ける",
+  "notForSale": "非売品",
+  "order": "購入する",
+  "paymentSum": "お支払い金額",
+  "points": "獲得予定ポイント",
+  "price": "商品金額",
+  "product": "商品名",
+  "removeSelected": "選択削除",
+  "selectAll": "全てを選択",
+  "title": "カート",
+  "total": "合計",
+  "totalAmount": "合計金額",
+  "upTo": "最大",
+  "upselling": {
+    "point": "ポイント",
+    "coupon": "クーポン",
+    "timeremaining": "終了まで",
+    "buymore": "約{{ goal }}円追加したら、約<strong>{{ benefit }}</strong>ポイントがもらえます。",
+    "buynow": "今購入すれば、約<strong>{{ benefit }}</strong>ポイントがもらえます。",
+    "buymoreCoupon": "約{{ goal }}円追加したら、<strong>{{ benefit }}</strong>割引クーポンがもらえます。",
+    "buynowCoupon": "今購入すれば、<strong>{{ benefit }}</strong>割引クーポンがもらえます。",
+    "buymoreThin": "約{{ goal }}円追加したら、約<strong>{{ benefit }}</strong>を更にもらえます。",
+    "buynowThin": "今購入すれば、約<strong>{{ benefit }}</strong>ポイントを更にもらえます。",
+    "buymoreThinCoupon": "約{{ goal }}円追加したら、<strong>{{ benefit }}</strong>割引クーポン",
+    "buynowThinCoupon": "今購入すれば、<strong>{{ benefit }}</strong>割引クーポン",
+    "ended": "イベントは終了となりました。",
+    "note": "ACONキャッシュを含む実際決済金額のみ(クーポン・ポイントを除く)",
+    "depand": "購入金額に合わせて、ポイントがもらえます。"
+  },
+  "enterpriseLicense": [
+    "※カード会社の為替レートによっては、表示されている金額と請求金額が異なる場合があります。",
+    "※企業使用権は各商品詳細画面でご購入ください。"
+  ]
+}

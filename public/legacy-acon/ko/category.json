@@ -1,0 +1,19 @@
+{
+  "abler": {
+    "promotion": {
+      "subTitle": "한눈에 보는 에이블러 화제작"
+    }
+  },
+  "goToGameTab": "게임 탭으로 이동",
+  "goToToonTab": "웹툰 탭으로 이동",
+  "count": "개",
+  "realisticHome": "실사렌더 홈",
+  "resultText": "{{ count }}개",
+  "searchResults": "{{firstCategory}} {{secondCategory}}의 <div><span>{{thirdCategory}}</span> 상품입니다</div>",
+  "onlyFirstCategoryResults": "{{firstCategory}}의 <div><span>전체</span> 상품입니다</div>",
+  "filteredResultText": "총 {{ totalCount }} 중 {{ filteredCount }}개",
+  "total": "전체",
+  "all": "전체",
+  "totalAndFilterCount": "{{ totalCount }}개 중 {{ filteredCount }}개",
+  "guideTooltip": "이제 폭넓게 상품을 볼 수 있어요"
+}

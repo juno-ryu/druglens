@@ -1,0 +1,98 @@
+{
+  "gnb": {
+    "about": "ACON 소개",
+    "cart": "장바구니",
+    "join": "회원가입",
+    "mypage": "마이페이지",
+    "scrap": "스크랩",
+    "search": {
+      "findByCategory": "카테고리로 찾기",
+      "placeholder": "검색어를 입력해주세요.",
+      "popular": "인기 검색어",
+      "recent": "최근 검색어",
+      "removeAll": "전체삭제"
+    },
+    "signin": "로그인",
+    "user": {
+      "cart": "장바구니",
+      "home": "유저홈",
+      "mypage": "마이페이지",
+      "orders": "주문조회",
+      "scrap": "스크랩",
+      "signout": "로그아웃",
+      "support": "고객센터"
+    },
+    "wish": "스크랩",
+    "cancel": "취소",
+    "toggle": {
+      "allProductsMessage": "전체 상품을 볼 수 있도록 변경했어요",
+      "gameProductsMessage": "게임 상품들만 볼 수 있도록 변경했어요"
+    }
+  },
+  "subgnb": {
+    "lecture": "클래스 상품",
+    "imgsrc": "이미지 소스",
+    "free": "무료소스",
+    "aconpick": "에이콘 PICK",
+    "abler": "에이블러",
+    "best": "베스트",
+    "category": {
+      "event": "이벤트",
+      "placeholder": "원하시는 모델을 검색해보세요.",
+      "popular": "인기순",
+      "recent": "최신순",
+      "viewAll": "전체보기"
+    },
+    "aconOnly": "ACON Only",
+    "onlyAcon": "독점관",
+    "sale": "할인",
+    "cometDeal": "혜택관",
+    "cosmicDeal": "우주최저가",
+    "enjoy": "즐기기",
+    "enter": "입점 신청하기",
+    "event": "이벤트",
+    "findModel": "카테고리",
+    "funding": "펀딩",
+    "make": "제작의뢰",
+    "mypage": {
+      "cart": "장바구니",
+      "logout": "로그아웃",
+      "orders": "주문조회",
+      "scrap": "스크랩",
+      "support": "고객센터",
+      "supportLink": "/faq",
+      "userHome": "유저홈"
+    },
+    "new": "신작",
+    "photoreview": "포토리뷰",
+    "special": "스페셜관",
+    "adult": "19+",
+    "community": "커뮤니티",
+    "game": {
+      "3d": "3D",
+      "2d": "2D",
+      "audio": "음향",
+      "free": "무료",
+      "gui": "폰트/GUI",
+      "effect": "이펙트",
+      "tool": "애드온/도구",
+      "best": "베스트",
+      "visualNovel": "비주얼노벨"
+    },
+    "resourceBank": "리소스뱅크",
+    "genre": "장르"
+  },
+  "search": {
+    "placeholder": "작업 시간을 비약적으로 아껴보세요",
+    "autoComplete": {
+      "brand": "브랜드",
+      "keywords": "검색어"
+    }
+  },
+  "bottomTab": {
+    "home": "홈",
+    "search": "검색",
+    "category": "카테고리",
+    "profile": "프로필"
+  }
+}

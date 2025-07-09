@@ -1,0 +1,12 @@
+{
+  "active": "Activate account",
+  "completeDescription": "Your account was successfully <strong>re-activated.</strong>",
+  "description": "This account was <strong>deactivated as it was inactive for over a year.</strong><br />To re-activate, please submit the information below.",
+  "email": "E-mail",
+  "emailError": "Please check your E-mail again.",
+  "enterInfo": "To verify your account, please give us the information submitted when you joined us.",
+  "inactiveDate": "Inactive date",
+  "ok": "OK",
+  "sleepDate": "{{ y }}-{{ m }}-{{ d }}",
+  "title": "Inactive account"
+}

@@ -1,0 +1,450 @@
+{
+  "referral": {
+    "toast": {
+      "detail": "訪問ありがとうございます。この画面で購入すれば、１％分のポイントを差し上げます。"
+    },
+    "modal": {
+      "reviewTitle": "素材が気に入りましたか？",
+      "content": "シェアしたリンクから素材が購入されるたび、購入金額の１％を紹介者と購入者に差し上げます",
+      "toggle": "紹介してポイントを受け取る",
+      "description": "ポイントシェア運営ポリシーをご確認ください"
+    },
+    "tooltip": {
+      "lessThan10000won": "紹介で１％分のポイント積立！",
+      "moreThan10000won": "リンクをシェアしてポイントを受け取る"
+    },
+    "paymentSuccess": {
+      "noReferral": "ダウンロード後シェアしてください！<br/>毎月最大$50ポイントを受け取れます",
+      "referral": "シェアされた素材をダウンロードすると"
+    }
+  },
+  "ExtraDiscount": "SALE",
+  "aconOnly": "Acon Only",
+  "alreadyPurchased": "購入済み商品",
+  "currentProduct": "今見ている商品",
+  "alreadyReviewDescription": "商品の口コミはすでに作成しました。",
+  "banner": {
+    "individual": {
+      "button": "セット商品を確認する",
+      "text": "本商品を含むセット商品があります。<br />様々な商品を一度にご確認ください。"
+    },
+    "set": {
+      "button": "個別商品を確認する",
+      "text": "様々な商品が入っているセット商品です。<br />個別商品でもご購入いただけます。"
+    }
+  },
+  "tagTooltip": "タグから探す",
+  "cart": "買い物かご",
+  "cartOld": "カート",
+  "close": "閉じる",
+  "companyAndTeam": "チーム・会社",
+  "companyAndTeamLicense": "チーム・会社内1件のプロジェクトもしくは著作物(商用利用・非商用利用全ての目的を含む)のための単件使用権です。",
+  "companyAndTeamUsingCondition": "商品を購入する際、商品を使用するプロジェク・ト著作物の作品名を登録してください。また、登録した作品名がプロジェクト・著作物内に明確に表示される必要があります。<br /> 以下の場合は、本使用権を選択することをお勧めします。<br /><br />-商品を直接使用するチームメンバーが2名以上の場合<br />-個人のペンネームが指定されていない、チーム・会社で活用する目的のプロジェクト・著作物の場合(例:外注)",
+  "completedCart": "カートに追加",
+  "completedScrap": "お気に入りに追加",
+  "copiedLink": "URLリンクがコピーされました。",
+  "copyLink": "リンクコピー",
+  "copyright": {
+    "buyer": "商品購入者",
+    "buyerDescription": "商用利用・非商用利用に商品を使用できる使用権の付与",
+    "creator": "商品制作者",
+    "creatorDescription": "商品の著作権所有",
+    "description1": "本商品の著作権は全て商品制作者にあります。",
+    "description2": "ACONでは、著作権ではなく購入された商品を使用できる使用権を販売しています。",
+    "description3": "商品購入者は商用利用・非商用利用を目的として、購入した商品を創作物にご使用いただけます。",
+    "description4": "創作物(作品):WEBTOON・イラスト・ゲーム・アニメ・映像など"
+  },
+  "copyrightDescription": [
+    "本商品はお買い求めた後、創作物にご使用いただけます。本商品は記載された注意事項及び著作権の内容に間違いないのを制作者に確認しました。",
+    "詳細内容をよくご確認の上、お買い求めてください。"
+  ],
+  "copyrightNotice": "著作権注意事項",
+  "copyrightNoticeDescription": "本商品は構成要素や修正された構成要素を含む、本商品の譲渡・配布・販売する行為は禁じています。<br /><br />このような著作権を侵害する行為をされた場合、侵害者に法的責任を問うことができます。<br /><br />個人購入者は本人の商品にのみ使用することができ、外注などの形式で本人のペンネームが明示されない、他作品に商品を使用することは禁じています。",
+  "detail": "詳細説明",
+  "dynamicComponent": "動的構成要素(Dynamic Component)",
+  "endSales": "販売終了",
+  "extraDiscount": "追加割引~{{ date }}(JST)",
+  "fileConfig": "商品構成",
+  "fileContentsAndSize": "ファイル構成及び容量",
+  "fileExtension": "ファイルファイルの形式",
+  "fileExtensionAndProgram": "ファイルの形式・プログラム",
+  "fileInfoDescription": ["該当ファイルのアップデート内容をお知らせします。", "アップデートされたファイルは、マイページの購入履歴から再ダウンロードした後にご利用いただけます。"],
+  "fileInfoDescription2": [
+    "ACONで販売されている商品は無形の著作物で、購入及びダウンロード後の返金はできません。",
+    "本商品に該当するファイル情報を必ず詳しくご確認の上、ご購入してください。"
+  ],
+  "fileinfo": "ファイル情報",
+  "productInfo": "商品情報",
+  "filetype": "ファイルの形式",
+  "fullSet": "セット商品",
+  "funding": {
+    "comingUp": "{{ startDate }}オープン予定(JST)",
+    "ended": "ファンディング終了",
+    "estimatedModelCompletion": "商品配信予定",
+    "fundNow": "ファンディングする",
+    "funded": "達成",
+    "success": "ファンディング成功",
+    "goal": "目標金額",
+    "modelPrice": "商品価格",
+    "participants": "参加者",
+    "period": "ファンディング期間",
+    "raised": "集まった金額",
+    "remainingDay": "終了まで{{ date }}日",
+    "remainingTime": "残り時間"
+  },
+  "goToAblerVersionFile": "同じ商品のABLERバージョンを見る",
+  "goToCart": "カートを見る",
+  "goToCheck": "確認しに行く",
+  "ok": "確認",
+  "goToSkpVersionFile": "同じ商品のSKPバージョンを見る",
+  "individual": "個人",
+  "individualCount": "({{count}}個)",
+  "individualLicense": "ライセンス:このモデルを使用する非排他的な永久ライセンス。購入者は、このモデルを無制限の数のプロジェクト（商業目的と非商業目的の両方を含む）に使用することができます。",
+  "individualProducts": "セット構成商品",
+  "includingSet": "本商品を含むセット商品",
+  "individualUsingCondition": "購入された商品が使用された全ての2次著作物は、購入時、登録された購入者のペンネームを明示する必要があります。",
+  "license": {
+    "personal": "個人使用権",
+    "personalDescription1": "ペンネーム登録後、<br />該当ペンネームが明示される作品のみ<br />使用可能",
+    "personalDescription2": "活用作品数制限なし",
+    "personalDescription3": "購入者本人のみ使用可能",
+    "personalNotice1": "<strong>[個人使用権]</strong>注意事項",
+    "personalNotice2": "ペンネームは作品内、作品が掲載された文章・掲示板内・作品情報内など、ご自由に明示可能です。",
+    "share": "共同使用権",
+    "shareDescription1": "作品名登録後、<br />登録した1作品のみ使用可能",
+    "shareDescription2": "1作品のみ活用可能",
+    "shareDescription3": "商品使用人数制限なし",
+    "shareNotice1": "<strong>[共同使用権]、[企業使用権]</strong>注意事項",
+    "shareNotice2": "商品購入時、商品を使用するプロジェクト・創作物の作品名登録必須",
+    "shareNotice3": "該当作品名がプロジェクト・創作物内に明確に明示する必要があります。",
+    "shareNotice4": "作品名が同一シリーズは1つの作品とみなします。",
+    "shareNotice5": "ただし、永久企業使用権の場合、作品名は登録されません。",
+    "shareNotice6": "以下の場合、[共同使用権]の購入をお勧めします。",
+    "shareNotice7": "購入商品を直接使用する人数が2人以上の場合",
+    "shareNotice8": "個人ペンネームが明示されないプロジェクト・創作物に使用(例:外注)",
+    "shareNotice9": "以下の場合、[企業使用権]の購入をお勧めします。",
+    "shareNotice10": "法人・会社で商品を使用する場合",
+    "shareNotice11": "多数の作品に使用する場合(5回券)",
+    "shareNotice12": "作品数にこだわらず、該当アセットを会社・法人の全ての作品に使用する場合(永久)",
+    "shareNotice13": "ただし、商品によっては企業使用権のご利用できない場合があります。",
+    "title": "商品使用権についてのご案内"
+  },
+  "licenseEasyDescription": ["使用権の使い方がもっと簡単になりました!お買い求める前に、使い方をもう一度確認してください。"],
+  "madeCreator": "本商品の全てのソースは直接製作致しました。<br />無料サイトのモデル、テクスチャーを一切使用していません。",
+  "more": "もっと見る",
+  "noFileContentsAndSize": "「詳細説明」下記参照",
+  "noReviewDescription": "購入後、レビューを<br />作成できます。",
+  "notAvailableForSale": "販売中止",
+  "notOrder": "間もなくオープン!",
+  "notice": "注意事項",
+  "otherIndividualProducts": "他の構成商品",
+  "price": "商品価格",
+  "product": {
+    "goToOtherExtension": "本作品の「{{ extension }}」商品を見る"
+  },
+  "productCopyright": "商品著作権のご案内",
+  "productCopyrightDescription": "作成者は、この商品に関連する全ての著作権を保持します。<br /><br /> ACONは、商用利用・非商用利用の目的を含む商品を使用するための使用権(著作権ではなく)を販売しており、これはACONにアップロードされた全ての商品に適用されます。<br /><br />使用権は、[個人使用権]または[チーム・会社使用権]に区分され、商品を購入される際には該当する使用権を選択してください。<br /><br />",
+  "productLicenseDescription": "使用権は[個人使用権]・[共同使用権]・[企業使用権]に区分され、該当する使用権で購入してください。",
+  "qna": "質疑応答",
+  "qnaCony": "コニーボットにお問い合わせ",
+  "qnaDescription": ["急ぎのお問い合わせは、コニーボットにお問い合わせください!"],
+  "realPrice": "{{ realPrice }}円",
+  "review": "レビュー",
+  "sortByCreated": "最新順",
+  "sortByRating": "星評価順",
+  "photoreview": "フォトレビュー",
+  "viewall": "全て見る",
+  "es": "個",
+  "vieworiginal": "原本を見る",
+  "vieworiginaltext": "原文を見る",
+  "ishelpful": "助けになる",
+  "rating": "星評価",
+  "draftReview": "レビュー作成",
+  "areYouSatisfied": "商品は、ご満足いただけましたでしょうか?",
+  "reviewContent": "レビュー内容",
+  "pointOnReview": "テキストレビュー約{{normal}}円・フォトレビュー約{{photoreview}}円・ベストレビュー選定時、約{{bestreview}}円支給!",
+  "reviewContentPlaceholder": "商品への思いと感想、商品を上手く活用するコツを共有してください。(最小20文字以上)",
+  "attachImage": "イメージ添付",
+  "noteOnReview": "レビュー作成の注意事項",
+  "noteOnReviewContents": "<li>作成していただいたレビューは、ACONのサービス運営やマーケティング活用などに使用される場合があります。</li><li>商品のお問い合わせや返金に関する掲示物でカスタマーセンターへのお問い合わせが必要な場合は、1:1お問い合わせをご利用ください。</li><li>ACONのレビュー方針に反する商品レビューは、事前告知なくポイントの回収及び削除される場合があります。<ul><li>情報通信網法及び著作権法など関連法に違反する内容(ACON利用規約第15条)</li><li>商品レビューの趣旨に反する繰り返し文句の登録や商品と無関係な内容もしくはイメージ登録など</li></ul></li>",
+  "areYouSureToDelete": "本当にレビューを削除しますか?",
+  "reviewBy": "{{author}}様のレビュー",
+  "reply": "返信",
+  "confirm": "確認",
+  "cancel": "キャンセル",
+  "doneReview": "作成完了",
+  "modify": "修正",
+  "delete": "削除",
+  "noreview": "初商品の使用レビューを書いてください。",
+  "reviewDescription": ["有料商品についてのレビューを20文字以上作成していただければ、", "現金のようにお使いいただける約42ポイント($0.30)を直ぐに提供いたします!"],
+  "scrap": "スクラップ",
+  "scrapOld": "お気に入り",
+  "set": "セット情報",
+  "share": "共有する",
+  "similarProducts": {
+    "artistPage": "作家ホーム",
+    "other": "様の別の商品",
+    "similarTitle": "似た商品"
+  },
+  "togetherProducts": {
+    "togetherTitle": "他のお客様が一緒に購入した商品",
+    "togetherTitle2": "一緒に見ると良い商品"
+  },
+  "thisIsAlber": "本商品はABLER専用商品です。",
+  "thisIsExtension": "本商品は<strong>{{ extension }}</strong>商品です。",
+  "thisIsSkp": "本商品は<strong>skp</strong>商品です。",
+  "thisisblender": "本商品は<strong>Blender</strong>商品です。",
+  "timer": {
+    "promotion": "セール終了まで残り",
+    "remainingTime": "{{diffDay}}日"
+  },
+  "totalFileConfig": "計{{ length }}個のファイル",
+  "viewMoreFile": "ファイル情報を開く",
+  "viewLessFile": "ファイル情報を閉じる",
+  "updates": "アップデート内容",
+  "useForPrice": "{{ price }}に使用する",
+  "usedForFreeExternalSource": "本商品は、商用利用できる無料素材及び有料の外部素材を使用しています。",
+  "usedForFreeWarehouse": "本商品の一部の素材は、3Dウェアハウスのフリーライセンス素材を使用しています。",
+  "usedForPayExternalSource": "本商品は、商用利用できる有料外部素材を使用しています。",
+  "usedForProduct": "商品に使われたソース",
+  "productTags": "商品タグ",
+  "using": {
+    "banCaseDescription1": "商品ファイルの全て",
+    "banCaseDescription2": "商品の構成要素の一部",
+    "banCaseDescription3": "商品ファイルのスクショまたは抽出した画像",
+    "banCaseDescription4": "商品ファイルのスクショまたは画像抽出後、色調・効果などの補正作業のみを経た画像",
+    "banCaseDescription5": "※抽出した画像に、購入者の創作活動が含まれていないと創作物として認められません。商品の単純補正画像は譲渡・配布・販売できません。",
+    "banCaseTitle": "譲渡・配布・販売が不可なケース",
+    "description1": "以下の行為は著作権違反とみなし、法的責任を問うことができます。",
+    "description10": "※ こちらの場合でも、商品ファイルの共有は不可能となります。",
+    "description2": "使用条件に違反して使用する行為",
+    "description3": "本商品の全て又は一部(修正した一部を含む)を譲渡・配布・販売する行為",
+    "description4": "本商品は修正又は他の商品と一緒に使用することはできます。",
+    "description5": " ただし、一緒に使用する全ての商品の使用権または著作権を保有する必要があります。",
+    "description6": "無形財の特性上、ダウンロードした商品の返金は不可能です。",
+    "description7": "本商品は決済完了の直後からダウンロード可能になります。ただし、決済完了の時点から3ヶ月以降はダウンロード・保管及び管理の責任は購入者にあります。",
+    "description8": "作品の創作過程として認められる場合は、画像の伝達・販売が可能です。",
+    "description9": "(例:代表作家が背景アシスタント作家から抽出した画像の伝達・外注・依頼作業など)",
+    "noticeTitle": "商品の利用注意項目",
+    "eula1": "創作物の形態によって、商品の利用範囲が異なります。詳細は",
+    "eula2": "エンドユーザーライセンス契約(EULA)",
+    "eula3": "をご参照ください。"
+  },
+  "usingCondition": "使用条件",
+  "writeReview": "レビュー作成",
+  "addCart": "カートに追加",
+  "buynow": "購入する",
+  "floating": {
+    "share": "共有する"
+  },
+  "completedCartOld": "カートの追加完了",
+  "goToCartOld": "確認しに行く",
+  "closeCartModal": "他の商品も見る",
+  "button": {
+    "cart": {
+      "completed": "カートの追加完了"
+    }
+  },
+  "promotionBadge": {
+    "remainingTime": "終了まで"
+  },
+  "enterprise": {
+    "inquiry": "企業でお使いですか?",
+    "available": {
+      "description": "ご希望の商品を何度も使用できる[企業使用権]\nを購入してください。",
+      "license": {
+        "unlimited": "永久使用権",
+        "count": "{{count}}回使用権"
+      },
+      "cartScrapUnavailable": "※本使用権は、即時購入のみ可能です。"
+    },
+    "unavailable": {
+      "description": "この商品は、[企業使用権]がありません。\n商品の使用をご希望の場合は、[共同使用権]を購入してください。"
+    },
+    "buyButtonText": "企業使用権を購入",
+    "noticeTable": {
+      "header": {
+        "fiveTimesLicense": "5回使用権",
+        "unlimitedLicense": "永久使用権"
+      },
+      "row": {
+        "fiveTimesLicense": "会社名及び作品名の登録後、<br/ ><strong>登録した5作品</strong>のみ使用可能",
+        "unlimitedLicense": "会社名の登録後、<strong>制限なく</strong>使用可能"
+      }
+    },
+    "licenseName": "企業使用権"
+  },
+  "productDetail": {
+    "overview": {
+      "couponNotApplicable": "クーポン使用不可素材",
+      "buyNowdescription": "＊この素材は、今すぐ購入のみ可能です",
+      "productFileInfo": {
+        "fileInformation": "商品情報",
+        "fileInfoTooltip": "下記の[商品情報]タブに行くと<br />より詳しい内容を見ることができます。",
+        "genre": "ジャンル",
+        "tags": "タグ",
+        "fileFormats": "ファイル拡張子",
+        "compatibleSoftware": "使用可能プログラム",
+        "generalFile": "汎用ファイル",
+        "dataFile": "データファイル",
+        "allOS": "すべてのOS"
+      },
+      "productOrderModal": {
+        "selectLicense": "使用権を選んでください",
+        "personal": "個人使用権",
+        "unlimited": "永久",
+        "sharing": "共同使用権",
+        "oneProject": "1作品",
+        "enterprise": "企業使用権",
+        "fiveProjects": "5作品",
+        "next": "次へ",
+        "difference": "共同使用権・企業使用権は何ですか?"
+      },
+      "productShareModal": {
+        "share": "共有",
+        "copyLink": "リンクコピー"
+      },
+      "scrapSnackbar": "お気に入りに商品追加",
+      "productCartModal": {
+        "addedToCart": "カートに商品を入れました。",
+        "continueShopping": "お買い物を続ける",
+        "viewCart": "カートを見る"
+      }
+    },
+    "review": {
+      "notFound": "選択した星評価のレビューがありません。",
+      "bannerMessage": "テキストレビュー{{normal}}P・フォトレビュー{{photoreview}}P・ベストレビュー{{bestreview}}P",
+      "title": "商品のレビュー",
+      "writeReview": "レビュを投稿",
+      "photoReviews": {
+        "title": "フォトレビュ",
+        "viewMoreCount": "+{{count}}"
+      },
+      "information": {
+        "ratings": "{{count}}件",
+        "firstProductReview": "初商品の使用レビューを書いてください。"
+      },
+      "list": {
+        "title": "みんなのレビュー",
+        "sort": {
+          "mostRecent": "最新順",
+          "highestRated": "星評価順"
+        },
+        "rateFilter": {
+          "label": "星評価",
+          "reviewCount": "({{count}})"
+        },
+        "viewOriginal": "元のテキスト",
+        "viewTranslation": "翻訳を見る",
+        "helpful": "役に立った",
+        "photoViewMore": "もっと見る",
+        "delete": "削除",
+        "update": "修正",
+        "readLess": "閉じる",
+        "readMore": "全て見る"
+      },
+      "photoDetail": {
+        "photoReview": "フォトレビュー",
+        "viewAll": "全て見る",
+        "userReview": "{{userId}}様のレビュー"
+      }
+    },
+    "relatedProducts": "この商品をチェックした人はこんな商品もチェックしています",
+    "otherProducts": "クリエイター様の別の商品",
+    "tabs": {
+      "detail": "詳細説明",
+      "information": "商品情報",
+      "package": "セット情報",
+      "review": "レビュー",
+      "notice": "注意事項",
+      "inquiry": "質疑応答"
+    },
+    "detail": {
+      "copyright": "<div class='responsive-box'><div>本商品は記載された注意事項及び著作権の</div><div>内容に間違いないのを制作者に確認しました。</div></div>詳細内容をよくご確認の上、お買い求めてください。",
+      "viewMore": "詳細情報を開く",
+      "viewLess": "詳細情報を閉じる"
+    }
+  },
+  "ProductInformationNotice": {
+    "title": "商品情報提供告示",
+    "openbutton": "商品情報提供告示内容を確認する",
+    "common": {
+      "manufacturer": {
+        "title": "制作者または供給者",
+        "description": ""
+      },
+      "date": {
+        "title": "利用条件および利用時間",
+        "description": "購入時点から即時効力が発生し、各使用権による利用は<a href='/policy/eula'>EULA</a>に従います。"
+      },
+      "configuration": {
+        "title": "商品提供方式 (CD、ダウンロード、リアルタイムストリーミングなど)",
+        "description": "ダウンロード"
+      },
+      "specifications": {
+        "title": "最小システム要件、必須ソフトウェア",
+        "description": "<p>OSおよびファイルの形式を読むことのできるソフトウェアが必要です。</p><br /><p>最小システム要件</p><ul><li>OS : Windows 10 64-bit</li><li>CPU : Quad-core IntelまたはAMD 2.5 GHz以上</li><li>メモリ : 8GB RAM</li><li>グラフィックカード(GPU) : DirectX 11互換, 4GB VRAM以上</li></ul>"
+      },
+      "warranty": {
+        "title": "申込キャンセルまたは契約解除・キャンセルによる効果",
+        "description": "すべてのライセンスおよびサブスクリプションは、申込キャンセルまたは契約の解除・キャンセルした時点で満了します。"
+      },
+      "director": {
+        "title": "消費者相談ホットライン",
+        "description": "+82 70-4126-1202"
+      }
+    },
+    "clipstudio": {
+      "manufacturer": {
+        "title": "制作者または供給者",
+        "description": "エイコン"
+      },
+      "date": {
+        "title": "利用条件および利用時間",
+        "description": "ライセンス取得後、すぐにご利用いただけます。詳細はCELSYSの規定に準じます。"
+      },
+      "configuration": {
+        "title": "商品提供方式 (CD、ダウンロード、リアルタイムストリーミングなど)",
+        "description": "ライセンス"
+      },
+      "specifications": {
+        "title": "最小システム要件、必須ソフトウェア",
+        "description": "<p>OSがあらかじめインストールされている必要があります</p><br /><p>最小システム要件</p><ul><li>OS : Windows 10 64-bit / macOS 12 (Monterey)</li><li>CPU : Intel Core i3またはAMD Ryzen 3、2GHz以上</li><li>メモリ : 2GB RAM</li><li>グラフィックカード(GPU) : OpenGL 2.1とDirectX 12をサポートする統合グラフィックスカード、1GB VRAM以上</li></ul>"
+      },
+      "warranty": {
+        "title": "申込キャンセルまたは契約解除・キャンセルによる効果",
+        "description": "申込キャンセルまたは契約の解除・キャンセルした時点で満了します。"
+      },
+      "director": {
+        "title": "消費者相談ホットライン",
+        "description": "+82 70-4126-1202"
+      }
+    },
+    "sketchup": {
+      "manufacturer": {
+        "title": "制作者または供給者",
+        "description": ""
+      },
+      "date": {
+        "title": "利用条件および利用時間",
+        "description": ""
+      },
+      "configuration": {
+        "title": "商品提供方式 (CD、ダウンロード、リアルタイムストリーミングなど)",
+        "description": ""
+      },
+      "specifications": {
+        "title": "最小システム要件、必須ソフトウェア",
+        "description": ""
+      },
+      "warranty": {
+        "title": "申込キャンセルまたは契約解除・キャンセルによる効果",
+        "description": ""
+      },
+      "director": {
+        "title": "消費者相談ホットライン",
+        "description": ""
+      }
+    }
+  }
+}

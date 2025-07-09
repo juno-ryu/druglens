@@ -1,0 +1,12 @@
+{
+  "prev": "取消",
+  "next": "下一步",
+  "confirm": "确认",
+  "seeSearchCategoryProfile": "搜索 · 类别 · 我的\n您可以在这里查看。",
+  "findByTag": "选择标签，\n找到您想要的产品",
+  "selectGenre": "您可以选择\n一个工作领域",
+  "selectExt": "您可以选择\n所需的文件扩展名",
+  "selectApp": "您可以选择\n使用哪些编辑工具",
+  "selectPriceRange": "您可以选择\n自己的价格范围",
+  "toggleAdult": ""
+}

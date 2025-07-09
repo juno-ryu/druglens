@@ -1,0 +1,8 @@
+{
+  "game": "Game",
+  "toon": "Webtoon",
+  "move-to": {
+    "toon": "移至 游戏",
+    "game": "移至 漫画"
+  }
+}

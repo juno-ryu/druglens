@@ -1,0 +1,215 @@
+{
+  "sale": {
+    "page": {
+      "title": "할인",
+      "saleTitle": "SALE",
+      "saleSubTitle": "할인 중인 상품 총집합"
+    },
+    "seo": {
+      "title": "할인 상품",
+      "description": "오늘이 최저가! 최대 40% 할인. 매주 바뀌는 할인 상품을 놓치지 마세요."
+    }
+  },
+  "onlyAcon": {
+    "page": {
+      "title": "독점관",
+      "onlyAconTitle": "에이콘 Only",
+      "onlyAconSubTitle": "에이콘 독점 상품 총집합"
+    },
+    "cosmic": {
+      "inProgressTitle": "지금 진행 중인 우주최저가",
+      "inProgressSubTitle": "최고의 상품을 최저가로 만나보세요",
+      "inProgressReview": "포토리뷰 작성 시 리뷰 이벤트 상품 증정!"
+    },
+    "comet": {
+      "inProgressTitle": "지금 진행 중인 혜성특가",
+      "inProgressSubTitle": "특별한 상품을 오픈 할인가로 만나보세요",
+      "inProgressReview": "포토리뷰 작성 시 1,000 포인트 추가 지급!"
+    }
+  },
+  "900deal": {
+    "ineligible": "이벤트 대상자가 아닙니다.",
+    "title": "에이콘3D : 신규 가입 시 인기 소재 3종이 900원",
+    "twitter": "에이콘3D 신규 가입 시 인기 소재 3종이 900원"
+  },
+  "blackFriday2022": {
+    "checkOnUserHome": "유저홈에서 확인할 수 있어요.",
+    "confirm": "확인",
+    "downloaded": "쿠폰 발급 완료!",
+    "received": "이미 발급받으신 쿠폰이 있습니다.\n보유하신 쿠폰은\n유저홈에서 확인 가능합니다."
+  },
+  "blackFriday2023": {
+    "unit": "{{ticket}}장",
+    "code": "체험권 코드 : {{code}}",
+    "copyCode": "코드 복사하기",
+    "successCopyCode": "코드가 복사되었습니다.",
+    "notice": {
+      "title": "이벤트<br/>유의사항",
+      "description1": "불법적이거나 비정상적인 방법으로 이벤트 참여 시 당첨이 취소될 수 있으며 지급된 포인트는 회수될 수 있습니다.",
+      "description2": "블프 할인 특가 상품 구매로 지급되는 응모권은 구매 시점의 특가 회차에 할인 중인 상품을 구매할 경우에만 지급됩니다.",
+      "description3": "아이디 당 최대 1회 당첨이 가능합니다.",
+      "description4": "사용 가능한 응모권은 이벤트 종료 시점까지 누적되며 남은 응모권은 이벤트 종료 시 사라집니다.",
+      "description5": "클립 스튜디오 EX 3개월 체험권은 기기 1대에서만 등록 가능합니다.",
+      "description6": "동일한 클립스튜디오 계정에서 2개 이상의 체험권을 등록할 경우 제재가 가해질 수 있습니다.",
+      "description7": "일별 체험권 150개 소진 시 응모하기 버튼이 비활성화되어 응모가 불가하며 익일 0시부터 다시 응모가 가능합니다."
+    },
+    "winning": {
+      "title": "클튜 3개월 체험권에 당첨되었습니다!",
+      "description": "축하합니다!<br />지금 바로 체험권 코드를 확인해 보세요!",
+      "successButton": "체험권 확인하기"
+    },
+    "notWinning": {
+      "title": "아쉽게도 당첨되지 않으셨습니다.",
+      "description": "응모권을 더 모아서 다시 도전해보세요!<br />페이지 하단에서 오늘 할인 중인<br />블랙프라이데이 상품들이 기다리고 있어요~",
+      "successButton": "다시 도전하기"
+    }
+  },
+  "christmas2021": {
+    "og": {
+      "description": "무료 증정 모델과 매일 매일 달라지는 쿠폰까지!",
+      "title": "에이콘3D - 산타의 선물 보따리"
+    }
+  },
+  "cometDeal": {
+    "badge": {
+      "benefitDescriptionFirst": "에이콘 단독 입점 신상을 단 2주간 오픈 할인가로 만나보세요.",
+      "benefitDescriptionSecond": "혜성특가로 구매 후 리뷰 작성 시 1,000p 지급해 드려요.",
+      "benefitFirst": "혜택 1",
+      "benefitSecond": "혜택 2"
+    },
+    "benefitBadge": {
+      "sale": "신상할인",
+      "open": "오픈할인"
+    },
+    "coupon": {
+      "issued": "쿠폰이 발급되었습니다.",
+      "validation": {
+        "already": "이미 발급 받은 쿠폰 입니다.",
+        "login": "로그인하셔야 본 서비스를 이용하실 수 있습니다."
+      }
+    },
+    "couponZoneDesciption1": "•  쿠폰은 기간 내  ID당 1회 다운로드할 수 있으며, 발급 받은 쿠폰은 마이페이지에서 확인 가능합니다.",
+    "couponZoneDesciption2": "•  쿠폰존에서 다운로드한 쿠폰은 타 쿠폰과 중복 적용이 불가합니다.",
+    "couponZoneDesciption3": "•  에이콘3D 포인트 및 쿠폰 운영 정책과 이용약관은 추후 변경될 수 있습니다.",
+    "couponZoneDesciption4": "•  추가 문의사항은 고객센터로 문의 부탁드립니다.",
+    "couponZoneDesciption6": "•  본 쿠폰은 혜성특가, 우주최저가 프로모션 진행 중인 상품에는 적용이 불가합니다.",
+    "couponZoneNoticeTitle": "유의사항 보기",
+    "couponZoneSubTitle": "쿠폰을 다운로드 후 하단의 에이콘 Only 상품에 적용해 보세요!",
+    "couponZoneTitle": "에이콘 Only",
+    "couponzoneText": "쿠폰 다운로드",
+    "discount": "할인",
+    "inProgressSubTitle": "혜성처럼 등장한 신상, 무조건 할인!",
+    "inProgressTitle": "지금 진행 중인 혜성특가",
+    "lastChance": "처음이자 마지막 혜성특가!",
+    "lastDay": "오늘 종료",
+    "listBanner": "지금 탑승하지 않으면 가격이 올라요!",
+    "listBannerApply": "우주최저가 보러 가기 >",
+    "page": {
+      "description": "혜택관에서 할인과 포인트 모두 받고 다양한 3D모델을 만나보세요!",
+      "title": "에이콘3D - 혜택관"
+    },
+    "ready": "새로운 혜성특가 오픈 준비 중입니다. 조금만 기다려 주세요!"
+  },
+  "cosmicDeal": {
+    "closedDealsSubTitle": "오직 에이콘에서만 구매할 수 있는 우주최저가 모델",
+    "closedDealsTitle": "종료된 우주최저가",
+    "inProgressSubTitle": "지금 보는 가격이 마지막 최저가!",
+    "inProgressTitle": "지금 진행 중인 우주최저가",
+    "lastChance": "지금 구매해야 최저가!",
+    "lastDay": "오늘 종료",
+    "lastDayBadge": "오늘 종료",
+    "listBanner": "우주최저가로 내 작품의 판매량을 올리고 싶다면?",
+    "listBannerApply": "우주최저가 오픈 신청 >",
+    "openDateText": "{{date}} 오픈 예정",
+    "ready": "새로운 우주최저가 오픈 준비 중입니다. 조금만 기다려 주세요!",
+    "totalNumber": "우주최저가 누적 탑승자 수",
+    "totalNumberDesc": "지금 탑승하지 않으면 가격이 올라요!",
+    "totalSales": "우주최저가 누적 판매 금액",
+    "totalSalesDesc": "역대 최다 판매량 갱신의 주인공은 모두 우주최저가!"
+  },
+  "endOfYear": {
+    "og": {
+      "description": "매일 0시에 리셋되는 구슬뽑기 ! 에이콘 포인트부터 1만원 할인쿠폰까지 ~ 따뜻한 연말 보내세요 !",
+      "title": "2022 에이콘 연말결산"
+    },
+    "review": {
+      "best": "리뷰를 기다리는 상품이 없어요 지금 바로 구매하고 리뷰를 작성해보세요!",
+      "button": {
+        "best": "베스트 상품 보기 &#62;",
+        "login": "로그인 후 보러가기 &#62;",
+        "write": "리뷰 작성하러 가기 &#62;"
+      },
+      "login": "리뷰 작성하고 내가 받을 수 있는 적립금은 얼마?",
+      "write": "아직 리뷰를 작성하지 않은 상품이 {{ count }}개 있어요!<br /> 지금 모두 작성하고 <span style=\"color: rgb(255, 232, 28);\">{{ price }}원</span> 받아가세요"
+    },
+    "unit": {
+      "attendance": "회",
+      "reviews": "개"
+    }
+  },
+  "firstHalf2022": {
+    "loginCheck": "로그인 후 이벤트 참여가 가능합니다.",
+    "nowCheck": "지금 확인하기 >"
+  },
+  "invitation": {
+    "copiedLink": "클립보드에 복사했습니다.",
+    "description": "친구 & 초대자 모두 5,000 포인트/쿠폰 받기!",
+    "title": "에이콘3D - 친구 초대 이벤트",
+    "twitter": "작가님을 에이콘3D에 초대합니다."
+  },
+  "order": {
+    "accuracy": "정확도순",
+    "featured": "추천순",
+    "higherPrice": "높은가격순",
+    "lowerPrice": "낮은가격순",
+    "newest": "최신순",
+    "popularity": "인기순"
+  },
+  "payment": {
+    "unit": "원"
+  },
+  "review": {
+    "unit": "개"
+  },
+  "visit": {
+    "unit": "회"
+  },
+  "openrun": {
+    "stay": "매주 월요일, 목요일 찾아오는 오픈런! <br> 다음 오픈런을 기다려주세요!",
+    "remainingTime": "%h:%m:%s",
+    "remainingDayWithTime": "%d일 %h:%m:%s"
+  },
+  "loginBonus": {
+    "countText": "지금까지 출석챌린지를<br /><strong>{{count}}회</strong> 완료 했어요!"
+  },
+  "moonGreeting": {
+    "header": {
+      "point": "방문만 해도<br />최대 <span>5,000포인트</span>",
+      "payBack": "구매하면<br /><span>100% 돌려드림</span>",
+      "sale": "총 450종<br /><span>50% 할인</span> 특가",
+      "pointBack": "구매한 만큼<br /><span>포인트백</span>"
+    },
+    "content": {
+      "usageAmount": "달맞이 상점 이용 금액",
+      "receive": "받을 수 있는 포인트"
+    },
+    "unit": {
+      "ko": "원",
+      "en": "$",
+      "ja": "円",
+      "point": "P"
+    },
+    "participate": {
+      "pointsPaid": "축! {{point}}포인트가 지급되었습니다!",
+      "alreadyParticipated": "이미 포인트가 지급되었습니다. 유저홈 > 포인트를 확인해주세요",
+      "login": "로그인 후 확인할 수 있습니다.",
+      "notEventPeriod": "이벤트 기간이 아닙니다."
+    }
+  },
+  "christmas2024": {
+    "copiedLinkModalText1": "선물 링크를 복사했어요.",
+    "copiedLinkModalText2": "지금 바로 친구에게 선물해 보세요!",
+    "copiedLinkModalButton": "확인",
+    "couponCode": "쿠폰코드"
+  }
+}

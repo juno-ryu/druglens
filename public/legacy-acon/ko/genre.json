@@ -1,0 +1,12 @@
+{
+  "byName": {
+    "modern": { "title": "현대 ・ 학원물", "description": "평범한 교실, 하지만 모두가 숨겨진 이야기를 가지고 있다" },
+    "oriental": { "title": "동양 ・ 무협", "description": "강호를 뒤흔드는 한 자루 검, 운명은 이제 당신 손에!" },
+    "romance": { "title": "로맨스 ・ 판타지", "description": "환상적인 세계 속에서 펼쳐지는 로맨스" },
+    "action": { "title": "액션 ・ 느와르", "description": "어둠 속에서 펼쳐지는 치열한 추격과 복수의 서사시" },
+    "sf": { "title": "SF ・ 아포칼립스", "description": "희망과 절망이 교차하는 생존의 무대" },
+    "etc": { "title": "장르무관", "description": "당신의 상상력을 자극할 단 하나의 이야기, 지금 시작됩니다" }
+  },
+  "reviewsTitle": "별점이 좋은 후기",
+  "categoryProductListTitle": "더 많은 상품 모아보기"
+}

@@ -1,0 +1,332 @@
+{
+  "cash": {
+    "mytotalcash": "My Total Cash",
+    "chargedcash": "Charged Cash",
+    "giftedcash": "Gifted Cash",
+    "aconCash": "ACON CASH",
+    "bizBadge": "Biz",
+    "charge": {
+      "term": {
+        "title": "ACON Cash Terms of Service",
+        "description1": "“ACON Cash” refers to a new type of gift certificate that members can use to purchase goods. It may be referred to ‘Cash’.",
+        "description2": "A member who has charged cash may withdraw the subscription of the use of goods and services within 7 days from the date of payment according to the terms and conditions. If a member does not have history of using the cash charged, the member can request a refund of the total amount of cash charged within 7 days from the date of payment.",
+        "description3": "Depending on the payment company’s terms and conditions, it may take up to 5 business days for the card approval to be canceled or the payment to be credited to the member's financial account.",
+        "description4": "In addition to the case above, if cash equivalent to or more than 60/100 (80/100 if the remaining cash is less than $10) of the charged cash (the amount charged at the time of cash payment completion) has been used by the member, the member can request for a refund of remaining cash. The refund will take place excluding the refund fee of $1 or 10% of the remaining cash, whichever is greater. Refunds are not possible if the remaining cash is less than $1. However, refund fees will not be deducted if the case is attributable to ACON3D. Members can request refund through 'Inquiries'.",
+        "description5": "Refunds will be made within 5 business days to the member's refund account.",
+        "description6": "If a member request a cancel or a refund of the cash charged, the company will withdraw the points given for free. If there are no remaining points to be withdrawn, the amount will be deducted from the member's cash refund. ",
+        "description7": "Minors must obtain consent from their legal representatives before charging cash. ",
+        "description8": "Cash expires at the end of 5 years of the date of cash payment. However, if the member withdraws the membership, the remaining cash will automatically disappear and cannot be recovered. ",
+        "description9": "The warranty period of the cash is one year, and once one year has passed after charging the cash, refund is not possible even if the conditions specified above are met.",
+        "description10": "",
+        "description11": "",
+        "description12": ""
+      },
+      "chargeAccount": "Charge amount",
+      "complete": {
+        "auth": "인증이 완료되었습니다.",
+        "regi": "등록이 완료되었습니다."
+      },
+      "fail": {
+        "auth": "인증에 실패하였습니다.",
+        "regi": "등록에 실패하였습니다."
+      },
+      "payment": {
+        "account": "Total Amount for Payment",
+        "afterAccount": "Cash Amount after Payment",
+        "button": "Click to pay",
+        "confirm": "[Required] I have checked the payment information for all products being bought, and agree on progressing to actual payment.",
+        "point": "Extra ACON Points (expected)"
+      },
+      "paymentInformation": "Payment Info",
+      "paymentMethod": "Payment Method",
+      "status": {
+        "depositWaiting": "Deposit Waiting",
+        "depositExpiration": "Deposit Expiration",
+        "refunded": "Refunded",
+        "used": "Used",
+        "deductionCompleted": "Deduction Completed",
+        "purchaseCompleted": "Purchase Completed",
+        "registrationCompleted": "Registration Completed"
+      }
+    },
+    "list": {
+      "accumulate": "Charged",
+      "deduction": "Used",
+      "filter": {
+        "all": "All",
+        "description": {
+          "all": "All",
+          "charged": "Charged",
+          "used": "Used"
+        },
+        "month": "{{ month }} Month"
+      },
+      "notFound": {
+        "search": "No Cash History Found"
+      },
+      "notfound": {
+        "recently": "No recent Cash History"
+      },
+      "ready": "Coming Soon",
+      "reciept": "Reciept",
+      "search": {
+        "button": "Search"
+      },
+      "table": {
+        "cashInfo": "Cash information",
+        "category": "Category",
+        "date": "Date",
+        "details": "Details",
+        "paymentStatus": "Payment Status",
+        "remainingCash": "Remaining Cash",
+        "status": "Status"
+      },
+      "totalCount": "Cash Charged {{ totalCount }} times during {{ startDate }}~ {{ endDate }}"
+    },
+    "myCash": "My Cash",
+    "payback": "{{ percent }}% Payback Points",
+    "preBlackFridyPaybackBonus": " + {{ percent }}% Bonus!",
+    "payment": {
+      "fail": "Payment Failed",
+      "success": "Payment Completed"
+    },
+    "tab": {
+      "cashHistory": "Cash History",
+      "chargeCash": "Charge Cash"
+    },
+    "underMaintenance": "该服务正在检查中。",
+    "paybackBadgeText": "Bonus points until {{month}} {{date}}"
+  },
+  "coupon": {
+    "add": "Reserve",
+    "condition": {
+      "applyCategory": "Available category :",
+      "applyGoods": "・Available item :",
+      "maxBenefitPrice": "・Up to {{price}} discount / reserve",
+      "minOrderPrice": "・If the purchase amount is more than {{price}}",
+      "useDuplicate": "・Can be used with other coupons",
+      "useNotDuplicate": "・Not available with other coupons"
+    },
+    "deposit": "Give",
+    "historyDesc": "Coupon Availability from",
+    "page": {
+      "title": "Coupon"
+    },
+    "sale": "Discount",
+    "status": {
+      "expiredEnd": "Expired",
+      "expiredStart": "Expired",
+      "notUse": "Unavailable for Use",
+      "useCart": "Applied",
+      "useOrder": "Applied",
+      "yes": "Available for Use"
+    },
+    "title": {
+      "benefit": "Benefit",
+      "condition": "Conditions for Use",
+      "issued": "Issue Date",
+      "limit": "Limitations",
+      "name": "Coupon Name",
+      "until": "Valid Until"
+    }
+  },
+  "dateRangeFilter": {
+    "15d": "15Days",
+    "1m": "1Month",
+    "1y": "1Year",
+    "3m": "3Month",
+    "7d": "7Days",
+    "all": "All",
+    "find": "Search",
+    "period": "Period",
+    "today": "Today"
+  },
+  "deposit": {
+    "historyDesc": " ACON CASH usage history. A total of ",
+    "historyDescOriginal": " deposit usage history. A total of ",
+    "page": {
+      "title": "ACON CASH"
+    },
+    "title": {
+      "date": "Date",
+      "deposit": "ACON CASH",
+      "depositOriginal": "Deposit",
+      "detail": "Details",
+      "nowDeposit": "My ACON CASH",
+      "nowDepositOriginal": "My Deposit",
+      "type": "Category"
+    }
+  },
+  "home": {
+    "banner": {
+      "cash": {
+        "button": "Charge cash",
+        "title": "Difficult to type in your payment info?"
+      },
+      "coupon": {
+        "button": "Apply Coupon",
+        "title": "Do you have a coupon code?"
+      },
+      "news": {
+        "button": "Subscribe newsletter",
+        "title": "Be the first to receive news"
+      },
+      "upload": {
+        "button": "Upload your models",
+        "title": "Are you a 3D model creator?"
+      }
+    },
+    "data": {
+      "cart": "Shopping Cart",
+      "coupon": "Coupons",
+      "deposit": "ACON CASH",
+      "depositOriginal": "Deposit",
+      "inquiries": "Inquiries",
+      "point": "Points",
+      "scrap": "Wishlist"
+    },
+    "grade": "General Member",
+    "modify": "Edit",
+    "unit": {
+      "cart": "items",
+      "coupon": "coupons",
+      "inquiries": "inquiries",
+      "point": "P",
+      "scrap": "models"
+    },
+    "userInfo": "User Profile",
+    "modal": {
+      "tempPassword": "In order to edit User Profile, please check<br />the registration email sent when you signed up<br />to find the temporary password."
+    },
+    "model": {
+      "confirmButton": "Confirm"
+    }
+  },
+  "inquiries": {
+    "notFound": "There is no inquiry",
+    "table": {
+      "category": "Category",
+      "date": "Date",
+      "status": "Inquiry Status",
+      "title": "Title"
+    },
+    "title": "Product Inquiries"
+  },
+  "mypage": {
+    "tooltip": {
+      "new": "Newly opened!"
+    }
+  },
+  "order-list": {
+    "downloadCountExceeded": "Exceeded download counts. If you need more download counts, please contact Customer Support at \"Ask 1:1\"",
+    "oneOnOneToDownload": "To download, please use our \n[1:1 Inquiries] service.",
+    "downloadInfo": "<div style='font-size:13px; line-height:18px'>For copyright protection, you may download the content file up to 5 times after purchase. If you re-download the same file <br />within 1 hour, however, the number of downloads will not be deducted. Please use our [1:1 Inquiries] service to request <br />additional downloads.</div>",
+    "banner": "View Orders",
+    "datefilter": {
+      "all": "All",
+      "month": "{{ month }} Month"
+    },
+    "download": "Download",
+    "downloadWithCount": "Download ({{count}}/{{limit}})",
+    "downloadableproducts": "Download available",
+    "dropdownStatus": {
+      "ALL": "All",
+      "COMPLETED": "Confirmation of Purchase",
+      "DEPOSIT_STANDBY": "Awaiting Payment",
+      "ETC": "etc",
+      "PAYMENT_COMPLETED": "Purchase Complete",
+      "REFUND_COMPLETED": "Refund Completed"
+    },
+    "norecentorder": "There is no order.",
+    "nosearchfound": "There are no orders that match your options.",
+    "order": "Order",
+    "orderStatus": {
+      "CANCELED_BY_ADMIN": "Cancelled order",
+      "CANCELED_BY_CUSTOMER": "Cancellation of Customer Request",
+      "COMPLETED": "Confirmation of Purchase",
+      "DEPOSIT_STANDBY": "Awaiting Payment",
+      "PAYMENT_COMPLETED": "Purchase Complete",
+      "PAYMENT_FAILED": "Payment Failure",
+      "PAYMENT_TRIED": "Payment Attempt",
+      "REFUND_ASKED": "Refund Registered",
+      "REFUND_COMPLETED": "Refund Completed"
+    },
+    "orderno": "Order No",
+    "purchase": "Order",
+    "reviewEdit": "Edit Review",
+    "reviewWrite": "Leave a Review",
+    "reviewGuide": "Please download it and write a review",
+    "searchbar": "Search Products, Brand names, Creation names, Creator names and Team · Business names",
+    "searchbutton": "Search",
+    "showrecommendedproducts": "Show Recommended Models",
+    "siteError": "Website Error",
+    "tooltip": "5 downloads are available for each product. For extra downloads, please ask customer services.",
+    "vieworder": "View Order"
+  },
+  "point": {
+    "deducted": "Deducted",
+    "earned": "Earned",
+    "historyDesc": " point usage history. A total of ",
+    "page": {
+      "title": "Points"
+    },
+    "title": {
+      "date": "Date",
+      "detail": "Details",
+      "nowPoint": "My Points",
+      "point": "Points",
+      "type": "Category",
+      "valid": "Valid Until"
+    },
+    "totalDesc": " cases",
+    "unit": "P"
+  },
+  "price": {
+    "unit": "$"
+  },
+  "scrap": {
+    "addCartConfirmMessage": "Would you like to add {{count}} selected items to your cart?",
+    "addCartConfirmMessageExcludeBooks": "Any published e-books will be excluded.",
+    "filter": {
+      "addCart": "Cart",
+      "cancel": "Cancel",
+      "category": "Category",
+      "counter": "{{count}} Results",
+      "delete": "Remove",
+      "edit": "Edit",
+      "extension": "Formats",
+      "reset": "Clear Filter",
+      "selectAll": "Select All",
+      "unselectAll": "Deselect All",
+      "editSelected": "Selected",
+      "editCount": "{{ count }}"
+    },
+    "goBest": "Show Trending Models",
+    "noFilterItem": "No matching products.",
+    "noFilterItem2": "Please change your filter options.",
+    "noItem": "Your Clip Book is empty.\nLet’s check out more models!",
+    "notFound": {
+      "button": "Show Trending Models",
+      "text": "Your Clip Book is empty. Let’s check out more models!"
+    },
+    "removeScrapItemsConfirmMessage": "Are you sure you want to remove the selected {{count}} item from your clip book?",
+    "title": "My Wishlist",
+    "totalCount": "total {{count}}",
+    "total": "total",
+    "filteredCount": "{{ filteredCount }} out of {{ totalCount }} results",
+    "onlyDiscounted": "Items On Sale",
+    "notFoundDiscountProduct": {
+      "text": "None of the items in your wishlist are on sale\nVisit our sale page for more deals!",
+      "button": "View all items on sale"
+    }
+  },
+  "summary": {
+    "coupon": "Coupons",
+    "deposit": "ACON CASH",
+    "depositOriginal": "KRW in Deposit",
+    "point": "Points",
+    "unit": " ",
+    "userGroup": "currently a General Member.",
+    "userName": "{{userName}} is"
+  }
+}

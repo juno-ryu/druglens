@@ -1,0 +1,58 @@
+{
+  "noticesAndGuides": {
+    "title": "ACON 100% 활용하기"
+  },
+  "promotionBanner": {
+    "title": "지금 놓치면 가격이 올라가요"
+  },
+  "recentPurchases": {
+    "title": "방금 사람들이 구매했어요"
+  },
+  "popularBrands": {
+    "title": "ACON 베스트 브랜드",
+    "status": {
+      "new": "신작 업데이트",
+      "openRun": "오픈런 진행",
+      "flashSale": "반짝할인 진행",
+      "funding": "펀딩 진행",
+      "discount": "최대 {{ discountRate }}% 할인",
+      "aconOnly": "에이콘 독점 작가"
+    },
+    "totalCount": "{{ count }}개 상품"
+  },
+  "todayRecommendation": {
+    "title": "오늘의 추천"
+  },
+  "dailyBest": {
+    "title": "오늘 가장 잘나가요"
+  },
+  "weeklyBest": {
+    "title": "이번 주 베스트 상품"
+  },
+  "totalBest": {
+    "title": "베스트 상품"
+  },
+  "brandWeek": {
+    "title": "브랜드 위크 할인 중!"
+  },
+  "aconPick": {
+    "title": "ACON's pick"
+  },
+  "creator": "인기작가",
+  "error": {
+    "message": "상품 목록을 가져오는 중 오류가 발생했습니다",
+    "reload": "다시 불러오기"
+  },
+  "scrapProducts": {
+    "title": "스크랩하면 할인을 알려드려요",
+    "login": {
+      "title": "로그인 후 확인하실 수 있어요",
+      "button": "로그인하기"
+    },
+    "noItem": {
+      "title": "아직 스크랩된 상품이 없네요\n맘에 드는 게 없다면 여기를 둘러보세요",
+      "button": "할인 상품 보기"
+    },
+    "viewAll": "모든 스크랩 상품 보기"
+  }
+}

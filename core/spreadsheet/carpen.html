@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Google Sheets App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .sheet-title {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .sheet-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px 4px;
+      }
+      .sheet-chip {
+        padding: 3px 6px;
+        font-size: 12px;
+        border: none;
+        border-radius: 999px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .sheet-chip.sheet-chip--gray {
+        color: #313135;
+        background-color: #f5f5f5;
+      }
+      .sheet-chip.sheet-chip--primary {
+        color: #ffffff;
+        background-color: #4e4eff;
+      }
+      .sheet-state {
+        padding: 12px;
+        font-size: 12px;
+        background-color: #e7e7e8;
+        border-radius: 8px;
+      }
+      .sheet-state:empty {
+        display: none;
+      }
+      .sheet-output {
+        padding: 12px;
+        font-size: 12px;
+        max-height: 400px;
+        border: 1px solid #e7e7e8;
+        border-radius: 8px;
+        overflow: auto;
+      }
+      .sheet-output:empty {
+        display: none;
+      }
+      .sheet-download {
+        /*  */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="sheet-title"></h1>
+      <div class="sheet-buttons"></div>
+      <div class="sheet-state"></div>
+      <pre class="sheet-output"></pre>
+      <div class="sheet-download"></div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        console.log('DOMContentLoaded');
+        displaySheetTitle();
+        displaySheetButtons();
+      });
+
+      const displaySheetTitle = () => {
+        google.script.run
+          .withSuccessHandler((name) => {
+            document.querySelector('.sheet-title').textContent = `## ${name}`;
+          })
+          .withFailureHandler((error) => {
+            displayError(error);
+          })
+          .getSheetTitle();
+      };
+
+      const displaySheetButtons = () => {
+        google.script.run
+          .withSuccessHandler((sheetNames) => {
+            const createButton = (sheetName, onClickHandler) => {
+              const button = document.createElement('button');
+              button.type = 'button';
+              button.classList.add('sheet-chip', 'sheet-chip--gray', `sheet-chip-${sheetName}`);
+              button.textContent = sheetName.toUpperCase();
+              button.addEventListener('click', () => onClickHandler(sheetName));
+              return button;
+            };
+
+            const allSheetsButton = createButton('all', fetchAllSheetData);
+            const sheetButtons = sheetNames.map((name) => createButton(name, fetchSingleSheetData));
+            const buttonsContainer = document.querySelector('.sheet-buttons');
+            buttonsContainer.innerHTML = '';
+            buttonsContainer.appendChild(allSheetsButton);
+            sheetButtons.forEach((button) => buttonsContainer.appendChild(button));
+          })
+          .getSheetNames();
+      };
+
+      const fetchAllSheetData = () => {
+        fetchData('all', 'getAllSheetData');
+      };
+
+      const fetchSingleSheetData = (sheetName) => {
+        fetchData(sheetName, 'getSingleSheetData');
+      };
+
+      const fetchData = (sheetName, scriptFunction) => {
+        displayLoading();
+        google.script.run
+          .withSuccessHandler((data) => {
+            displayData(data, sheetName);
+          })
+          .withFailureHandler((error) => {
+            displayError(error);
+          })
+          [scriptFunction](sheetName);
+      };
+
+      const formatData = ({ name, languages, data }) => {
+        const dataLanguage = languages.reduce((acc, language) => {
+          acc[language] = data.reduce((dataAcc, { key, ...rest }) => {
+            dataAcc[key] = rest[language];
+            return dataAcc;
+          }, {});
+          return acc;
+        }, {});
+
+        return { name, dataLanguage };
+      };
+
+      const createZip = (formattedData) => {
+        const zip = new JSZip();
+        formattedData.forEach(({ name, dataLanguage }) => {
+          Object.entries(dataLanguage).forEach(([language, data]) => {
+            zip.file(`${language.toLowerCase()}/${name}.json`, JSON.stringify(data, null, 2));
+          });
+        });
+        return zip;
+      };
+
+      const createDownload = (zip, sheetName) => {
+        zip.generateAsync({ type: 'blob' }).then((content) => {
+          const a = document.createElement('a');
+          const blobUrl = URL.createObjectURL(content);
+          const blobDate = new Date().toISOString().replace(/:/g, '-');
+          a.href = blobUrl;
+          a.classList.add('sheet-chip', 'sheet-chip--primary');
+          a.download = `i18n-${sheetName}-${blobDate}.zip`;
+          a.textContent = `DOWNLOAD-${sheetName.toUpperCase()}`;
+          document.querySelector('.sheet-download').appendChild(a);
+        });
+      };
+
+      const displayLoading = () => {
+        document.querySelector('.sheet-output').textContent = '';
+        document.querySelector('.sheet-state').textContent = 'Loading...';
+        document.querySelector('.sheet-download').innerHTML = '';
+      };
+
+      const displayError = (error) => {
+        console.error(error);
+        document.querySelector('.sheet-output').textContent = '';
+        document.querySelector('.sheet-state').textContent = `Error: ${JSON.stringify(error)}`;
+        document.querySelector('.sheet-download').innerHTML = '';
+      };
+
+      const displayData = (data, sheetName) => {
+        document.querySelector('.sheet-output').textContent = '';
+        document.querySelector('.sheet-state').textContent = '';
+        document.querySelector('.sheet-download').innerHTML = '';
+        const formattedData = Array.isArray(data) ? data.map(formatData) : [formatData(data)];
+        const dataContent = formattedData
+          .map(({ name, dataLanguage }) => {
+            return Object.entries(dataLanguage)
+              .map(([language, data]) => `${name}-${language.toLocaleLowerCase()} = ${JSON.stringify(data, null, 2)}`)
+              .join('\n\n');
+          })
+          .join('\n\n');
+        document.querySelector('.sheet-output').textContent = dataContent;
+        createDownload(createZip(formattedData), sheetName);
+      };
+    </script>
+  </body>
+</html>

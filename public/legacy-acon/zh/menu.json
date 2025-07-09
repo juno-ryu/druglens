@@ -1,0 +1,99 @@
+{
+  "gnb": {
+    "about": "关于ACON",
+    "cart": "购物车",
+    "join": "免费注册",
+    "mypage": "我的ACON",
+    "scrap": "收藏夹",
+    "search": {
+      "findByCategory": "搜索分类",
+      "placeholder": "请输入关键词，搜索商品",
+      "popular": "热门搜索",
+      "recent": "最新搜索",
+      "removeAll": "最新搜索"
+    },
+    "signin": "请登录",
+    "user": {
+      "cart": "장바구니",
+      "home": "유저홈",
+      "mypage": "마이페이지",
+      "orders": "주문조회",
+      "scrap": "스크랩",
+      "signout": "로그아웃",
+      "support": "고객센터"
+    },
+    "wish": "收藏夹",
+    "cancel": "取消",
+    "toggle": {
+      "allProductsMessage": "更改为所有产品。",
+      "gameProductsMessage": "更改为仅查看游戏产品。"
+    }
+  },
+  "subgnb": {
+    "lecture": "类商品",
+    "imgsrc": "图像源",
+    "free": "免费素材",
+    "aconpick": "ACON PICK",
+    "abler": "ABLER",
+    "best": "最佳",
+    "category": {
+      "event": "活动",
+      "placeholder": "请输入您所想看的模型！",
+      "popular": "人气排名",
+      "recent": "新作",
+      "viewAll": "전체보기"
+    },
+    "aconOnly": "ACON Only",
+    "onlyAcon": "独家专区",
+    "sale": "优惠",
+    "cometDeal": "优惠",
+    "cosmicDeal": "越早越省",
+    "enjoy": "즐기기",
+    "enter": "申请入驻",
+    "event": "活动",
+    "findModel": "分类",
+    "funding": "众筹",
+    "home": "首页",
+    "make": "제작의뢰",
+    "mypage": {
+      "cart": "购物车",
+      "logout": "退出",
+      "orders": "查看订单",
+      "scrap": "收藏夹",
+      "support": "客服中心",
+      "supportLink": "/faq",
+      "userHome": "个人主页"
+    },
+    "new": "最新",
+    "photoreview": "晒图评价",
+    "special": "推荐",
+    "adult": "ADULT",
+    "community": "COMMUNITY",
+    "game": {
+      "3d": "3D",
+      "2d": "2D",
+      "audio": "Audio",
+      "free": "Free",
+      "gui": "Font/GUI",
+      "effect": "Effect/VFX",
+      "tool": "Add-on/Tool",
+      "best": "Best",
+      "visualNovel": "Visual Novel"
+    },
+    "resourceBank": "Resourcebank",
+    "genre": "风格"
+  },
+  "search": {
+    "placeholder": "搜索来大幅节省创作时间",
+    "autoComplete": {
+      "brand": "品牌",
+      "keywords": "搜索"
+    }
+  },
+  "bottomTab": {
+    "home": "首页",
+    "search": "搜索",
+    "category": "分类",
+    "profile": "我的"
+  }
+}

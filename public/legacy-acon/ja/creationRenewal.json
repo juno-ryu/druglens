@@ -1,0 +1,134 @@
+{
+  "meetAcon": {
+    "title": "ACONと出会うと、<br/>ブランドになる",
+    "subTitle": "持続可能な創作の秘訣"
+  },
+  "DynamicsOfCreation": {
+    "title": "創作には原動力が必要",
+    "subTitle": "心強い創作の味方であるACONをご覧ください。",
+    "stableIncome": "安定した<br />収益創出",
+    "productTime": "作業時間<br />確保",
+    "steadyReputation": "ACONの<br />サポート"
+  },
+  "oneClickFlow": {
+    "top": {
+      "title": "一回の商品登録で、安定的な収益発生",
+      "subTitle": "ACONで着実に商品の購入が発生するようサポートします。",
+      "promotions": "商品プロモーション",
+      "discount": "ポイント特典<br/>",
+      "point": "ポイント付与<br/>"
+    },
+    "bottom": {
+      "title": "追加の特典!",
+      "subTitle": "商品が着実にに販売されるようオーダーメードプロモーションを提案します。",
+      "arrowText": "収益率<br/><br/>9倍増加",
+      "description": "同一商品企画展に参加してプロモーション前後の売り上げを比較"
+    }
+  },
+  "saveYourTime": {
+    "title": "作業時間を確保して<br/>創作に集中",
+    "onePerson": {
+      "title": "1人で販売<br/>",
+      "item1": "販売先検索",
+      "item2": "商品登録",
+      "item3": "購入履歴確認",
+      "item4": "振込履歴確認",
+      "item5": "購入者に商品ファイル伝達",
+      "item6": "全ての購入商品のお問い合わせを1:1で対応",
+      "item7": "返金処理",
+      "item8": "手動で収益・税金処理",
+      "item9": "販売データ照合",
+      "item10": "SNSプロモーション",
+      "item11": "商品アップデート及び購入者に伝達"
+    },
+    "aconSale": {
+      "title": "ACONで販売",
+      "item1": "ブランド・口座入力",
+      "item2": "商品登録",
+      "item3": "毎月自動精算受け取り"
+    }
+  },
+  "aconSupport": {
+    "title": "全ての過程をACONがサポートします。",
+    "itemTitle1": "商品管理<br/>",
+    "itemTitle2": "お問い合わせ対応<br/>",
+    "itemTitle3": "収益精算<br/>",
+    "itemTitle4": "安全な取引<br/>",
+    "itemDescription1": "商品管理から購入者への伝達、全ての過程をお任せ<br/>",
+    "itemDescription2": "購入者からのお問い合わせ対応の心配は不要<br/>",
+    "itemDescription3": "毎月自動に精算される収益を簡単に管理<br/>",
+    "itemDescription4": "クリエイター様の権利が尊重されるようにサポート<br/>"
+  },
+  "worldwideFans": {
+    "title": "世界中のファンがクリエイター様をお待ちしております。",
+    "subTitle": "ACONはグローバル最大規模の創作素材・アセットプラットフォーム",
+    "jobs": {
+      "webtoonArtist": "WEBTOONクリエイター<br/>",
+      "videoCreator": "映像<br/>クリエイター",
+      "gameDeveloper": "ゲーム制作者<br/>",
+      "architect": "アーキテクト",
+      "designer": "デザイナー",
+      "illustrator": "イラストレーター",
+      "animator": "アニメーター"
+    }
+  },
+  "aconBrand": {
+    "title": "ACONで<br/>ブランドに成長してみませんか?",
+    "tags": {
+      "3D": "3D",
+      "2D": "2D",
+      "europeanPalaces": "邸宅・宮殿",
+      "asianPalaces": "邸宅・宮殿",
+      "residentialArea": "住宅地・町",
+      "cityDowntown": "都市・繁華街",
+      "variousPoses": "ポーズ集",
+      "extras": "モブ",
+      "brushMaterial": "ブラシ・素材"
+    },
+    "cards": {
+      "1yr12mAtelier": {
+        "title": "1yr 12m atelier",
+        "description": "侯爵家の別荘で発生した出来事"
+      },
+      "dongdongie": {
+        "title": "Dongdongie",
+        "description": "神秘的な森林の村"
+      },
+      "sempreblue": {
+        "title": "Sempreblue",
+        "description": "四季アメリカ村"
+      },
+      "ginobono": {
+        "title": "Ginobono",
+        "description": "東洋風男性主人公のお屋敷"
+      },
+      "3dMasterStudio": {
+        "title": "3D Master Studio",
+        "description": "実際に動かせるデフォルメ"
+      },
+      "yungyung": {
+        "title": "Yungyung",
+        "description": "WEBTOON必須3D足ポーズ"
+      },
+      "nal_ro": {
+        "title": "Nal_ro",
+        "description": "動くデフォルメ(手のモデリング)"
+      },
+      "cucumberSoap": {
+        "title": "Cucumber Soap",
+        "description": "四季モブ500人"
+      },
+      "kimLeaf": {
+        "title": "Kim Leaf",
+        "description": "遠景木＆草葉ブラシ"
+      },
+      "shiyi": {
+        "title": "shiyi",
+        "description": "魔法光効果ブラシ"
+      }
+    },
+    "nowStart": "今、始まる",
+    "goFAQ": "お問い合わせ",
+    "contackUs": "その他に気になる点がおありでしょうか？contact@acon3d.comにお問い合わせください。"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "abler": {
+    "promotion": {
+      "subTitle": "ABLERの話題作"
+    }
+  },
+  "goToGameTab": "ゲームタブへ",
+  "goToToonTab": "WEBTOONタブへ",
+  "count": "個",
+  "countGlobal": "について",
+  "realisticHome": "実者レンダー・ホーム",
+  "resultText": "{{ count }}個",
+  "searchResults": "{{firstCategory}}{{secondCategory}}の<div><span>{{thirdCategory}}</span>商品です。</div>",
+  "onlyFirstCategoryResults": "{{firstCategory}}の<div><span>全て</span>の商品です。</div>",
+  "filteredResultText": "{{ totalCount }}個中{{ filteredCount }}個",
+  "total": "全て",
+  "all": "全て",
+  "totalAndFilterCount": "{{ totalCount }}個中{{ filteredCount }}個",
+  "guideTooltip": "より多くの商品を一目で！"
+}

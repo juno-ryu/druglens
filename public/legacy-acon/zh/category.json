@@ -1,0 +1,20 @@
+{
+  "abler": {
+    "promotion": {
+      "subTitle": "ABLER热销模型"
+    }
+  },
+  "goToGameTab": "转换到游戏专区",
+  "goToToonTab": "转换到漫画专区",
+  "count": "results",
+  "countGlobal": "About",
+  "realisticHome": "真实渲染 主页",
+  "resultText": "{{ count }}件",
+  "searchResults": "{{firstCategory}}{{secondCategory}}中的<div><span>{{thirdCategory}}</span>商品</div>",
+  "onlyFirstCategoryResults": "{{firstCategory}}中的<div><span>全部</span>商品</div>",
+  "filteredResultText": "{{ filteredCount }} out of {{ totalCount }} results",
+  "total": "全部",
+  "all": "全部",
+  "totalAndFilterCount": "{{ totalCount }}中{{ filteredCount }}件",
+  "guideTooltip": "点击查看所有商品"
+}

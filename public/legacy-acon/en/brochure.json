@@ -1,0 +1,106 @@
+{
+  "mainsection": {
+    "title": "The Secret to Drawing<br />100+ Panels Every Week",
+    "subtitle": "Join us on ACON3D,<br />where creation becomes fun and easy",
+    "realreview": "Real Reviews",
+    "howtouse": "How to Use",
+    "hotmodel": "Hot Models"
+  },
+  "reviewSection": {
+    "realuserreview": "Real User Reviews",
+    "efficiency": "EFFICIENCY",
+    "efficiencyContent": "Wow, ACON3D plays<br />a big part in saving time!",
+    "widespectrum": "WIDE SPECTRUM",
+    "widespectrumContent": "It has wide variety of<br />backgrounds.",
+    "seedetailedstories": "See detailed stories...",
+    "webcomic": "WEB COMIC",
+    "_3dmodel": "3D MODEL",
+    "review": [
+      {
+        "name": "Curryuku",
+        "_3dmodelname": "Team Pineapple",
+        "contents": [
+          {
+            "title": "Why do you use ACON3D?",
+            "content": "<p>As a creator that does Webtoon professionally, it can be taxing trying to keep up with the weekly upload schedule; this is why ACON3D plays a <span>big part in saving time.</span></p><p>Instead of drawing out the backgrounds that can take you hours, you can export readily made ones <span>in just a matter of a few seconds.</span></p>"
+          },
+          {
+            "title": "What are the benefits of using ACON3D?",
+            "content": "<p>What I like about ACON3D is that they have <span>a wide variety of backgrounds readily available</span> onthe site, with diverse ranges you can select from. Doing a story where the setting is in space? ACON3D hasit. What about a story in the medieval era fighting dragons and ruling over castles? ACON3D too, has that,which is <span>not limited</span> to only backgrounds.</p><p>There is also <span>an extensive library</span> of brushes, 3D models, high-quality image materials andmany more. Multiple sources of materials to help aid your webtoon can help shave off hours of workload.Always work smarter, not harder.</p>"
+          }
+        ],
+        "project": "Project \"Not so Shoujo LoveStory\""
+      },
+      {
+        "name": "Speremint",
+        "_3dmodelname": "Oasiscider",
+        "contents": [
+          {
+            "title": "Why do you use ACON3D?",
+            "content": "<p>I use ACON3D to streamline my workflow. Working as a comic artist means I'm constantly on a tight deadline. With ACON3D's models, I can add in backgrounds easily and in proper perspective (using SketchUp) so I <span>can focus more on the character action.</span></p>"
+          },
+          {
+            "title": "What are the benefits of using ACON3D?",
+            "content": "<p>The backgrounds purchased from ACON3D are all for commercial usage. There's <span>a variety of different models</span> to choose from all at <span>differing price ranges.</span> They also offer single 3D assets (some of which are free), and have a surprisingly vast collection of brushes that can provide anything from VFX to background characters.</p>"
+          }
+        ],
+        "project": "Project \"Not so Shoujo LoveStory\""
+      },
+      {
+        "name": "Wishroomness",
+        "_3dmodelname": "Myoda",
+        "contents": [
+          {
+            "title": "Why do you use ACON3D?",
+            "content": "<p><span>3D background models</span> for making my webcomic :)</p>"
+          },
+          {
+            "title": "What are the benefits of using ACON3D?",
+            "content": "<p>It's <span>super helpful</span> when having a weekly update schedule making webcomic! I'm so happy it's <span>accessible to internationals.</span></p>"
+          }
+        ],
+        "project": "Project \"Nice to Meet You\""
+      }
+    ]
+  },
+  "howtouseSection": {
+    "title": "How to Use 3D Models",
+    "purchase": {
+      "title": "Purchase a 3D model",
+      "content": "Download the model from User Home. Install softwares (Sketchup) to successfully open the file!"
+    },
+    "setuptheanglue": {
+      "title": "Set up the angle",
+      "content": "Find the perfect angle that matches your drawing and export/capture the screen."
+    },
+    "drawcharacter": {
+      "title": "Draw characters on the scene",
+      "content": "Draw your character on the exported scene with Photoshop or Clip Studio."
+    },
+    "joinus": "Join us now and get the $5 discount coupon!",
+    "registernow": "REGISTER NOW"
+  },
+  "topsellingSection": {
+    "title": "Top-selling Models on ACON3D"
+  },
+  "benefitSection": {
+    "title": "Enjoy New User Benefits Now!",
+    "benefits": {
+      "join": {
+        "subject": "Join Us & Get<br />$5 Welcome Coupon",
+        "button": "Get Coupon"
+      },
+      "invite": {
+        "subject": "Invite Your Friends & Earn<br />Unlimited $3 points",
+        "button": "Invite Friends"
+      },
+      "freemodel": {
+        "subject": "Try Out 200 Kinds of<br />Free Models",
+        "button": "Explore Free Models"
+      }
+    }
+  },
+  "followSection": {
+    "title": "Follow and Catch the hot deals!"
+  }
+}

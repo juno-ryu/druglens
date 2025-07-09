@@ -1,0 +1,58 @@
+{
+  "noticesAndGuides": {
+    "title": "充分利用 ACON!"
+  },
+  "promotionBanner": {
+    "title": "不要错过，价格会涨的"
+  },
+  "recentPurchases": {
+    "title": "刚卖出去的商品"
+  },
+  "popularBrands": {
+    "title": "ACON 热销商品",
+    "status": {
+      "new": "New",
+      "openRun": "新品优惠",
+      "flashSale": "特惠促销",
+      "funding": "众筹",
+      "discount": "最高优惠{{ discountRate }}%",
+      "aconOnly": "ACON 垄断作家"
+    },
+    "totalCount": "{{ count }}种商品"
+  },
+  "todayRecommendation": {
+    "title": "今天的建议"
+  },
+  "dailyBest": {
+    "title": "今日热卖"
+  },
+  "weeklyBest": {
+    "title": "每周最佳"
+  },
+  "totalBest": {
+    "title": "ACON 畅销商品"
+  },
+  "brandWeek": {
+    "title": "品牌周"
+  },
+  "aconPick": {
+    "title": "ACON’s Pick"
+  },
+  "creator": "人气作家",
+  "error": {
+    "message": "导入列表时发生错误",
+    "reload": "重新加载"
+  },
+  "scrapProducts": {
+    "title": "收藏商品 (按折扣排序)",
+    "login": {
+      "title": "登录后即可看到",
+      "button": "登录"
+    },
+    "noItem": {
+      "title": "您没有收藏的商品\n请点击下面的按钮找一下您需要的商品。",
+      "button": "查看折扣商品"
+    },
+    "viewAll": "查看所有收藏商品"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "bottombanner": {
+    "desc1": "Click ‘Ask 1:1’ to send us your inquiries. We will get back to you in less than 3 business days.",
+    "desc2": "Send us your inquiries and we will respond<br />within 3 business days.",
+    "href": "https://docs.google.com/forms/d/e/1FAIpQLSdY80tkdyqeaWrUVouEdnvPJ9RziIZWnmEWmAW7TQwPcpk-tQ/viewform",
+    "oneOnOne": "Ask 1:1",
+    "title": "Having Other Issues?"
+  },
+  "description": "Find your answers!",
+  "faqCreatorBanner": {
+    "copyEmail": "Copy Email",
+    "createBanner": "Create Brand",
+    "desc": "Please leave us an email to contact@acon3d.com. We will respond within 1-2 workdays.",
+    "desc2": "Please register your brand information! The application will be reviewed within 1-2 workdays.",
+    "link": "https://hub.acon3d.com/signup/en",
+    "title": "For more questions:",
+    "title2": "I am ready to join as a Seller!"
+  },
+  "more": "View more"
+}
