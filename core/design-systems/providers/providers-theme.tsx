@@ -1,14 +1,14 @@
 'use client';
 
+import { theme as aconTheme } from '@/core/design-systems';
+import { ThemeProviderProps } from '@/core/design-systems/providers/providers.type';
+import { globalFontFace } from '@/core/shared/styles/font';
+import { globalStyles } from '@/core/shared/styles/global';
 import createCache from '@emotion/cache';
 import { Global } from '@emotion/react';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
-import { theme as aconTheme } from '@/core/design-systems';
 import emotionReset from 'emotion-reset';
-import { ThemeProviderProps } from '@/core/design-systems/providers/providers.type';
-import { carpenFontFace } from '@/core/shared/styles/font';
-import { carpenGlobal } from '@/core/shared/styles/global';
 
 const MUI_CACHE = createCache({ key: 'css', prepend: true });
 
@@ -18,7 +18,7 @@ const ThemeProvider = (props: ThemeProviderProps) => {
   return (
     <AppRouterCacheProvider options={MUI_CACHE}>
       <MuiThemeProvider theme={aconTheme}>
-        <Global styles={[emotionReset, carpenGlobal(lang), carpenFontFace(lang)]} />
+        <Global styles={[emotionReset, globalStyles(lang), globalFontFace(lang)]} />
         {children}
       </MuiThemeProvider>
     </AppRouterCacheProvider>

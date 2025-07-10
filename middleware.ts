@@ -1,13 +1,9 @@
-import { createMiddleware } from '@rescale/nemo';
-import withGuestMiddleware from '@/utils/middlewares/with-guest';
 import withHeaderMiddleware from '@/utils/middlewares/with-header';
 import withLangMiddleware from '@/utils/middlewares/with-lang';
-import withRouteGuardMiddleware from '@/utils/middlewares/with-route-guard';
-import withSnapshotMiddleware from '@/utils/middlewares/with-snapshot';
+import { createMiddleware } from '@rescale/nemo';
 
 const middlewares = {
-  // '{/*endpoint}': [withLangMiddleware, withGuestMiddleware, withHeaderMiddleware, withSnapshotMiddleware, withRouteGuardMiddleware],
-  '{/*endpoint}': [withLangMiddleware, withGuestMiddleware, withHeaderMiddleware],
+  '{/*endpoint}': [withLangMiddleware, withHeaderMiddleware],
 };
 
 const globalMiddlewares = {

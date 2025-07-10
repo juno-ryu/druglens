@@ -8,11 +8,7 @@ import { get } from 'lodash';
 import { ISODateString } from 'next-auth';
 import * as yup from 'yup';
 
-import {
-  EnumExampleStatus,
-  ExampleFormValues,
-  ExampleNoticeType,
-} from './example.type';
+import { EnumExampleStatus, ExampleFormValues, ExampleNoticeType } from './example.type';
 
 // Generic initial data for an example, similar to INITIAL_ASSETS
 export const INITIAL_EXAMPLE_DATA = {
@@ -27,17 +23,11 @@ export const VALIDATION_SCHEMA_EXAMPLE = yup.object({
   id: yup.string().nullable(),
   title: yup.string().required('제목을 입력해 주세요'),
   description: yup.string().required('설명을 입력해 주세요'),
-  status: yup
-    .mixed<EnumExampleStatus>()
-    .oneOf(Object.values(EnumExampleStatus))
-    .required('상태를 선택해 주세요'),
+  status: yup.mixed<EnumExampleStatus>().oneOf(Object.values(EnumExampleStatus)).required('상태를 선택해 주세요'),
 });
 
 // Generic helper text for invalid form fields, adapted from promotions.const.ts
-export const INVALID_HELPER_TEXT_EXAMPLE = (
-  formContext: UseFormReturn<ExampleFormValues>,
-  name: keyof ExampleFormValues
-) => {
+export const INVALID_HELPER_TEXT_EXAMPLE = (formContext: UseFormReturn<ExampleFormValues>, name: keyof ExampleFormValues) => {
   return [
     {
       key: `invalid-${name}`,
@@ -98,10 +88,7 @@ export const getExampleLabelColor = (type: ExampleNoticeType) => {
 };
 
 // Generic status label function, adapted from promotions.const.ts
-export const getExampleStatusLabel = (
-  status: EnumExampleStatus,
-  createdAt?: Nullable<ISODateString>
-) => {
+export const getExampleStatusLabel = (status: EnumExampleStatus, createdAt?: Nullable<ISODateString>) => {
   const now = dayjs();
 
   switch (status) {

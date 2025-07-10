@@ -2,7 +2,10 @@
 
 import LayoutGnbPrimary from '@/shared/atom-components/layout/gnb/gnb-primary';
 import LayoutGnbUtility from '@/shared/atom-components/layout/gnb/gnb-utility';
-import { LayoutGnbContainer, LayoutGnbPrimaryRow } from '@/shared/atom-components/layout/gnb/gnb.style';
+import {
+  LayoutGnbContainer,
+  LayoutGnbPrimaryRow,
+} from '@/shared/atom-components/layout/gnb/gnb.style';
 import { LayoutGnbProps } from '@/shared/atom-components/layout/layout.type';
 
 const LayoutGnb = (props: LayoutGnbProps) => {

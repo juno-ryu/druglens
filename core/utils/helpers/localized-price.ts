@@ -1,9 +1,7 @@
-import { DoubleAsNumber } from '@/core/utils/types/overridable/primitive';
-import { Nullable } from '@/core/utils/types/selector/flexible';
-import { EnumLanguageCode, EnumLocaleCode, generateLanguage } from '@/shared/consts/common/language';
 import { DiscountMethod } from '@/core/shared/service/enum/discount-method';
-import { AssetProductPublicOutput } from '@/core/shared/service/output/asset-product-public-output';
-import { CouponPublicOutput } from '@/core/shared/service/output/coupon-public-output';
+import { DoubleAsNumber } from '@/core/utils/types/overridable/primitive';
+
+import { EnumLanguageCode, EnumLocaleCode, generateLanguage } from '@/shared/consts/common/language';
 
 type TypeUseLocailizedPriceParams = {
   lang: EnumLanguageCode;

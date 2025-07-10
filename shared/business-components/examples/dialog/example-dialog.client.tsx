@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
-import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@mui/material';
-import { Typography, Stack } from '@/core/design-systems';
+
+import { Button, Stack, Typography } from '@/core/design-systems';
 import { UUIDAsString } from '@/core/utils/types/overridable/primitive';
+import { Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 
 type ExampleDialogClientProps = {
   actionType: string;
@@ -35,7 +36,7 @@ const ExampleDialogClient = (props: ExampleDialogClientProps) => {
           {/* 추가적인 다이얼로그 내용이나 폼을 여기에 추가할 수 있습니다. */}
         </Stack>
       </DialogContent>
-      <DialogActions sx={{ p: '20px 24px' }}>
+      <DialogActions>
         <Button variant="outlined" color="augment/gray/600" onClick={onClose}>
           취소
         </Button>

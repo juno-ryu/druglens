@@ -1,7 +1,8 @@
 import { css } from '@emotion/react';
+
 import { EnumLanguageCode } from '@/shared/consts/common/language';
 
-export const carpenFontFace = (lang: EnumLanguageCode) =>
+export const globalFontFace = (lang: EnumLanguageCode) =>
   lang === EnumLanguageCode.ZH
     ? css``
     : css`

@@ -1,7 +1,8 @@
 import { css } from '@emotion/react';
+
 import { EnumLanguageCode } from '@/shared/consts/common/language';
 
-export const carpenGlobal = (lang: EnumLanguageCode) => css`
+export const globalStyles = (lang: EnumLanguageCode) => css`
   html,
   body,
   body * {
