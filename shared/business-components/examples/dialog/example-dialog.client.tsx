@@ -3,8 +3,10 @@
 import React from 'react';
 
 import { Button, Stack, Typography } from '@/core/design-systems';
+import SnackbarError from '@/core/shared/components/overlay/snackbar-error/snackbar-error';
 import { UUIDAsString } from '@/core/utils/types/overridable/primitive';
 import { Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
+import { useSnackbar } from 'notistack';
 
 type ExampleDialogClientProps = {
   actionType: string;
@@ -15,36 +17,39 @@ type ExampleDialogClientProps = {
 const ExampleDialogClient = (props: ExampleDialogClientProps) => {
   const { actionType, selectedIds, onClose } = props;
 
-  const handleConfirm = () => {
-    console.log(`Action: ${actionType}, Selected IDs: ${selectedIds}`);
-    // 여기에 실제 비즈니스 로직 (예: API 호출)을 추가합니다.
-    onClose();
-  };
+  const { enqueueSnackbar } = useSnackbar();
 
+  const handleConfirm = async () => {
+    try {
+      enqueueSnackbar(`Action: ${actionType}, Selected IDs: ${selectedIds}`, {
+        variant: 'success',
+        mode: 'dark',
+      });
+    } catch (error) {
+      enqueueSnackbar(<SnackbarError error={error} />, { variant: 'error', mode: 'dark' });
+    } finally {
+      onClose();
+    }
+  };
   return (
-    <Dialog open onClose={onClose} fullWidth>
-      <DialogTitle>
-        <Typography variant="title/title4" fontWeight={700}>
-          예시 다이얼로그 - {actionType}
+    <Stack p="24px" minWidth="368px">
+      <Typography variant="body/body1" fontWeight={700}>
+        예시 다이얼로그 - {actionType}
+      </Typography>
+      <Stack gap={2}>
+        <Typography variant="body/body5">
+          선택된 항목 {selectedIds.length}개에 대해 '{actionType}' 작업을 수행하시겠습니까?
         </Typography>
-      </DialogTitle>
-      <DialogContent>
-        <Stack gap={2}>
-          <Typography variant="body/body5">
-            선택된 항목 {selectedIds.length}개에 대해 '{actionType}' 작업을 수행하시겠습니까?
-          </Typography>
-          {/* 추가적인 다이얼로그 내용이나 폼을 여기에 추가할 수 있습니다. */}
-        </Stack>
-      </DialogContent>
-      <DialogActions>
-        <Button variant="outlined" color="augment/gray/600" onClick={onClose}>
-          취소
+      </Stack>
+      <Stack direction="row" spacing={1} mt="24px">
+        <Button variant="outlined" color="augment/gray/800" size="extraLarge" fullWidth onClick={onClose}>
+          돌아가기
         </Button>
-        <Button variant="contained" color="augment/purple/600" onClick={handleConfirm}>
-          확인
+        <Button variant="contained" color="augment/purple/600" size="extraLarge" fullWidth onClick={handleConfirm}>
+          완료
         </Button>
-      </DialogActions>
-    </Dialog>
+      </Stack>
+    </Stack>
   );
 };
 

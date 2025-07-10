@@ -1,5 +1,5 @@
-import { LongAsNumber, UUIDAsString } from '@/core/utils/types/overridable/primitive';
 import { LanguageCode } from '@/core/shared/service/enum/language-code';
+import { LongAsNumber, UUIDAsString } from '@/core/utils/types/overridable/primitive';
 
 /** 다국어 정보를 반환 */
 export type LocalizeOutput = {

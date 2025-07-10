@@ -1,20 +1,12 @@
 import styled from '@emotion/styled';
+
 import { PopularKeywordContainer, PopularKeywordDropDown } from '@/shared/atom-components/common/popular-keyword/popular-keyword.style';
-import { SearchBarContainer } from '@/shared/atom-components/form/search-bar/search-bar.styles';
 
 export const LayoutGnbPrimaryContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
   height: 48px;
-
-  ${SearchBarContainer} {
-    margin-left: 22px;
-    width: 320px;
-    ${(props) => props.theme.breakpoints.down('desktop')} {
-      display: none;
-    }
-  }
 
   ${PopularKeywordContainer} {
     margin-left: 20px;

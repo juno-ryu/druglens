@@ -1,20 +1,20 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
-import { Theme } from '@mui/material';
-import { Box, Skeleton, Typography } from '@/core/design-systems';
-import { Nullable } from '@/core/utils/types/selector/flexible';
-import { EnumLanguageCode } from '@/shared/consts/common/language';
-import { useTranslation } from '@/core/utils/i18next/i18next.client';
+import { useEffect, useState } from 'react';
+
 import useDynamicRoute from '@/core/shared/hooks/display/use-dynamic-route/use-dynamic-route';
 import useMounted from '@/core/shared/hooks/effect/use-mounted/use-mounted';
 import { CategoryNodeOutput } from '@/core/shared/service/output/category-node-output';
+import { useTranslation } from '@/core/utils/i18next/i18next.client';
+import { Nullable } from '@/core/utils/types/selector/flexible';
+
 import { findCategoryBlock } from '@/shared/atom-components/common/category/category.const';
 import { CategoryContainer } from '@/shared/atom-components/common/category/category.style';
 import { CategoryProps } from '@/shared/atom-components/common/category/category.type';
 import CategoryFirstLevel from '@/shared/atom-components/common/category/first-level/first-level';
 import CategorySecondLevel from '@/shared/atom-components/common/category/second-level/second-level';
 import CategoryThirdLevel from '@/shared/atom-components/common/category/third-level/third-level';
+import { EnumLanguageCode } from '@/shared/consts/common/language';
 
 const Category = <C extends React.ElementType>(props: CategoryProps<C>) => {
   const { component, isSingle = false, isDrawer = false, category, headlineStyle, className = '', toggleDrawer, ...restProps } = props;
@@ -52,12 +52,12 @@ const Category = <C extends React.ElementType>(props: CategoryProps<C>) => {
               setActive((prev) => (prev?.id === firstLevel.id ? null : firstLevel));
             }}
           >
-            {(firstLevel?.children ?? [])?.map((secondLevel) => {
+            {(firstLevel?.children ?? [])?.map((secondLevel: CategoryNodeOutput) => {
               const isAll = secondLevel.id === firstLevel.id;
               const Wrapper = CategorySecondLevel;
               return (
                 <Wrapper component="li" key={secondLevel.id} isSingle={isSingle} data={secondLevel} href={`${secondLevel.categoryId}`} closeDrawer={() => toggleDrawer?.(false)}>
-                  {(secondLevel?.children ?? []).map((thirdLevel) => (
+                  {(secondLevel?.children ?? []).map((thirdLevel: CategoryNodeOutput) => (
                     <CategoryThirdLevel
                       component="li"
                       key={`${thirdLevel?.id}`}

@@ -1,6 +1,7 @@
 import { UUIDAsString } from '@/core/utils/types/overridable/primitive';
 import { Nullable } from '@/core/utils/types/selector/flexible';
-import { LocalizeOutput } from '@/core/shared/service/output/localize-output';
+
+import { LocalizeOutput } from './localize-output';
 
 export type EnumCategoryType = (typeof EnumCategoryType)[keyof typeof EnumCategoryType];
 export const EnumCategoryType = {
