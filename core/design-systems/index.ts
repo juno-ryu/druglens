@@ -1,6 +1,6 @@
 // Theme
-export { theme } from '@/core/design-systems/design-systems';
-export { commonPalette, hexColorPalette, augmentColorPalette, customColorPalette, statePalette } from '@/core/design-systems/theme/palette';
+export { getTheme } from '@/core/design-systems/design-systems';
+export { commonPalette, hexColorPalette, getAugmentColorPalette, customColorPalette, getStatePalette } from '@/core/design-systems/theme/palette';
 export { breakpoint } from '@/core/design-systems/theme/breakpoint';
 // Inputs
 export { default as Button } from '@/core/design-systems/components/button';

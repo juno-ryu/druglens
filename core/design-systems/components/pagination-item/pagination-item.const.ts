@@ -51,7 +51,7 @@ export const MuiPaginationItemOverride: Components<Theme>['MuiPaginationItem'] =
           style: {
             '&&&': {
               backgroundColor: theme.palette['gray/900'],
-              color: theme.palette['white'],
+              color: theme.palette['gray/100'],
             },
           },
         },

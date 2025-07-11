@@ -1,4 +1,5 @@
 import { StateCreator } from 'zustand';
+
 import { TypeDeviceAction, TypeDeviceState, TypeInterfaceAction, TypeInterfaceState } from '@/shared/stores/layout/use-viewport/use-viewport.type';
 
 /* interface */

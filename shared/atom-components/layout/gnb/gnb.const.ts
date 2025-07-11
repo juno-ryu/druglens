@@ -1,28 +1,5 @@
 import { DesignIconProps } from '@/core/design-systems/components/design-icon';
 
-export const ACON_LOGO_VARIANT = {
-  LogoAconJapan: {
-    width: { desktop: '123px', tablet: '102px', mobile: '84px' },
-    height: { desktop: '28px', tablet: '24px', mobile: '18px' },
-  },
-  LogoAconBeta: {
-    width: { desktop: '122px', tablet: '101px', mobile: '83px' },
-    height: { desktop: '28px', tablet: '24px', mobile: '18px' },
-  },
-  LogoAcon: {
-    width: { desktop: '100px', tablet: '83px', mobile: '68px' },
-    height: { desktop: '28px', tablet: '24px', mobile: '20px' },
-  },
-  LogoAconHub: {
-    width: { desktop: '80px', tablet: '68px', mobile: '60px' },
-    height: { desktop: '40px', tablet: '34px', mobile: '30px' },
-  },
-  LogoAconAdmin: {
-    width: { desktop: '166px', tablet: '166px', mobile: '166px' },
-    height: { desktop: '28px', tablet: '28px', mobile: '28px' },
-  },
-};
-
 export type TypeSecondaryItem = {
   key: `key-${string}`;
   route: string;

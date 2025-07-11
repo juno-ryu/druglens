@@ -1,6 +1,5 @@
 import NotistackProvider from '@/core/design-systems/providers/providers-notistack';
 import ThemeProvider from '@/core/design-systems/providers/providers-theme';
-import COMMON_APIS from '@/core/shared/service/common/common.service';
 import { extractLang } from '@/core/utils/i18next/i18next.const';
 import { headers } from 'next/headers';
 
@@ -17,9 +16,7 @@ const RootLayout = async (props: RootLayoutProps) => {
   const { children } = props;
 
   const headersList = await headers();
-  const lang =
-    extractLang(`/${headersList.get(HEADER_I18NEXT_LANGUAGE_KEY) ?? ''}`) ??
-    FALLBACK_LANG;
+  const lang = extractLang(`/${headersList.get(HEADER_I18NEXT_LANGUAGE_KEY) ?? ''}`) ?? FALLBACK_LANG;
 
   const categoryData = { data: STATIC_ADMIN_CATEGORY };
 

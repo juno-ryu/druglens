@@ -1,8 +1,9 @@
 'use client';
 
 import { useEffect } from 'react';
-import { gridPaginationModelSelector, gridRowCountSelector, useGridApiContext, useGridSelector } from '@mui/x-data-grid-pro';
+
 import { MenuItem, Pagination, Stack, TextField } from '@/core/design-systems';
+import { gridPaginationModelSelector, gridRowCountSelector, useGridApiContext, useGridSelector } from '@mui/x-data-grid-pro';
 
 export const SIZE_OPTIONS = [1, 10, 20, 50, 100];
 
@@ -30,6 +31,28 @@ export const PaginationWithDataGrid = () => {
         sx={(theme) => ({
           '& > :has(input, textarea, select, div[role="combobox"]):after': { borderColor: theme.palette['purple/600'] },
         })}
+        slotProps={{
+          select: {
+            // sx: (theme) => ({
+            //   margin: '-4px -13px',
+            //   width: '120px',
+            //   scale: 0.78,
+            //   background: theme.palette['white'],
+            // }),
+            MenuProps: {
+              slotProps: {
+                paper: {
+                  sx: {
+                    background: 'transparent',
+                    '& ul': {
+                      background: 'transparent',
+                    },
+                  },
+                },
+              },
+            },
+          },
+        }}
       >
         {SIZE_OPTIONS.map((size) => (
           <MenuItem key={size} value={size}>

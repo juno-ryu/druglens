@@ -36,7 +36,6 @@ const Category = <C extends React.ElementType>(props: CategoryProps<C>) => {
     if (activeItem?.id === active?.id) return;
     setActive(() => activeItem);
   }, [activeItem, isMounted]);
-
   return (
     <CategoryContainer as={component} className={`${className}`} {...restProps}>
       <ul>

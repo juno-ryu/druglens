@@ -10,8 +10,8 @@ export const commonPalette = {
   ['currentColor']: 'currentColor',
 } as const;
 
-export type TypeHexColorPalette = keyof typeof hexColorPalette;
-export const hexColorPalette = {
+export type TypeHexColorPalette = keyof typeof lightHexColorPalette;
+export const lightHexColorPalette = {
   // Gray Color
   ['gray/50']: '#FAFAFA',
   ['gray/100']: '#F5F5F5',
@@ -146,18 +146,156 @@ export const hexColorPalette = {
   ['purple/900']: '#451E94',
 } as const;
 
+export const darkHexColorPalette = {
+  // Gray Color
+  ['gray/50']: '#18181B',
+  ['gray/100']: '#313135',
+  ['gray/200']: '#4C4C50',
+  ['gray/300']: '#6D6D70',
+  ['gray/400']: '#88888A',
+  ['gray/500']: '#BCBCBC',
+  ['gray/600']: '#D2D2D3',
+  ['gray/700']: '#E7E7E8',
+  ['gray/800']: '#F5F5F5',
+  ['gray/900']: '#FAFAFA',
+  // Grashviolet Color
+  ['grashviolet/50']: '#3E3E4B',
+  ['grashviolet/100']: '#444453',
+  ['grashviolet/200']: '#6E6E7E',
+  ['grashviolet/300']: '#878797',
+  ['grashviolet/400']: '#A1A1B1',
+  ['grashviolet/500']: '#BDBDCA',
+  ['grashviolet/600']: '#D9D9E4',
+  ['grashviolet/700']: '#E8E8F3',
+  ['grashviolet/800']: '#F6F6FE',
+  ['grashviolet/900']: '#F6F6FE',
+  // Primary Color
+  ['primary/50']: '#212170',
+  ['primary/100']: '#2F2F9B',
+  ['primary/200']: '#3E3ECD',
+  ['primary/300']: '#4E4EFF',
+  ['primary/400']: '#6A6AFF',
+  ['primary/500']: '#8E8EFF',
+  ['primary/600']: '#AEAEFF',
+  ['primary/700']: '#CECEFF',
+  ['primary/800']: '#E6E6FF',
+  ['primary/900']: '#F2F2FF',
+  // Red Color (Danger)
+  ['red/50']: '#790801',
+  ['red/100']: '#930901',
+  ['red/200']: '#AC0B01',
+  ['red/300']: '#C60C01',
+  ['red/400']: '#DF0E01',
+  ['red/500']: '#FF4F5A',
+  ['red/600']: '#FF757D',
+  ['red/700']: '#FFA6AB',
+  ['red/800']: '#FFD1D4',
+  ['red/900']: '#FFF2F3',
+  // Orange Color (Sale)
+  ['orange/50']: '#822C0C',
+  ['orange/100']: '#A1330B',
+  ['orange/200']: '#CC4102',
+  ['orange/300']: '#E95603',
+  ['orange/400']: '#FF5C00',
+  ['orange/500']: '#FF760A',
+  ['orange/600']: '#FF9532',
+  ['orange/700']: '#FFBD6D',
+  ['orange/800']: '#FFD9A5',
+  ['orange/900']: '#FFF3DF',
+  // Yellow Color (Warring)
+  ['yellow/50']: '#7C390B',
+  ['yellow/100']: '#984508',
+  ['yellow/200']: '#BB5A02',
+  ['yellow/300']: '#E28200',
+  ['yellow/400']: '#FFAB00',
+  ['yellow/500']: '#FFCD1B',
+  ['yellow/600']: '#FFDF46',
+  ['yellow/700']: '#FFEE85',
+  ['yellow/800']: '#FFF6C5',
+  ['yellow/900']: '#FFFDEA',
+  // Lime Color (Etc)
+  ['lime/50']: '#3F590E',
+  ['lime/100']: '#4B6A0A',
+  ['lime/200']: '#5D8605',
+  ['lime/300']: '#7BB100',
+  ['lime/400']: '#9FDD03',
+  ['lime/500']: '#BFF724',
+  ['lime/600']: '#D5FF56',
+  ['lime/700']: '#E8FF94',
+  ['lime/800']: '#F4FFC6',
+  ['lime/900']: '#FBFFE5',
+  // Green Color (Success)
+  ['green/50']: '#0C4834',
+  ['green/100']: '#0D583F',
+  ['green/200']: '#0E6E4D',
+  ['green/300']: '#118A5D',
+  ['green/400']: '#1EAB74',
+  ['green/500']: '#41C68D',
+  ['green/600']: '#78DDAF',
+  ['green/700']: '#ADEDCC',
+  ['green/800']: '#D4F7E3',
+  ['green/900']: '#EDFCF4',
+  // Cyan Color (Info)
+  ['cyan/50']: '#0A5170',
+  ['cyan/100']: '#056387',
+  ['cyan/200']: '#0076A4',
+  ['cyan/300']: '#0093CB',
+  ['cyan/400']: '#0AB8EF',
+  ['cyan/500']: '#34CCFC',
+  ['cyan/600']: '#7BDDFE',
+  ['cyan/700']: '#B9EBFE',
+  ['cyan/800']: '#DFF4FF',
+  ['cyan/900']: '#F0FAFF',
+  // Blue Color (Etc)
+  ['blue/50']: '#1C388C',
+  ['blue/100']: '#1B3CB2',
+  ['blue/200']: '#194ADC',
+  ['blue/300']: '#2C67F0',
+  ['blue/400']: '#377FFA',
+  ['blue/500']: '#5DA3FD',
+  ['blue/600']: '#91C4FF',
+  ['blue/700']: '#BEDAFF',
+  ['blue/800']: '#DAEAFF',
+  ['blue/900']: '#EFF6FF',
+  // Pink Color (Etc)
+  ['pink/50']: '#96055A',
+  ['pink/100']: '#B5006A',
+  ['pink/200']: '#DB0081',
+  ['pink/300']: '#EC0497',
+  ['pink/400']: '#FF2BC1',
+  ['pink/500']: '#FF5BD6',
+  ['pink/600']: '#FF9AE8',
+  ['pink/700']: '#FFC7F4',
+  ['pink/800']: '#FFE3F9',
+  ['pink/900']: '#FFF0FB',
+  // Purple Color (Etc)
+  ['purple/50']: '#451E94',
+  ['purple/100']: '#5323B4',
+  ['purple/200']: '#6B34D9',
+  ['purple/300']: '#733CEB',
+  ['purple/400']: '#845EF4',
+  ['purple/500']: '#A28CF9',
+  ['purple/600']: '#C0B6FC',
+  ['purple/700']: '#DBD6FE',
+  ['purple/800']: '#ECE9FE',
+  ['purple/900']: '#F4F3FF',
+} as const;
+
+export const hexColorPalette = lightHexColorPalette;
+
 export type TypeAugmentColorPalette = `augment/${TypeHexColorPalette}`;
-export const augmentColorPalette = Object.fromEntries(
-  (Object.entries(hexColorPalette) as Entries<typeof hexColorPalette>).map(([name, hex]) => [
-    `augment/${name}`,
-    {
-      main: alpha(hex, 1.0),
-      light: lighten(hex, 0.2),
-      dark: darken(hex, 0.2),
-      contrastText: getContrastRatio(hex, '#fff') > 2.2 ? commonPalette['white'] : hexColorPalette['gray/800'],
-    },
-  ]),
-);
+export const getAugmentColorPalette = (palette: typeof lightHexColorPalette | typeof darkHexColorPalette) =>
+  Object.fromEntries(
+    (Object.entries(palette) as Entries<typeof palette>).map(([name, hex]) => [
+      `augment/${name}`,
+      {
+        main: alpha(hex, 1.0),
+        light: lighten(hex, 0.2),
+        dark: darken(hex, 0.2),
+        contrastText: getContrastRatio(hex, '#fff') > 2.2 ? commonPalette['white'] : palette['gray/800'],
+      },
+    ]),
+  );
 
 export type TypeCustomColorPalette = keyof typeof customColorPalette;
 export const customColorPalette = {
@@ -184,11 +322,13 @@ export const customColorPalette = {
   ['partnership/Partner']: 'linear-gradient(95deg, #A6A6FC -5.38%, #77F 36.14%, #A3A3FF 72.71%, #4E4EFF 103.7%)',
 } as const;
 
-export type TypeStatePalette = keyof typeof statePalette;
-export const statePalette = {
-  ['state/danger']: hexColorPalette['red/500'],
-  ['state/sale']: hexColorPalette['orange/500'],
-  ['state/warning']: hexColorPalette['yellow/500'],
-  ['state/success']: hexColorPalette['green/500'],
-  ['state/info']: hexColorPalette['cyan/500'],
-} as const;
+export type TypeStatePalette = keyof ReturnType<typeof getStatePalette>;
+export const getStatePalette = (palette: typeof lightHexColorPalette | typeof darkHexColorPalette) => ({
+  ['state/danger']: palette['red/500'],
+  ['state/sale']: palette['orange/500'],
+  ['state/warning']: palette['yellow/500'],
+  ['state/success']: palette['green/500'],
+  ['state/info']: palette['cyan/500'],
+});
+
+export const statePalette = getStatePalette(lightHexColorPalette);

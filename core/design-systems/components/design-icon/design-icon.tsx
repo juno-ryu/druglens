@@ -1,12 +1,13 @@
 'use client';
 
 import { forwardRef } from 'react';
-import { useThemeProps } from '@mui/material/styles';
-import { generatedClassList } from '@/core/utils/helpers/style';
-import { toPascalCase } from '@/core/utils/helpers/text';
+
 import * as SvgIconComponents from '@/core/design-systems/components/design-icon/design-icon.import';
 import { MuiDesignIconRoot, MuiDesignIconSvgIcon } from '@/core/design-systems/components/design-icon/design-icon.style';
 import { DesignIconComponent, DesignIconProps } from '@/core/design-systems/components/design-icon/design-icon.type';
+import { generatedClassList } from '@/core/utils/helpers/style';
+import { toPascalCase } from '@/core/utils/helpers/text';
+import { useThemeProps } from '@mui/material/styles';
 
 // do: ref, component
 // do-not: children

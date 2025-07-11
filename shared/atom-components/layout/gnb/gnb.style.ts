@@ -16,9 +16,9 @@ export const LayoutGnbContainer = styled.header`
   top: 0;
   padding: 20px 0;
 
-  background: ${(props) => props.theme.palette['white']};
+  background: ${(props) => props.theme.palette['augment/gray/50']};
   z-index: ${(props) => props.theme.zIndex.header};
-  box-shadow: 0px 1px 0px 0px ${(props) => alpha(props.theme.palette['black'], 0.08)};
+  box-shadow: 0px 1px 0px 0px ${(props) => alpha(props.theme.palette['gray/200'], 1)};
 
   ${(props) => props.theme.breakpoints.down('desktop')} {
     padding-top: 12px;

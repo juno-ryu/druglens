@@ -7,7 +7,7 @@ export const LayoutGnbPrimaryContainer = styled.div`
   align-items: center;
   flex-direction: row;
   height: 48px;
-
+  gap: 30px;
   ${PopularKeywordContainer} {
     margin-left: 20px;
     width: 240px;

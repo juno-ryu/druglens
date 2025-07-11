@@ -2,11 +2,13 @@
 
 import React, { useMemo } from 'react';
 import { FieldPath, FieldValues } from 'react-hook-form';
+
 import { Box, Button, Divider, Stack, Typography } from '@/core/design-systems';
-import { OverridableComponent } from '@/core/utils/types/overridable/component';
-import LocalizedPrice from '@/core/utils/helpers/localized-price';
-import useDynamicRoute from '@/core/shared/hooks/display/use-dynamic-route/use-dynamic-route';
 import { StackProps } from '@/core/design-systems/components/stack';
+import useDynamicRoute from '@/core/shared/hooks/display/use-dynamic-route/use-dynamic-route';
+import LocalizedPrice from '@/core/utils/helpers/localized-price';
+import { OverridableComponent } from '@/core/utils/types/overridable/component';
+
 import BrandFilter from '@/shared/atom-components/common/filter/controller/brand-filter/brand-filter';
 import CommunityFilter from '@/shared/atom-components/common/filter/controller/community-filter/community-filter';
 import CouponIssueFilter from '@/shared/atom-components/common/filter/controller/coupon-issue-filter/coupon-issue-filter';
@@ -49,13 +51,12 @@ const FilterClient = <FormValues extends FieldValues>(props: FilterClientProps<F
     <Stack gap={4} component="form" noValidate {...restProps}>
       <Stack gap={3}>
         <Stack gap={2}>
-
           <Stack flexDirection="row" justifyContent="center" gap={1}>
             {/* 초기화 및 서브밋 */}
             <Button variant="contained" size="large" color="augment/gray/200" sx={{ width: '100px' }} onClick={onReset}>
               초기화
             </Button>
-            <Button type="submit" variant="contained" size="large" sx={{ width: '100px' }}>
+            <Button type="submit" variant="contained" color="augment/gray/400" size="large" sx={{ width: '100px' }}>
               검색
             </Button>
           </Stack>

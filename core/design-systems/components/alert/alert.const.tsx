@@ -1,7 +1,7 @@
 import { alpha, Components, Theme } from '@mui/material';
 import DesignIcon from '@/core/design-systems/components/design-icon';
 import IconButton from '@/core/design-systems/components/icon-button';
-import { augmentColorPalette, TypeAugmentColorPalette } from '@/core/design-systems/theme/palette';
+import { getAugmentColorPalette, TypeAugmentColorPalette } from '@/core/design-systems/theme/palette';
 
 export type TypeAlertVariants = keyof ReturnType<typeof alertVariants>;
 export const alertVariants = (theme: Theme) =>
@@ -83,10 +83,6 @@ export const MuiAlertOverride: Components<Theme>['MuiAlert'] = {
         variant: 'CloseBold',
       },
       closeButton: (ownerState) => {
-        const ownerColor = ownerState?.color;
-        const validateColor = (string?: string) => /^augment\/[a-zA-Z]+\/\d+$/.test(string ?? '');
-        const augmentColor = (validateColor(ownerColor) ? ownerColor : 'augment/gray/800') as TypeAugmentColorPalette;
-
         const ownerSize = 'data-size' in ownerState ? (ownerState['data-size'] as string) : '';
         const actionSize = ['small'].includes(ownerSize)
           ? 'medium'
@@ -97,7 +93,6 @@ export const MuiAlertOverride: Components<Theme>['MuiAlert'] = {
               : undefined;
         return {
           size: actionSize,
-          color: augmentColorPalette[augmentColor].contrastText,
         };
       },
     },
@@ -177,12 +172,19 @@ export const MuiAlertOverride: Components<Theme>['MuiAlert'] = {
       margin: '0px',
       padding: '0px',
     }),
-    action: ({ theme }) => ({
-      flex: 'none',
-      gap: '4px',
-      margin: '0px',
-      marginLeft: '4px',
-      padding: '0px',
-    }),
+    action: ({ theme, ownerState }) => {
+      const ownerColor = ownerState?.color;
+      const validateColor = (string?: string) => /^augment\/[a-zA-Z]+\/\d+$/.test(string ?? '');
+      const augmentColor = (validateColor(ownerColor) ? ownerColor : 'augment/gray/800') as TypeAugmentColorPalette;
+
+      return {
+        flex: 'none',
+        gap: '4px',
+        margin: '0px',
+        marginLeft: '4px',
+        padding: '0px',
+        color: theme.palette[augmentColor].contrastText,
+      };
+    },
   },
 };

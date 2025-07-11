@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+
 import { TypeInterfaceState } from '@/shared/stores/layout/use-viewport/use-viewport.type';
 
 export const LayoutController = styled.div<{ $interfaceState: TypeInterfaceState }>`
@@ -74,7 +75,7 @@ export const LayoutWorkspaceSidebar = styled.nav`
   min-width: var(--layout-guard-workspace-sidebar-width-current);
   max-width: var(--layout-guard-workspace-sidebar-width-current);
   padding: 0 var(--layout-guard-workspace-content-side);
-  border-right: 1px solid ${(props) => props.theme.palette['gray/dim/200']};
+  border-right: 1px solid ${(props) => props.theme.palette['gray/200']};
 
   ${(props) => props.theme.breakpoints.down('desktop')} {
     padding: 0 calc(var(--layout-guard-workspace-content-side) + 4px);

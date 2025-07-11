@@ -1,6 +1,6 @@
-import { Components, Theme } from '@mui/material';
 import DesignIcon from '@/core/design-systems/components/design-icon';
 import PaginationItem from '@/core/design-systems/components/pagination-item';
+import { Components, Theme } from '@mui/material';
 
 export type TypePaginationVariants = keyof ReturnType<typeof paginationVariants>;
 export const paginationVariants = (theme: Theme) =>

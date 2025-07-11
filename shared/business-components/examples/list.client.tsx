@@ -3,23 +3,11 @@
 import React, { useMemo, useState } from 'react';
 import { FormProvider, useForm } from 'react-hook-form';
 
-import {
-  Button,
-  DesignIcon,
-  DesignLabel,
-  IconButton,
-  Link,
-  Stack,
-  Typography,
-} from '@/core/design-systems';
+import { Button, DesignIcon, DesignLabel, IconButton, Link, Stack, Typography } from '@/core/design-systems';
 import useDialog from '@/core/shared/hooks/effect/use-dialog/use-dialog';
 import { PaginationOutput } from '@/core/shared/service/output/common/pagination-output';
 import { UUIDAsString } from '@/core/utils/types/overridable/primitive';
-import {
-  GridColDef,
-  GridRowSelectionModel,
-  GridRowsProp,
-} from '@mui/x-data-grid-pro';
+import { GridColDef, GridRowSelectionModel, GridRowsProp } from '@mui/x-data-grid-pro';
 import { LocalizationProvider } from '@mui/x-date-pickers-pro';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';
@@ -30,10 +18,7 @@ import { dataGridHeader } from '@/shared/atom-components/common/data-grid/data-g
 import FilterClient from '@/shared/atom-components/common/filter/filter.client';
 import ExampleDialogClient from '@/shared/business-components/examples/dialog/example-dialog.client';
 import { getExampleStatusLabel } from '@/shared/business-components/examples/example.const';
-import {
-  EnumExampleStatus,
-  ExampleFormValues,
-} from '@/shared/business-components/examples/example.type';
+import { EnumExampleStatus, ExampleFormValues } from '@/shared/business-components/examples/example.type';
 
 type ExampleOutput = {
   id: UUIDAsString;
@@ -82,13 +67,7 @@ const ListClient = (props: ListClientProps) => {
         dataGridHeader: dataGridHeader,
         renderCell: ({ row: { id, title } }) => (
           <Link href={`/example/${id}`} onClick={(e) => e.stopPropagation()}>
-            <Stack
-              py="20px"
-              direction="row"
-              gap={1}
-              justifyContent="flex-start"
-              alignItems="flex-start"
-            >
+            <Stack py="20px" direction="row" gap={1} justifyContent="flex-start" alignItems="flex-start">
               <Typography variant={'body/body5'} color={'gray/800'} ml={1}>
                 {title}
               </Typography>
@@ -107,11 +86,7 @@ const ListClient = (props: ListClientProps) => {
           const { status, createdAt } = params.row;
           const result = getExampleStatusLabel(status, createdAt);
           return (
-            <Stack
-              height="100%"
-              alignItems={'center'}
-              justifyContent={'center'}
-            >
+            <Stack height="100%" alignItems={'center'} justifyContent={'center'}>
               <DesignLabel variant={'filled'} color={result.color}>
                 {result.label}
               </DesignLabel>
@@ -161,13 +136,7 @@ const ListClient = (props: ListClientProps) => {
       key: 'dialog-example',
       onClose: () => onClose('dialog-example'),
       slotProps: { paper: { sx: { borderRadius: '8px' } } },
-      children: (
-        <ExampleDialogClient
-          actionType={actionType}
-          selectedIds={selectedIds as UUIDAsString[]}
-          onClose={() => onClose('dialog-example')}
-        />
-      ),
+      children: <ExampleDialogClient actionType={actionType} selectedIds={selectedIds as UUIDAsString[]} onClose={() => onClose('dialog-example')} />,
     });
   };
 
@@ -177,11 +146,7 @@ const ListClient = (props: ListClientProps) => {
         {/* <LoadingClient /> */}
         <Stack gap={5}>
           <Stack gap={1}>
-            <Typography
-              variant={'title/title3'}
-              fontWeight={700}
-              width={'100%'}
-            >
+            <Typography variant={'title/title3'} fontWeight={700} width={'100%'}>
               {title}
             </Typography>
           </Stack>
@@ -206,7 +171,7 @@ const ListClient = (props: ListClientProps) => {
                 alignItems="center"
                 sx={(theme) => ({
                   width: '100%',
-                  background: theme.palette['blue/50'],
+                  // background: theme.palette['blue/50'],
                   p: '26px 16px',
                   gap: '8px',
                 })}
