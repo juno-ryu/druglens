@@ -26,6 +26,12 @@ const nextConfig = {
         port: '',
         pathname: '/product/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'upload.wikimedia.org',
+        port: '',
+        pathname: '/wikipedia/commons/**',
+      },
     ],
   },
   async rewrites() {

@@ -7,9 +7,9 @@ export const INITIAL_INTERFACE_STATE: TypeInterfaceState = {
   // initialization
   isInitialized: false,
   // visibility
-  isHideHeader: false,
+  isHideHeader: true,
   isHideWorkspace: false,
-  isHideWorkspaceSidebar: false,
+  isHideWorkspaceSidebar: true,
   isMiniWorkspaceSidebar: false,
   isCollapseWorkspaceSidebar: false,
   isHideWorkspaceContent: false,

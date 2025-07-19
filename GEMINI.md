@@ -105,8 +105,8 @@
 - 타입 안전성을 위해 TypeScript를 사용하세요.
 - ESLint 설정에 정의된 코딩 표준을 따르세요.
 - 모든 컴포넌트가 반응형이고 접근 가능한지 확인하세요.
-- `core/design-systems`의 컴포넌트를 사용하고, 정의된 베리언트, 토큰, 색상 팔레트를 따르세요.
-  필요한 컴포넌트가 `core/design-systems`에 없으면 `@mui/material` 라이브러리의 컴포넌트를 사용할 수 있습니다.
+- `core/design-systems/components`의 컴포넌트를 우선적으로 읽어본 뒤, 해당 컴포넌트의 token, variant, color palette를 따르세요.
+- 만약 필요한 컴포넌트가 `core/design-systems/components`에 없으면 `@mui/material` 라이브러리의 컴포넌트를 사용할 수 있습니다.
 - 코드를 생성할 때 TypeScript 및 React 모범 사례를 우선시하세요.
 - 새로운 컴포넌트는 재사용 가능하고 기존 디자인 패턴을 따르는지 확인하세요.
 - AI 생성 주석 사용을 최소화하고, 대신 명확하게 이름 지어진 변수와 함수를 사용하세요.

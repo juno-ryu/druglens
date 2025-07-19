@@ -19,9 +19,9 @@ export const LayoutController = styled.div<{ $interfaceState: TypeInterfaceState
       : props.$interfaceState.isCollapseWorkspaceSidebar
         ? 'var(--layout-guard-workspace-sidebar-width-double-collapse)'
         : 'var(--layout-guard-workspace-sidebar-width-double-expand)'};
-  --layout-guard-workspace-content-top: 48px;
+  --layout-guard-workspace-content-top: 28px;
   --layout-guard-workspace-content-bottom: 80px;
-  --layout-guard-workspace-content-side: 40px;
+  --layout-guard-workspace-content-side: 20px;
   --layout-guard-footer-side: 72px;
 
   /* ${(props) => props.theme.breakpoints.down('desktop')} {

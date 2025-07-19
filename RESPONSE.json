@@ -1,0 +1,47 @@
+{
+  "type": "standard",
+  "title": "오셀타미비르",
+  "displaytitle": "\u003Cspan class=\"mw-page-title-main\"\u003E오셀타미비르\u003C/span\u003E",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q211509",
+  "titles": {
+    "canonical": "오셀타미비르",
+    "normalized": "오셀타미비르",
+    "display": "\u003Cspan class=\"mw-page-title-main\"\u003E오셀타미비르\u003C/span\u003E"
+  },
+  "pageid": 369510,
+  "thumbnail": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Oseltamivir.svg/langko-330px-Oseltamivir.svg.png",
+    "width": 320,
+    "height": 192
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Oseltamivir.svg/langko-512px-Oseltamivir.svg.png",
+    "width": 512,
+    "height": 307
+  },
+  "lang": "ko",
+  "dir": "ltr",
+  "revision": "39140106",
+  "tid": "62dae650-15bd-11f0-af9d-b0b1f3540b0e",
+  "timestamp": "2025-04-10T03:39:20Z",
+  "content_urls": {
+    "desktop": {
+      "page": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4",
+      "revisions": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4?action=history",
+      "edit": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4?action=edit",
+      "talk": "https://ko.wikipedia.org/wiki/%ED%86%A0%EB%A1%A0:%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4"
+    },
+    "mobile": {
+      "page": "https://ko.m.wikipedia.org/wiki/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4",
+      "revisions": "https://ko.m.wikipedia.org/wiki/Special:History/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4",
+      "edit": "https://ko.m.wikipedia.org/wiki/%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4?action=edit",
+      "talk": "https://ko.m.wikipedia.org/wiki/%ED%86%A0%EB%A1%A0:%EC%98%A4%EC%85%80%ED%83%80%EB%AF%B8%EB%B9%84%EB%A5%B4"
+    }
+  },
+  "extract": "오셀타미비르(Oseltamivir, 국제일반명) 또는 상품명인 타미플루(Tamiflu)는 뉴라미니데이스 저해제로 미국의 길리어드 사이언시스(Gilead Sciences)사에서 1996년 재미 한국인 화학자인 김정은의 주도 아래 개발되고, 스위스의 호프만 라 로슈(Hoffmann–La Roche)사가 세계적으로 판매하고 있는 인플루엔자 바이러스에 대한 항바이러스제이다.",
+  "extract_html": "\u003Cp\u003E\u003Cb\u003E오셀타미비르\u003C/b\u003E(Oseltamivir, 국제일반명) 또는 상품명인 \u003Cb\u003E타미플루\u003C/b\u003E(Tamiflu)는 뉴라미니데이스 저해제로 미국의 길리어드 사이언시스(Gilead Sciences)사에서 1996년 재미 한국인 화학자인 김정은의 주도 아래 개발되고, 스위스의 호프만 라 로슈(Hoffmann–La Roche)사가 세계적으로 판매하고 있는 인플루엔자 바이러스에 대한 항바이러스제이다.\u003C/p\u003E"
+}
