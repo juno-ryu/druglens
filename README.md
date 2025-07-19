@@ -94,6 +94,7 @@ Wikipedia API를 활용하여 약물의 이름, 용도, 부작용 등의 정보�
   - 검색 결과는 캐싱 없이 실시간 호출
   - 로컬 스토리지로 최근 기록 관리
 - **배포 환경**: Vercel 기준
+  - **배포 링크**: [DrugLens on Vercel](https://druglens.vercel.app/ko/drug)
 - **에러 로깅**: console 기반 디버깅 (향후 Sentry 연동 고려)
 
 ---
