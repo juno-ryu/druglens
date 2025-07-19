@@ -71,6 +71,7 @@ type FormData = yup.InferType<typeof schema>;
 export default async function DrugSearchPage({ params }: { params: Promise<{ lang: string }> }) {
   const resolvedParams = await params;
   const { lang } = resolvedParams;
+
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
