@@ -1,7 +1,9 @@
 'use client';
 
 import React from 'react';
-import { Stack, Typography, Alert, AlertTitle, DesignIcon } from '@/core/design-systems';
+
+import { Alert, AlertTitle, DesignIcon, Stack, Typography } from '@/core/design-systems';
+
 import SectionTitleClient from '@/shared/business-components/examples/layout/section-title.client';
 
 type AlertsAndIconsExampleProps = {};
@@ -26,9 +28,7 @@ const AlertsAndIconsExample = (props: AlertsAndIconsExampleProps) => {
           </Typography>
         </Alert>
         <Stack direction="row" gap="10px" alignItems="center">
-          <DesignIcon variant="CheckCircle" color="green/600" />
           <Typography variant="body/body5">Success Icon</Typography>
-          <DesignIcon variant="WarningOutline" color="yellow/600" />
           <Typography variant="body/body5">Warning Icon</Typography>
         </Stack>
       </Stack>

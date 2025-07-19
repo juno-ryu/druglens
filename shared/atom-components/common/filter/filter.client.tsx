@@ -9,20 +9,6 @@ import useDynamicRoute from '@/core/shared/hooks/display/use-dynamic-route/use-d
 import LocalizedPrice from '@/core/utils/helpers/localized-price';
 import { OverridableComponent } from '@/core/utils/types/overridable/component';
 
-import BrandFilter from '@/shared/atom-components/common/filter/controller/brand-filter/brand-filter';
-import CommunityFilter from '@/shared/atom-components/common/filter/controller/community-filter/community-filter';
-import CouponIssueFilter from '@/shared/atom-components/common/filter/controller/coupon-issue-filter/coupon-issue-filter';
-import CouponsFilter from '@/shared/atom-components/common/filter/controller/coupons-filter/coupons-filter';
-import DepositsMileagesFilter from '@/shared/atom-components/common/filter/controller/deposits-mileages-filter/deposits-mileages-filter';
-import FaqFilter from '@/shared/atom-components/common/filter/controller/faq-filter/faq-filter';
-import InquiryFilter from '@/shared/atom-components/common/filter/controller/inquiry-filter/inquiry-filter';
-import OrderFilter from '@/shared/atom-components/common/filter/controller/order-filter/order-filter';
-import PartnerNoticesFilter from '@/shared/atom-components/common/filter/controller/partner-notices-filter/partner-notices-filter';
-import ProductFilter from '@/shared/atom-components/common/filter/controller/product-filter/product-filter';
-import PromotionsFilter from '@/shared/atom-components/common/filter/controller/promotions-filter/promotions-filter';
-import ReviewFilter from '@/shared/atom-components/common/filter/controller/review-filter/review-filter';
-import UserFilter from '@/shared/atom-components/common/filter/controller/user-filter/user-filter';
-
 type FilterClientProps<FormValues extends FieldValues> = OverridableComponent<
   'form',
   StackProps & {

@@ -1,5 +1,4 @@
 import { OverridableComponent } from '@/core/utils/types/overridable/component';
-import { AssetProductPublicOutput } from '@/core/shared/service/output/asset-product-public-output';
 
 type BrandOutput = any;
 type ProductOutput = any;
@@ -14,7 +13,7 @@ export type ProductCardBrandPropsType = Pick<ProductOutput, 'id'> & {
 export type ProductCardProps<C extends React.ElementType> = OverridableComponent<
   C,
   {
-    product: AssetProductPublicOutput;
+    product: any;
     productCardImageSizes?: string;
     render?: {
       brand?: (brand: any) => React.ReactNode;

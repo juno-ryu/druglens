@@ -1,8 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import { Box, Typography } from '@/core/design-systems';
 import { matchHighlight } from '@/core/utils/helpers/text';
+import Link from 'next/link';
+
 import {
   SearchKeywordAutoCompleteContainer,
   SearchKeywordAutoCompleteHeadline,
@@ -26,7 +27,7 @@ const SearchKeywordAutoComplete = (props: SearchKeywordAutoCompleteProps) => {
       </SearchKeywordAutoCompleteHeadline>
       {/* List */}
       <SearchKeywordAutoCompleteList>
-        {data.map((item) => (
+        {data.map((item: any) => (
           <li key={item.name} className="item">
             <Typography
               component={Link}

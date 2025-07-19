@@ -1,10 +1,12 @@
 'use client';
 
 import React from 'react';
-import dayjs from 'dayjs';
-import { Stack } from '@mui/material';
+
 import { DesignIcon, Typography } from '@/core/design-systems';
 import Picture from '@/core/shared/components/general/picture/picture';
+import { Stack } from '@mui/material';
+import dayjs from 'dayjs';
+
 import ProductCardBrand from '@/shared/atom-components/common/product-card/brand/brand';
 import ProductCardExtensions from '@/shared/atom-components/common/product-card/extensions/extensions';
 import { INITIAL_PRODUCT_IMAGE_SIZE } from '@/shared/atom-components/common/product-card/product-card.const';
@@ -35,7 +37,7 @@ const ProductCard = <C extends React.ElementType>(props: ProductCardProps<C>) =>
           <ProductCardBadgeWrapper>{isNewProduct && <DesignIcon variant="ProdCardNew" width="41px" height="22px" color="gray/800" />}</ProductCardBadgeWrapper>
 
           {/** image */}
-          {(product.images || []).map((image) => {
+          {(product.images || []).map((image: any) => {
             const { id, isMain, url } = image;
             return (
               <ProductCardImageAbsolute className={isMain ? 'main' : 'sub'} key={id}>
